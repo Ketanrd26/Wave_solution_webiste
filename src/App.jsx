@@ -1,14 +1,8 @@
-
+import Home from './pages/Home.jsx';
 import './App.scss'
 
 function App() {
-
-
-  return (
-    <>
-    
-    </>
-  )
+  return <Home />;
 }
 
 export default App
