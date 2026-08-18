@@ -12,8 +12,8 @@ import Footer from "../components/Footer.jsx";
 function Home() {
     return (
         <>
-            <Header />
-            <main>
+           
+            
                 <Hero />
                 <Stats />
                 <Services />
@@ -22,8 +22,8 @@ function Home() {
                 <Process />
                 <Faq />
                 <Book />
-                <Footer />
-            </main>
+              
+            
         </>
     );
 }

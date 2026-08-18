@@ -1,5 +1,6 @@
 import "../style/Header.scss";
 import logo from "../assets/wave1.png"
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -9,12 +10,12 @@ const Header = () => {
                 <img className="header_logo" src={logo} alt="Wave Solution"/>
 
                 <div className="navlinks">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">services</a>
-                    <a href="">Our Work</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/">services</Link>
+                    <Link to="/">Our Work</Link>
+                    <Link to="/">Blog</Link>
+                    <Link to="/">Contact</Link>
                     <button className="btn">Book a call</button>
                 </div>
             </div>
