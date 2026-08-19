@@ -494,6 +494,40 @@ function About() {
                 </div>
             </section>
 
+
+            <section className="work_us_parent parent">
+                <div className="work_us_cont cont">
+
+                    <span className="work_us_tag">
+                        <span className="work_us_dot"></span>
+                        WORK WITH US
+                    </span>
+
+                    <h2>
+                        We’d rather show
+                        <br />
+                        you than <em>tell you.</em>
+                    </h2>
+
+                    <p>
+                        Thirty minutes, no deck. We'll look at what you're running and tell
+                        you honestly whether we're the right team for it.
+                    </p>
+
+                    <div className="work_us_buttons">
+                        <a href="#contact" className="work_us_btn_primary">
+                            Book a free 30-min call
+                            <span>→</span>
+                        </a>
+
+                        <a href="#work" className="work_us_btn_secondary">
+                            See our work
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
         </>
     );
 }

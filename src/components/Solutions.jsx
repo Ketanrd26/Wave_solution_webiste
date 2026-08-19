@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Services.scss";
+import "../style/Solutions.scss";
 import { FiVideo } from "react-icons/fi";
 import { FiBarChart2 } from "react-icons/fi";
 import { FiSearch } from "react-icons/fi";
@@ -11,7 +11,7 @@ import { FiTarget } from "react-icons/fi";
 import { FiLayers } from "react-icons/fi";
 
 
-const services = [
+const solutions = [
     {
         number: "01",
         icon: <FiVideo />,
@@ -68,12 +68,12 @@ const services = [
     },
 ];
 
-const Services = () => {
+const Solutions = () => {
     return (
-        <section className="services_parent parent">
-            <div className="services_cont cont">
+        <section className="solutions_parent parent">
+            <div className="solutions_cont cont">
 
-                <div className="services_heading">
+                <div className="solutions_heading">
                     <span className="small_title">WHAT WE RUN</span>
 
                     <h2>
@@ -87,30 +87,31 @@ const Services = () => {
                     </p>
                 </div>
 
-                <div className="services_grid">
-                    {services.map((service) => (
-                        <div className="service_card" key={service.number}>
+                <div className="solutions_grid">
 
-                            {/* <div className="card_image">
-                                <div className="circle">
-                                    <span>↑</span>
+                    {solutions.map((solution) => (
+                        <div
+                            className="solution_card"
+                            key={solution.number}
+                        >
+
+                            <div className="solution_top">
+                                <div className="solution_icon">
+                                    {solution.icon}
                                 </div>
-                            </div> */}
 
-                            <div className="service_icon">
-                                {service.icon}
+                                <span className="solution_number">
+                                    {solution.number}
+                                </span>
                             </div>
 
-                            <span className="service_number">
-                                {service.number}
-                            </span>
+                            <h3>{solution.title}</h3>
 
-                            <h3>{service.title}</h3>
-
-                            <p>{service.text}</p>
+                            <p>{solution.text}</p>
 
                         </div>
                     ))}
+
                 </div>
 
             </div>
@@ -118,4 +119,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Solutions;

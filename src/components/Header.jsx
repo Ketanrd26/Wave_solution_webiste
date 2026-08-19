@@ -1,5 +1,5 @@
 import "../style/Header.scss";
-import logo from "../assets/wave1.png"
+import logo from "../assets/wave2.png"
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="navlinks">
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/">services</Link>
+                    <Link to="/services">Services</Link>
                     <Link to="/">Our Work</Link>
                     <Link to="/">Blog</Link>
                     <Link to="/">Contact</Link>

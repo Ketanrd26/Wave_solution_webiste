@@ -1,7 +1,7 @@
 import Header from "../components/Header.jsx";
 import Hero from "../components/Hero.jsx";
 import Stats from "../components/Stats.jsx";
-import Services from "../components/Services.jsx";
+import Solutions from "../components/Solutions.jsx";
 import HowItFits from "../components/HowItFits.jsx";
 import WhyBrands from "../components/WhyBrands.jsx";
 import Process from "../components/Process.jsx";
@@ -16,7 +16,7 @@ function Home() {
             
                 <Hero />
                 <Stats />
-                <Services />
+                <Solutions />
                 <HowItFits />
                 <WhyBrands />
                 <Process />

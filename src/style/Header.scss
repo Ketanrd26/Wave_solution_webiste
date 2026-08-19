@@ -1,11 +1,15 @@
 .header_parent {
   width: 100%;
   height: 82px;
-  background: var(--black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   color: var(--white);
-  position: relative;
   z-index: 1000;
-
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   animation: headerReveal 0.8s ease forwards;
 
   .header_cont {
@@ -19,10 +23,8 @@
       height: auto;
       max-height: 60px;
       object-fit: contain;
-
       display: block;
       flex-shrink: 0;
-
       animation: logoReveal 0.8s ease forwards;
     }
 
@@ -43,9 +45,9 @@
         transition: var(--trans);
         white-space: nowrap;
 
-       
         &::after {
           content: "";
+
           position: absolute;
           left: 0;
           bottom: 23px;
@@ -64,8 +66,7 @@
           }
         }
 
-       
-        &:first-child {
+        &:focus {
           color: var(--white);
 
           &::after {
@@ -78,42 +79,31 @@
         border: none;
         outline: none;
         cursor: pointer;
-
         background: var(--accent2);
         color: var(--white);
-
         padding: 14px 25px;
         min-width: 118px;
-
         border-radius: 30px;
-
         font-size: 14px;
         font-weight: 600;
-
         margin-left: 10px;
-
         position: relative;
         overflow: hidden;
-
         box-shadow: 0 8px 25px rgba(0, 166, 231, 0.22);
-
         transition: var(--trans);
 
-       
         &::before {
           content: "";
+
           position: absolute;
           top: 0;
           left: -100%;
           width: 70%;
           height: 100%;
-
-          background: linear-gradient(
-            90deg,
-            transparent,
-            rgba(255, 255, 255, 0.35),
-            transparent
-          );
+          background: linear-gradient(90deg,
+              transparent,
+              rgba(255, 255, 255, 0.35),
+              transparent);
 
           transform: skewX(-20deg);
           transition: 0.6s ease;
@@ -137,7 +127,6 @@
   }
 }
 
-
 @keyframes headerReveal {
   from {
     opacity: 0;
@@ -149,6 +138,7 @@
     transform: translateY(0);
   }
 }
+
 
 @keyframes logoReveal {
   from {
@@ -162,14 +152,14 @@
   }
 }
 
+
 @media (max-width: 1000px) {
   .header_parent {
     height: 76px;
 
     .header_cont {
-      &::before {
+      .header_logo {
         width: 150px;
-        height: 55px;
       }
 
       .navlinks {
@@ -190,16 +180,15 @@
 
 @media (max-width: 768px) {
   .header_parent {
-    height: auto;
+    height: 70px;
     min-height: 70px;
 
     .header_cont {
       min-height: 70px;
       padding: 0 20px;
 
-      &::before {
+      .header_logo {
         width: 140px;
-        height: 52px;
       }
 
       .navlinks {
@@ -231,15 +220,13 @@
   }
 }
 
-
 @media (max-width: 560px) {
   .header_parent {
     .header_cont {
       padding: 0 15px;
 
-      &::before {
+      .header_logo {
         width: 125px;
-        height: 48px;
       }
 
       .navlinks {
@@ -248,6 +235,7 @@
         a {
           display: none;
 
+          // Home visible
           &:first-child {
             display: block;
             font-size: 12px;
@@ -263,10 +251,13 @@
   }
 }
 
+
 @media (max-width: 380px) {
   .header_parent {
     .header_cont {
-      &::before {
+      padding: 0 12px;
+
+      .header_logo {
         width: 110px;
       }
 
