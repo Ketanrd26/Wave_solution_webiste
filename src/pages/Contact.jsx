@@ -4,144 +4,198 @@ import Footer from "../components/Footer.jsx";
 
 import "../style/Contact.scss";
 
-import { FiMessageCircle } from "react-icons/fi";
-import { FiPhone } from "react-icons/fi";
-import { FiMail } from "react-icons/fi";
-import { FiVideo } from "react-icons/fi";
-import { FiMapPin } from "react-icons/fi";
-import { FiCheck } from "react-icons/fi";
-import { FiSend } from "react-icons/fi";
-import { FiArrowRight } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa";
+
 
 
 function Contact() {
     return (
         <>
-            <section className="tell_parent parent">
-                <div className="tell_cont cont">
+            <section className="contact_parent parent">
+                <div className="contact_cont cont">
 
-                    <div className="tell_glow tell_glow_one"></div>
-                    <div className="tell_glow tell_glow_two"></div>
 
-                    <div className="tell_heading">
+                    <div className="contact_heading">
 
-                        <span className="tell_badge">
-                            <span></span>
+                        <span className="contact_tag">
+                            <i></i>
                             GET IN TOUCH
                         </span>
 
                         <h2>
                             Tell us where
                             <br />
-                            you want to <em>grow.</em>
+                            you want to
+                            <em> grow.</em>
                         </h2>
 
                         <p>
-                            We reply to everything within one working day. If we're
-                            not the right team for what you need, we'll say so and
-                            point you somewhere better.
+                            We reply to everything within one working day.
+                            If we're not the right team for what you need,
+                            we'll say so and point you somewhere better.
                         </p>
 
                     </div>
 
-                    <div className="tell_content">
+                    <div className="contact_grid">
 
-                        <div className="tell_left">
+                        <div className="contact_left">
 
                             <h3>
-                                Fastest ways <em>to reach us.</em>
+                                Fastest ways
+                                <em> to reach us.</em>
                             </h3>
 
-                            <div className="tell_contact_cards">
+                            <a
+                                href="https://wa.me/"
+                                className="contact_method"
+                            >
 
-                                <a href="https://wa.me/919000000000" className="tell_contact_card">
-                                    <div className="tell_icon">
-                                        <FiMessageCircle />
-                                    </div>
-
-                                    <div>
-                                        <strong>WhatsApp</strong>
-                                        <span>Fastest reply - usually within the hour</span>
-                                    </div>
-                                </a>
-
-                                <a href="tel:+919000000000" className="tell_contact_card">
-                                    <div className="tell_icon">
-                                        <FiPhone />
-                                    </div>
-
-                                    <div>
-                                        <strong>+91 90000 00000</strong>
-                                        <span>Mon-Sat · 10am-7pm IST</span>
-                                    </div>
-                                </a>
-
-                                <a href="mailto:care@example.com" className="tell_contact_card">
-                                    <div className="tell_icon">
-                                        <FiMail />
-                                    </div>
-
-                                    <div>
-                                        <strong>care@example.com</strong>
-                                        <span>For proposals and detailed briefs</span>
-                                    </div>
-                                </a>
-
-                                <a href="#book-call" className="tell_contact_card">
-                                    <div className="tell_icon">
-                                        <FiVideo />
-                                    </div>
-
-                                    <div>
-                                        <strong>Book a 30-min call</strong>
-                                        <span>Free · no deck, no pressure</span>
-                                    </div>
-                                </a>
-
-                            </div>
-
-                            <div className="tell_location">
-
-                                <h4>WHERE WE ARE</h4>
-
-                                <div className="tell_location_item">
-                                    <FiMapPin />
-                                    <span>Pune, Maharashtra, India</span>
+                                <div className="method_icon">
+                                    <FaWhatsapp />
                                 </div>
 
-                                <div className="tell_location_item">
-                                    <FiCheck />
+                                <div className="method_text">
+                                    <strong>WhatsApp</strong>
+
                                     <span>
-                                        Serving clients across India, Australia,
-                                        the US and the UK
+                                        Fastest reply · usually within the hour
                                     </span>
                                 </div>
 
-                                <div className="tell_location_item">
-                                    <FiCheck />
-                                    <span>Founded 2022 · nine services in-house</span>
+                            </a>
+
+
+                            <a
+                                href="tel:+910000000000"
+                                className="contact_method"
+                            >
+
+                                <div className="method_icon">
+                                    <FaPhoneAlt />
+                                </div>
+
+                                <div className="method_text">
+                                    <strong>+91 00000 00000</strong>
+
+                                    <span>
+                                        Mon–Sat · 10am–7pm IST
+                                    </span>
+                                </div>
+
+                            </a>
+
+                            <a
+                                href="mailto:hello@wavesolutions.com"
+                                className="contact_method"
+                            >
+
+                                <div className="method_icon">
+                                    <FaEnvelope />
+                                </div>
+
+                                <div className="method_text">
+                                    <strong>
+                                        hello@wavesolutions.com
+                                    </strong>
+
+                                    <span>
+                                        For proposals and detailed briefs
+                                    </span>
+                                </div>
+
+                            </a>
+
+                            <a
+                                href="#"
+                                className="contact_method"
+                            >
+
+                                <div className="method_icon">
+                                    <FaCalendarAlt />
+                                </div>
+
+                                <div className="method_text">
+                                    <strong>
+                                        Book a call
+                                    </strong>
+
+                                    <span>
+                                        Free · no pressure
+                                    </span>
+                                </div>
+
+                            </a>
+
+                            <div className="location_card">
+
+                                <span className="location_title">
+                                    WHERE WE ARE
+                                </span>
+
+                                <div className="location_item">
+
+                                    <FaMapMarkerAlt />
+
+                                    <p>
+                                        Pune, Maharashtra, India
+                                    </p>
+
+                                </div>
+
+                                <div className="location_item">
+
+                                    <FaPaperPlane />
+
+                                    <p>
+                                        Serving clients across India,
+                                        Australia, the US and the UK
+                                    </p>
+
+                                </div>
+
+                                <div className="location_item">
+
+                                    <FaCheck />
+
+                                    <p>
+                                        Digital solutions built for growth
+                                    </p>
+
                                 </div>
 
                             </div>
 
                         </div>
 
-                        <div className="tell_form_box">
+                        <div className="contact_form_card">
 
-                            <div className="tell_form_heading">
-                                <h3>Send us a brief</h3>
+                            <div className="form_heading">
+
+                                <h3>
+                                    Send us a brief
+                                </h3>
 
                                 <p>
-                                    The more detail you give, the more useful our
-                                    first reply will be.
+                                    The more detail you give, the more useful
+                                    our first reply will be.
                                 </p>
+
                             </div>
+
 
                             <form>
 
-                                <div className="tell_form_row">
+                                <div className="form_row">
 
-                                    <div className="tell_field">
+                                    <div className="form_group">
+
                                         <label>
                                             Your name <span>*</span>
                                         </label>
@@ -150,9 +204,12 @@ function Contact() {
                                             type="text"
                                             placeholder="Your name"
                                         />
+
                                     </div>
 
-                                    <div className="tell_field">
+
+                                    <div className="form_group">
+
                                         <label>
                                             Email <span>*</span>
                                         </label>
@@ -161,13 +218,16 @@ function Contact() {
                                             type="email"
                                             placeholder="you@company.com"
                                         />
+
                                     </div>
 
                                 </div>
 
-                                <div className="tell_form_row">
 
-                                    <div className="tell_field">
+                                <div className="form_row">
+
+                                    <div className="form_group">
+
                                         <label>
                                             Phone / WhatsApp <span>*</span>
                                         </label>
@@ -176,87 +236,140 @@ function Contact() {
                                             type="tel"
                                             placeholder="+91 90000 00000"
                                         />
+
                                     </div>
 
-                                    <div className="tell_field">
-                                        <label>Company or brand</label>
+
+                                    <div className="form_group">
+
+                                        <label>
+                                            Company or brand
+                                        </label>
 
                                         <input
                                             type="text"
                                             placeholder="Your brand"
                                         />
+
                                     </div>
 
                                 </div>
 
-                                <div className="tell_field">
-                                    <label>What are you interested in?</label>
+                                <div className="form_group">
+
+                                    <label>
+                                        What are you interested in?
+                                    </label>
 
                                     <select defaultValue="">
+
                                         <option value="" disabled>
                                             Not sure yet — help me choose
                                         </option>
-                                        <option>AI Reels & UGC</option>
-                                        <option>Performance Marketing</option>
-                                        <option>SEO & AI Search</option>
-                                        <option>Social Media Management</option>
-                                        <option>Web Design & Development</option>
-                                        <option>Shopify Development</option>
-                                        <option>Branding & Strategy</option>
+
+                                        <option>
+                                            Website Development
+                                        </option>
+
+                                        <option>
+                                            Digital Marketing
+                                        </option>
+
+                                        <option>
+                                            SEO
+                                        </option>
+
+                                        <option>
+                                            Branding
+                                        </option>
+
+                                        <option>
+                                            Social Media
+                                        </option>
+
                                     </select>
+
                                 </div>
 
-                                <div className="tell_field">
-                                    <label>Rough monthly budget</label>
+                                {/* <div className="form_group">
+
+                                    <label>
+                                        Rough monthly budget
+                                    </label>
 
                                     <select defaultValue="">
+
                                         <option value="" disabled>
                                             Select your budget
                                         </option>
-                                        <option>Under ₹25,000 / month</option>
-                                        <option>₹25,000 - ₹50,000 / month</option>
-                                        <option>₹50,000 - ₹1,00,000 / month</option>
-                                        <option>₹1,00,000+ / month</option>
-                                    </select>
-                                </div>
 
-                                <div className="tell_field">
+                                        <option>
+                                            Under ₹25,000 / month
+                                        </option>
+
+                                        <option>
+                                            ₹25,000 – ₹50,000 / month
+                                        </option>
+
+                                        <option>
+                                            ₹50,000 – ₹1,00,000 / month
+                                        </option>
+
+                                        <option>
+                                            ₹1,00,000+ / month
+                                        </option>
+
+                                    </select>
+
+                                </div> */}
+
+
+                                <div className="form_group">
+
                                     <label>
                                         What do you need? <span>*</span>
                                     </label>
 
                                     <textarea
                                         rows="5"
-                                        placeholder="Where you are now, what's not working, and what a good outcome looks like."
+                                        placeholder="Tell us where you are now, what's not working, and what a good outcome looks like."
                                     ></textarea>
+
                                 </div>
 
-                                <button type="submit" className="tell_submit">
-                                    <FiSend />
+
+                                <button
+                                    type="submit"
+                                    className="submit_btn"
+                                >
+
                                     Send enquiry
-                                    <FiArrowRight />
+
+                                    <span>
+                                        <FaPaperPlane />
+                                    </span>
+
                                 </button>
 
-                            </form>
 
-                            <p className="tell_form_note">
-                                Prefer to talk?{" "}
-                                <a href="https://wa.me/919000000000">
-                                    WhatsApp us
-                                </a>{" "}
-                                or{" "}
-                                <a href="tel:+919000000000">
-                                    book a call
-                                </a>
-                                . We never share your details.
-                            </p>
+                                <p className="form_note">
+                                    Prefer to talk?{" "}
+                                    <a href="https://wa.me/">
+                                        WhatsApp us
+                                    </a>{" "}
+                                    or book a call. We never share your details.
+                                </p>
+
+                            </form>
 
                         </div>
 
                     </div>
 
                 </div>
+
             </section>
+
         </>
     );
 }

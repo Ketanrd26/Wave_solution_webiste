@@ -31,7 +31,6 @@ const Header = () => {
                         <button className="btn" onClick={closeMenu}>Book a call</button>
                     </div>
 
-                    {/* Mobile hamburger button */}
 
                     <button
                         className="menu_btn"

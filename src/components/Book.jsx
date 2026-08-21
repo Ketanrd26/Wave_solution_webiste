@@ -174,7 +174,7 @@ const Book = () => {
 
 
 
-              <div className="form_group">
+              {/* <div className="form_group">
 
                 <label>Rough monthly budget</label>
 
@@ -201,7 +201,7 @@ const Book = () => {
 
                 </select>
 
-              </div>
+              </div> */}
 
 
 
