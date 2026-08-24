@@ -1,6 +1,7 @@
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import "../style/About.scss";
+import { FaLinkedinIn } from "react-icons/fa";
 
 
 
@@ -487,6 +488,134 @@ function About() {
                                 <span>Countries reached</span>
                             </div>
 
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="team_parent parent">
+                <div className="team_cont cont">
+
+                    <div className="team_heading">
+                        <span className="team_badge">
+                            <span className="badge_dot"></span>
+                            MEET THE TEAM
+                        </span>
+
+                        <h2>
+                            People behind
+                            <span> the growth.</span>
+                        </h2>
+
+                        <p>
+                            A focused team of strategists, creators and marketers
+                            building measurable growth for ambitious brands.
+                        </p>
+                    </div>
+
+                    <div className="team_grid">
+
+                        <div className="team_card">
+                            <div className="team_image">
+                                <div className="team_avatar">AS</div>
+
+                                <a href="#" className="team_social">
+                                    <FaLinkedinIn />
+                                </a>
+                            </div>
+
+                            <div className="team_info">
+                                <span className="team_number">01</span>
+
+                                <h3>Arjun Sharma</h3>
+
+                                <p className="team_role">
+                                    Founder & Growth Strategist
+                                </p>
+
+                                <p className="team_desc">
+                                    Builds growth strategies that connect creative,
+                                    performance and business goals.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="team_card">
+                            <div className="team_image">
+                                <div className="team_avatar">RK</div>
+
+                                <a href="#" className="team_social">
+                                    <FaLinkedinIn />
+                                </a>
+                            </div>
+
+                            <div className="team_info">
+                                <span className="team_number">02</span>
+
+                                <h3>Riya Kapoor</h3>
+
+                                <p className="team_role">
+                                    Creative Director
+                                </p>
+
+                                <p className="team_desc">
+                                    Turns brand stories into visual experiences
+                                    designed to capture attention and convert.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="team_card">
+                            <div className="team_image">
+                                <div className="team_avatar">VM</div>
+
+                                <a href="#" className="team_social">
+                                    <FaLinkedinIn />
+                                </a>
+                            </div>
+
+                            <div className="team_info">
+                                <span className="team_number">03</span>
+
+                                <h3>Vikram Mehta</h3>
+
+                                <p className="team_role">
+                                    Performance Marketing Lead
+                                </p>
+
+                                <p className="team_desc">
+                                    Optimises paid campaigns around acquisition,
+                                    conversion and sustainable returns.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="team_card">
+                            <div className="team_image">
+                                <div className="team_avatar">NP</div>
+
+                                <a href="#" className="team_social">
+                                    <FaLinkedinIn />
+                                </a>
+                            </div>
+
+                            <div className="team_info">
+                                <span className="team_number">04</span>
+
+                                <h3>Neha Patil</h3>
+
+                                <p className="team_role">
+                                    SEO & Content Strategist
+                                </p>
+
+                                <p className="team_desc">
+                                    Creates search-led content systems that help
+                                    brands become easier to discover.
+                                </p>
+                            </div>
                         </div>
 
                     </div>
