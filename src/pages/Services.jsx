@@ -1,10 +1,12 @@
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
+import { Link } from "react-router-dom";
 
 import "../style/Services.scss";
 import { FaCompass } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
 import { FaLayerGroup } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Services() {
     return (
@@ -93,10 +95,6 @@ function Services() {
                             Service 01
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -114,13 +112,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -159,19 +157,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -191,10 +176,6 @@ function Services() {
                             Service 02
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -212,13 +193,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -257,19 +238,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -289,10 +257,6 @@ function Services() {
                             Service 03
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -310,13 +274,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -355,19 +319,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -387,10 +338,6 @@ function Services() {
                             Service 04
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -408,13 +355,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -453,19 +400,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -485,10 +419,6 @@ function Services() {
                             Service 05
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -506,13 +436,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -551,19 +481,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -583,10 +500,6 @@ function Services() {
                             Service 06
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -604,13 +517,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -649,19 +562,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -681,10 +581,6 @@ function Services() {
                             Service 07
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -702,13 +598,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -747,19 +643,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -779,10 +662,6 @@ function Services() {
                             Service 08
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -800,13 +679,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -845,19 +724,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -877,10 +743,6 @@ function Services() {
                             Service 09
                         </span>
 
-                        <div className="service_icon">
-                            ▶
-                        </div>
-
                         <h2>
                             AI Reels & UGC
                         </h2>
@@ -898,13 +760,13 @@ function Services() {
                         </div>
 
                         <div className="service_buttons">
-                            <button className="discuss_btn">
+                            <Link to="/contact" className="discuss_btn">
                                 Discuss this <span>→</span>
-                            </button>
+                            </Link>
 
-                            <button className="whatsapp_btn">
-                                <span>◉</span> WhatsApp
-                            </button>
+                            <a href="https://wa.me/919096915795" target="_blank" rel="noopener noreferrer" className="whatsapp_btn">
+                                <FaWhatsapp /> WhatsApp
+                            </a>
                         </div>
 
                     </div>
@@ -943,19 +805,6 @@ function Services() {
                                 </li>
                             </ul>
 
-                            <div className="service_bottom">
-
-                                <div>
-                                    <span>FIRST BATCH</span>
-                                    <strong>Within 7 days</strong>
-                                </div>
-
-                                <div>
-                                    <span>TYPICAL OUTPUT</span>
-                                    <strong>12–30 assets / month</strong>
-                                </div>
-
-                            </div>
 
                         </div>
 

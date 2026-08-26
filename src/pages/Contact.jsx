@@ -53,7 +53,7 @@ function Contact() {
                             </h3>
 
                             <a
-                                href="https://wa.me/"
+                                href="https://wa.me/919096915795"
                                 className="contact_method"
                             >
 
@@ -73,7 +73,7 @@ function Contact() {
 
 
                             <a
-                                href="tel:+910000000000"
+                                href="tel:+919096915795"
                                 className="contact_method"
                             >
 
@@ -82,7 +82,7 @@ function Contact() {
                                 </div>
 
                                 <div className="method_text">
-                                    <strong>+91 00000 00000</strong>
+                                    <strong>+91 90969 15795</strong>
 
                                     <span>
                                         Mon–Sat · 10am–7pm IST
@@ -92,7 +92,7 @@ function Contact() {
                             </a>
 
                             <a
-                                href="mailto:hello@wavesolutions.com"
+                                href="mailto:contact@wavesolutions.in"
                                 className="contact_method"
                             >
 
@@ -102,7 +102,7 @@ function Contact() {
 
                                 <div className="method_text">
                                     <strong>
-                                        hello@wavesolutions.com
+                                        contact@wavesolutions.in
                                     </strong>
 
                                     <span>

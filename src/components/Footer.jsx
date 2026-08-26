@@ -1,5 +1,7 @@
 import "../style/Footer.scss";
 import logo from "../assets/wave1.png";
+import { Link } from "react-router-dom";
+import { FaInstagram, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,10 +21,19 @@ const Footer = () => {
               that help businesses grow, perform and stand out.
             </p>
 
-            <a href="#contact" className="footer_cta">
-              Let's work together
-              <span>→</span>
-            </a>
+            <div className="footer_socials">
+              <a href="https://www.instagram.com/wavesolutionsofficial/" aria-label="Instagram">
+                <FaInstagram />
+              </a>
+
+              <a href="https://www.linkedin.com/posts/wavesolutionscompany_digitalmarketing-digitalmarketingagency-socialmediamarketing-activity-7495822159852924928-Faoo?utm_source=share&utm_medium=member_android&rcm=ACoAADNToaQBMu5Zu4TCSqBD4ghpxVRr-Y5sM3Q" aria-label="LinkedIn">
+                <FaLinkedinIn />
+              </a>
+
+              <a href="https://www.facebook.com/WaveSolutionsOfficial/" aria-label="Facebook">
+                <FaFacebookF />
+              </a>
+            </div>
 
           </div>
 
@@ -89,12 +100,12 @@ const Footer = () => {
 
             <h3>Get in touch</h3>
 
-            <a href="tel:+918459188254">
-              +91 84591 88254
+            <a href="tel:+91 9096915795">
+              +91 90969 15795
             </a>
 
-            <a href="mailto:info@wavesolution.com">
-              info@wavesolution.com
+            <a href="mailto: contact@wavesolutions.in">
+              contact@wavesolutions.in
             </a>
 
             <p>
@@ -116,17 +127,21 @@ const Footer = () => {
 
           <div className="footer_social">
 
-            <a href="#" aria-label="Instagram">
-              Instagram
+            <a href="https://www.instagram.com/wavesolutionsofficial/" aria-label="Instagram">
+              <FaInstagram />
             </a>
 
-            <a href="#" aria-label="LinkedIn">
-              LinkedIn
+            <a href="https://www.linkedin.com/posts/wavesolutionscompany_digitalmarketing-digitalmarketingagency-socialmediamarketing-activity-7495822159852924928-Faoo?utm_source=share&utm_medium=member_android&rcm=ACoAADNToaQBMu5Zu4TCSqBD4ghpxVRr-Y5sM3Q" aria-label="LinkedIn">
+              <FaLinkedinIn />
             </a>
 
-            <a href="#" aria-label="Facebook">
-              Facebook
+            <a href="https://www.facebook.com/WaveSolutionsOfficial/" aria-label="Facebook">
+              <FaFacebookF />
             </a>
+
+            <Link to="/privacy" className="footer_privacy">
+              Privacy Policy
+            </Link>
 
           </div>
 

@@ -60,6 +60,14 @@ a {
   text-decoration: none;
 }
 
+.parent {
+  h2 {
+    font-size: clamp(40px, 4.5vw, 68px) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -1.5px;
+  }
+}
+
 // h1,h2,h3,h4,h5,h6{
 //   font-family: "Noto Serif", serif;
 // }

@@ -19,6 +19,12 @@
     justify-content: space-between;
     position: relative;
 
+    .header_logo_link {
+      display: inline-flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
     .header_logo {
       width: 175px;
       height: auto;
@@ -97,9 +103,12 @@
         box-shadow: 0 8px 25px rgba(0, 166, 231, 0.22);
         transition: var(--trans);
 
+        &::after {
+          display: none !important;
+        }
+
         &::before {
           content: "";
-
           position: absolute;
           top: 0;
           left: -100%;
