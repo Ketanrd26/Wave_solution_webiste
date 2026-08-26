@@ -1,4 +1,5 @@
 import "../style/Hero.scss";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -26,15 +27,20 @@ const Hero = () => {
           </p>
 
           <div className="hero_btns">
-            <button className="hero_btn">
-              Let's Work Together
+            <Link to="/contact" className="hero_btn">
+              Contact
               <span>→</span>
-            </button>
+            </Link>
 
-            <button className="hero_btn_outline">
+            <a
+              href="https://wa.me/919096915795"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero_btn_outline"
+            >
               Message us
               <span>↗</span>
-            </button>
+            </a>
           </div>
 
         </div>

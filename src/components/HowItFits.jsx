@@ -78,10 +78,10 @@ const HowItFits = () => {
                         HOW IT FITS TOGETHER
                     </div>
 
-                    <h1>
+                    <h2>
                         Create. Convert.
                         <strong>Compound.</strong>
-                    </h1>
+                    </h2>
 
                     <p>
                         Most agencies sell you channels. We run a system where each part

@@ -7,7 +7,6 @@ import "../style/OurWork.scss";
 
 import { FiArrowRight } from "react-icons/fi";
 import { FiMessageCircle } from "react-icons/fi";
-import { FiCheck } from "react-icons/fi";
 
 function OurWork() {
     return (
@@ -166,14 +165,6 @@ function OurWork() {
                                 discoverability at the same time.
                             </p>
 
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
-
                         </div>
 
 
@@ -294,14 +285,6 @@ function OurWork() {
                                 They needed immediate sales and long-term
                                 discoverability at the same time.
                             </p>
-
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
 
                         </div>
 
@@ -424,14 +407,6 @@ function OurWork() {
                                 discoverability at the same time.
                             </p>
 
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
-
                         </div>
 
 
@@ -552,14 +527,6 @@ function OurWork() {
                                 They needed immediate sales and long-term
                                 discoverability at the same time.
                             </p>
-
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
 
                         </div>
 
@@ -682,14 +649,6 @@ function OurWork() {
                                 discoverability at the same time.
                             </p>
 
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
-
                         </div>
 
 
@@ -810,14 +769,6 @@ function OurWork() {
                                 They needed immediate sales and long-term
                                 discoverability at the same time.
                             </p>
-
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
 
                         </div>
 
@@ -940,14 +891,6 @@ function OurWork() {
                                 discoverability at the same time.
                             </p>
 
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
-
                         </div>
 
 
@@ -1068,14 +1011,6 @@ function OurWork() {
                                 They needed immediate sales and long-term
                                 discoverability at the same time.
                             </p>
-
-                            <div className="case_budget">
-                                <strong>₹500<span>/day</span></strong>
-
-                                <p>
-                                    Starting ad budget — scaled profitably
-                                </p>
-                            </div>
 
                         </div>
 
@@ -1309,32 +1244,6 @@ function OurWork() {
                             <FiMessageCircle />
                             WhatsApp us instead
                         </button>
-
-                    </div>
-
-                    <div className="study_line"></div>
-
-                    <div className="study_points">
-
-                        <div className="study_point">
-                            <FiCheck />
-                            <span>Free strategy call, no pitch</span>
-                        </div>
-
-                        <div className="study_point">
-                            <FiCheck />
-                            <span>Results-first, not deliverable-first</span>
-                        </div>
-
-                        <div className="study_point">
-                            <FiCheck />
-                            <span>India & international clients</span>
-                        </div>
-
-                        <div className="study_point">
-                            <FiCheck />
-                            <span>Secure payment via Razorpay</span>
-                        </div>
 
                     </div>
 

@@ -19,7 +19,9 @@ const Header = () => {
         <>
             <div className="header_parent parent">
                 <div className="header_cont cont">
-                    <img className="header_logo" src={logo} alt="Wave Solution" />
+                    <Link to="/" className="header_logo_link" onClick={closeMenu}>
+                        <img className="header_logo" src={logo} alt="Wave Solution" />
+                    </Link>
 
                     <div className={`navlinks ${menuOpen ? "active" : ""}`}>
                         <Link to="/" onClick={closeMenu}>Home</Link>
@@ -28,7 +30,7 @@ const Header = () => {
                         <Link to="/ourwork" onClick={closeMenu}>Our Work</Link>
                         <Link to="/blog" onClick={closeMenu}>Blog</Link>
                         <Link to="/contact" onClick={closeMenu}>Contact</Link>
-                        <button className="btn" onClick={closeMenu}>Book a call</button>
+                        <Link to="/contact" className="btn" onClick={closeMenu}>Book a call</Link>
                     </div>
 
 

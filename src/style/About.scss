@@ -365,7 +365,7 @@
         z-index: 2;
         display: grid;
         grid-template-columns:
-            minmax(0, 0.9fr) minmax(0, 1.1fr);
+            minmax(0, 1fr) minmax(0, 1fr);
 
         gap: 75px;
         align-items: start;

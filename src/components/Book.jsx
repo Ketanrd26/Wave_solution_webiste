@@ -1,4 +1,5 @@
 import "../style/Book.scss";
+import { FaWhatsapp, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Book = () => {
   return (
@@ -33,7 +34,7 @@ const Book = () => {
 
             <a href="https://wa.me/918459188254" className="contact_card">
               <div className="contact_icon">
-                <span>◉</span>
+                <FaWhatsapp />
               </div>
 
               <div className="contact_content">
@@ -45,7 +46,7 @@ const Book = () => {
 
             <a href="tel:+918459188254" className="contact_card">
               <div className="contact_icon">
-                <span>⌕</span>
+                <FaPhoneAlt />
               </div>
 
               <div className="contact_content">
@@ -57,7 +58,7 @@ const Book = () => {
 
             <a href="mailto:info@wavesolution.com" className="contact_card">
               <div className="contact_icon">
-                <span>✉</span>
+                <FaEnvelope />
               </div>
 
               <div className="contact_content">
