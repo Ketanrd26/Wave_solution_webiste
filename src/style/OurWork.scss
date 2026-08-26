@@ -293,7 +293,8 @@
 
         .across_heading {
             width: 100%;
-            text-align: left;
+            text-align: center;
+            margin: 0 auto;
 
             .across_tag {
                 display: inline-flex;
@@ -337,7 +338,7 @@
             h2 {
                 width: 100%;
                 max-width: 850px;
-                margin: 32px 0 0;
+                margin: 32px auto 0;
                 color: var(--white);
                 font-size: clamp(48px, 6vw, 72px);
                 font-weight: 800;

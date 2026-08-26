@@ -980,10 +980,10 @@ function Services() {
                     </p>
 
                     <div className="work_us_buttons">
-                        <a href="#contact" className="work_us_btn_primary">
+                        {/* <a href="#contact" className="work_us_btn_primary">
                             Book a free 30-min call
                             <span>→</span>
-                        </a>
+                        </a> */}
 
                         <a href="#work" className="work_us_btn_secondary">
                             See our work

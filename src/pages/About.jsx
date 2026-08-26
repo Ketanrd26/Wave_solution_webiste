@@ -71,155 +71,43 @@ function About() {
             <section className="why_exist_parent parent">
                 <div className="why_exist_cont cont">
 
-                    <div className="why_exist_left">
+                    {/* CHANGE: Left image column */}
+                    <div className="why_exist_image">
+                        <img
+                            src="/src/assets/why-exist.png"
+                            alt="Why Wave Solution exists"
+                        />
+                    </div>
+
+                    <div className="why_exist_content">
 
                         <div className="why_exist_tag">
                             <span></span>
                             WHY WE EXIST
                         </div>
 
-                        <blockquote>
-                            “We started Wave Solution
-                            because we saw too many
-                            good businesses let down
-                            by generic digital solutions.”
-                        </blockquote>
+                        <h2>
+                            We build digital solutions
+                            <br />
+                            that help businesses <em>grow.</em>
+                        </h2>
 
-                        <div className="why_exist_text">
+                        <p>
+                            Wave Solution was founded with a simple belief — growing businesses
+                            deserve better digital solutions. No templates. No guesswork.
+                            Real strategy, real execution, real growth.
+                        </p>
 
-                            <p>
-                                In 2022, <strong>Wave Solution</strong> was founded with a
-                                simple belief — growing businesses deserve better digital
-                                solutions. No templates. No guesswork. Real strategy,
-                                real execution, real growth.
-                            </p>
+                        <p>
+                            We work with businesses across India and internationally, creating
+                            digital experiences that are built around their goals, customers
+                            and long-term growth.
+                        </p>
 
-                            <p>
-                                So we built the opposite. A technology partner where every
-                                project is engineered rather than assembled. Where
-                                technology meets performance data. Where the team cares
-                                about your growth because their reputation rides on it.
-                            </p>
-
-                            <p>
-                                Today Wave Solution serves <strong>businesses across India
-                                    and internationally</strong> — from startups and retailers
-                                to established brands entering the digital market.
-                            </p>
-
-                            <p>
-                                The name says it plainly: <strong>Wave</strong> represents
-                                movement, growth and change. One team, one mission.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <div className="why_exist_right">
-
-                        <div className="timeline_item">
-
-                            <div className="timeline_year">
-                                2022
-                            </div>
-
-                            <div className="timeline_content">
-                                <h3>Wave Solution founded</h3>
-
-                                <p>
-                                    Started the journey with a focus on building
-                                    high-quality digital solutions for growing businesses.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className="timeline_item">
-
-                            <div className="timeline_year">
-                                2023
-                            </div>
-
-                            <div className="timeline_content">
-                                <h3>First major clients</h3>
-
-                                <p>
-                                    Expanded beyond the local market and started
-                                    working with businesses across different industries.
-                                </p>
-                            </div>
-
-                        </div>
-
-
-                        <div className="timeline_item">
-
-                            <div className="timeline_year">
-                                2024
-                            </div>
-
-                            <div className="timeline_content">
-                                <h3>Digital solutions expanded</h3>
-
-                                <p>
-                                    Expanded our capabilities across web development,
-                                    UI/UX and custom software solutions.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className="timeline_item">
-
-                            <div className="timeline_year">
-                                2024
-                            </div>
-
-                            <div className="timeline_content">
-                                <h3>Growing technology team</h3>
-
-                                <p>
-                                    Built a stronger team focused on creating scalable
-                                    and performance-driven digital experiences.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className="timeline_item">
-
-                            <div className="timeline_year">
-                                2025
-                            </div>
-
-                            <div className="timeline_content">
-                                <h3>New digital capabilities</h3>
-
-                                <p>
-                                    Continued investing in modern technologies,
-                                    automation and next-generation digital experiences.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className="timeline_item">
-
-                            <div className="timeline_year">
-                                2026
-                            </div>
-
-                            <div className="timeline_content">
-                                <h3>30+ brands served</h3>
-
-                                <p>
-                                    Crossed 30+ brands across multiple industries,
-                                    continuing to build long-term digital partnerships.
-                                </p>
-                            </div>
-
-                        </div>
+                        <p>
+                            Technology should not just look good. It should move your business
+                            forward.
+                        </p>
 
                     </div>
 
@@ -388,7 +276,7 @@ function About() {
                             <em>wants to grow.</em>
                         </h2>
 
-                        <p>
+                        <p className="work-description">
                             Seven-plus industries, same rigour in every one.
                             The tactics change; the standard doesn't.
                         </p>

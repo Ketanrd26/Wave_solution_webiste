@@ -79,8 +79,8 @@ const HowItFits = () => {
                     </div>
 
                     <h2>
-                        Create. Convert.
-                        <strong>Compound.</strong>
+                        Create. Convert.{" "}
+                        <span>Compound.</span>
                     </h2>
 
                     <p>

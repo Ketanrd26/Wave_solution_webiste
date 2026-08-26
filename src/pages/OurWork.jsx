@@ -1235,10 +1235,10 @@ function OurWork() {
 
                     <div className="study_buttons">
 
-                        <button className="study_primary_btn">
+                        {/* <button className="study_primary_btn">
                             Book a free 30-min call
                             <FiArrowRight />
-                        </button>
+                        </button> */}
 
                         <button className="study_whatsapp_btn">
                             <FiMessageCircle />

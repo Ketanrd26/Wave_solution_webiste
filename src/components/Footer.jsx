@@ -127,7 +127,7 @@ const Footer = () => {
 
           <div className="footer_social">
 
-            <a href="https://www.instagram.com/wavesolutionsofficial/" aria-label="Instagram">
+            {/* <a href="https://www.instagram.com/wavesolutionsofficial/" aria-label="Instagram">
               <FaInstagram />
             </a>
 
@@ -137,10 +137,14 @@ const Footer = () => {
 
             <a href="https://www.facebook.com/WaveSolutionsOfficial/" aria-label="Facebook">
               <FaFacebookF />
-            </a>
+            </a> */}
 
             <Link to="/privacy" className="footer_privacy">
               Privacy Policy
+            </Link>
+
+            <Link to="/privacy" className="footer_privacy">
+              Terms & Condition
             </Link>
 
           </div>
