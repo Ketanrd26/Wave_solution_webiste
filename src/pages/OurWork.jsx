@@ -40,7 +40,7 @@ function OurWork() {
                     <div className="across_heading">
                         <span className="across_tag">
                             <span className="across_dot"></span>
-                            ACROSS ALL CAMPAIGNS
+                            PERFORMANCE SNAPSHOT
                         </span>
 
                         <h2>
@@ -160,9 +160,8 @@ function OurWork() {
                                 A brand with a real product differentiator —
                                 <b> premium ingredients </b> — but almost no digital
                                 presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                far bigger budgets and near-zero organic visibility,
+                                the brand needed immediate sales while also building long-term discoverability.
                             </p>
 
                         </div>
@@ -177,32 +176,34 @@ function OurWork() {
                             <ul>
                                 <li>
                                     Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
+                                    hyperlocal
                                 </li>
 
                                 <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
+                                    Five ad groups within each campaign
                                 </li>
 
                                 <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
+                                    Standard Shopping campaign
                                 </li>
 
                                 <li>
-                                    Landing page built around local search intent
+                                    Optimised product titles and categories
                                 </li>
 
                                 <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
+                                    Custom product labels
                                 </li>
 
                                 <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
+                                    Full SEO audit
                                 </li>
+                                <li>Three Shopify-ready blogs targeting high-intent keywords</li>
+                                <li>Landing page built around local search intent </li>
+                                <li>AI reel produced using Google Veo </li>
+                                <li>Real product footage integrated into AI creative </li>
+                                <li>Comedy concept for gifting campaign  </li>
+                                <li>Hinglish voiceover scripts</li>
                             </ul>
 
                         </div>
@@ -223,20 +224,20 @@ function OurWork() {
                             <span className="case_label">CASE STUDY 02</span>
 
                             <h2>
-                                D2C Food Brand — Full Digital Stack
+                                Luxury Real Estate — Lead Generation
                             </h2>
 
                             <div className="case_tags">
                                 <span>Google Ads</span>
-                                <span>SEO</span>
-                                <span>Social Media</span>
-                                <span>AI Reels</span>
-                                <span>Shopify</span>
+                                <span>Meta Ads</span>
+                                <span>Lead Generation</span>
+                                <span> Landing Pages</span>
+                                <span>Retargeting</span>
                             </div>
                         </div>
 
                         <div className="case_category">
-                            FMCG · D2C
+                            REAL ESTATE · LUXURY
                         </div>
 
                     </div>
@@ -245,26 +246,26 @@ function OurWork() {
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>3.2×</strong>
-                            <p>Website traffic in 90 days</p>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Qualified leads generated </p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↓</span>
-                            <strong>₹9</strong>
-                            <p>Avg. CPC on Shopping</p>
+                            {/* <strong>₹9</strong> */}
+                            <p>Cost per qualified lead</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>5.8×</strong>
-                            <p>ROAS on Shopping</p>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Enquiry growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>214%</strong>
-                            <p>Organic impressions</p>
+                            {/* <strong>214%</strong> */}
+                            <p>Lead quality improvement</p>
                         </div>
 
                     </div>
@@ -278,12 +279,7 @@ function OurWork() {
                             </span>
 
                             <p>
-                                A brand with a real product differentiator —
-                                <b> premium ingredients </b> — but almost no digital
-                                presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                A luxury real-estate project needed a stronger digital acquisition system capable of reaching high-intent buyers. The challenge wasn't simply generating more leads. It was generating <b>better leads</b> through precise targeting, stronger messaging and a conversion-focused enquiry journey.
                             </p>
 
                         </div>
@@ -296,34 +292,18 @@ function OurWork() {
                             </span>
 
                             <ul>
-                                <li>
-                                    Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
-                                </li>
-
-                                <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
-                                </li>
-
-                                <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
-                                </li>
-
-                                <li>
-                                    Landing page built around local search intent
-                                </li>
-
-                                <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
-                                </li>
-
-                                <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
-                                </li>
+                                <li>Audience research  </li>
+                                <li>Buyer-intent analysis </li>
+                                <li>Google Search campaigns </li>
+                                <li>Meta lead-generation campaigns </li>
+                                <li>Location-based targeting  </li>
+                                <li>Property-focused creatives  </li>
+                                <li>Landing page strategy </li>
+                                <li>Lead qualification forms</li>
+                                <li>Retargeting</li>
+                                <li>Audience segmentation</li>
+                                <li>Creative testing </li>
+                                <li>Campaign optimisation</li>
                             </ul>
 
                         </div>
@@ -344,20 +324,19 @@ function OurWork() {
                             <span className="case_label">CASE STUDY 03</span>
 
                             <h2>
-                                D2C Food Brand — Full Digital Stack
+                                B2B Company — Digital Presence That Converts
                             </h2>
 
                             <div className="case_tags">
-                                <span>Google Ads</span>
-                                <span>SEO</span>
-                                <span>Social Media</span>
-                                <span>AI Reels</span>
-                                <span>Shopify</span>
+                                <span>Web Development</span>
+                                <span>UI/UX</span>
+                                <span>Landing Pages</span>
+                                <span> Conversion Optimisation</span>
                             </div>
                         </div>
 
                         <div className="case_category">
-                            FMCG · D2C
+                            B2B · SERVICES
                         </div>
 
                     </div>
@@ -366,26 +345,26 @@ function OurWork() {
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>3.2×</strong>
-                            <p>Website traffic in 90 days</p>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Website traffic growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↓</span>
-                            <strong>₹9</strong>
-                            <p>Avg. CPC on Shopping</p>
+                            {/* <strong>₹9</strong> */}
+                            <p>Qualified enquiries</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>5.8×</strong>
-                            <p>ROAS on Shopping</p>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Engagement improvement</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>214%</strong>
-                            <p>Organic impressions</p>
+                            {/* <strong>214%</strong> */}
+                            <p>Conversion improvement</p>
                         </div>
 
                     </div>
@@ -399,12 +378,7 @@ function OurWork() {
                             </span>
 
                             <p>
-                                A brand with a real product differentiator —
-                                <b> premium ingredients </b> — but almost no digital
-                                presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                The business had a strong offering but its website wasn't communicating its value effectively. The goal was to create a clearer digital experience that helped visitors understand the services, build confidence and take the next step.
                             </p>
 
                         </div>
@@ -417,34 +391,17 @@ function OurWork() {
                             </span>
 
                             <ul>
-                                <li>
-                                    Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
-                                </li>
-
-                                <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
-                                </li>
-
-                                <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
-                                </li>
-
-                                <li>
-                                    Landing page built around local search intent
-                                </li>
-
-                                <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
-                                </li>
-
-                                <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
-                                </li>
+                                <li>Website restructuring </li>
+                                <li>UI/UX design</li>
+                                <li>Responsive development </li>
+                                <li>Service-focused pages</li>
+                                <li>Conversion-focused layouts</li>
+                                <li>Clear calls-to-action</li>
+                                <li>SEO-friendly architecture</li>
+                                <li>Landing pages</li>
+                                <li>Mobile optimisation</li>
+                                <li>Performance optimisation </li>
+                                <li>Lead-generation journey </li>
                             </ul>
 
                         </div>
@@ -465,20 +422,20 @@ function OurWork() {
                             <span className="case_label">CASE STUDY 04</span>
 
                             <h2>
-                                D2C Food Brand — Full Digital Stack
+                                Education Brand — Search Visibility & Lead Growth
                             </h2>
 
                             <div className="case_tags">
                                 <span>Google Ads</span>
                                 <span>SEO</span>
-                                <span>Social Media</span>
-                                <span>AI Reels</span>
-                                <span>Shopify</span>
+                                <span> Local SEO</span>
+                                <span>Content</span>
+                                <span>Lead Generation</span>
                             </div>
                         </div>
 
                         <div className="case_category">
-                            FMCG · D2C
+                            EDUCATION · SERVICES
                         </div>
 
                     </div>
@@ -487,26 +444,26 @@ function OurWork() {
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>3.2×</strong>
-                            <p>Website traffic in 90 days</p>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Organic traffic growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↓</span>
-                            <strong>₹9</strong>
-                            <p>Avg. CPC on Shopping</p>
+                            {/* <strong>₹9</strong> */}
+                            <p>Keyword visibility</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>5.8×</strong>
-                            <p>ROAS on Shopping</p>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Lead growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>214%</strong>
-                            <p>Organic impressions</p>
+                            {/* <strong>214%</strong> */}
+                            <p>Cost per lead</p>
                         </div>
 
                     </div>
@@ -520,12 +477,7 @@ function OurWork() {
                             </span>
 
                             <p>
-                                A brand with a real product differentiator —
-                                <b> premium ingredients </b> — but almost no digital
-                                presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                The brand operated in a competitive search environment where potential students actively researched their options online. The objective was to increase visibility for high-intent searches while creating a clear path from discovery to enquiry.
                             </p>
 
                         </div>
@@ -538,34 +490,18 @@ function OurWork() {
                             </span>
 
                             <ul>
-                                <li>
-                                    Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
-                                </li>
-
-                                <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
-                                </li>
-
-                                <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
-                                </li>
-
-                                <li>
-                                    Landing page built around local search intent
-                                </li>
-
-                                <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
-                                </li>
-
-                                <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
-                                </li>
+                                <li>Complete SEO audit</li>
+                                <li>Keyword research </li>
+                                <li>Search-intent mapping </li>
+                                <li>Competitor analysis </li>
+                                <li>On-page SEO </li>
+                                <li>Local SEO </li>
+                                <li>Google Search campaigns</li>
+                                <li>High-intent content </li>
+                                <li>Landing-page optimisation </li>
+                                <li>Conversion tracking </li>
+                                <li>Search-term optimisation </li>
+                                <li>Campaign refinement </li>
                             </ul>
 
                         </div>
@@ -586,20 +522,20 @@ function OurWork() {
                             <span className="case_label">CASE STUDY 05</span>
 
                             <h2>
-                                D2C Food Brand — Full Digital Stack
+                                D2C eCommerce Brand — Social Media to Sales
                             </h2>
 
                             <div className="case_tags">
-                                <span>Google Ads</span>
-                                <span>SEO</span>
                                 <span>Social Media</span>
-                                <span>AI Reels</span>
-                                <span>Shopify</span>
+                                <span>Meta Ads</span>
+                                <span>Reels</span>
+                                <span>Creative Strategy</span>
+                                <span>Performance Marketing</span>
                             </div>
                         </div>
 
                         <div className="case_category">
-                            FMCG · D2C
+                            D2C · eCOMMERCE
                         </div>
 
                     </div>
@@ -608,26 +544,26 @@ function OurWork() {
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>3.2×</strong>
-                            <p>Website traffic in 90 days</p>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Reach growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↓</span>
-                            <strong>₹9</strong>
-                            <p>Avg. CPC on Shopping</p>
+                            {/* <strong>₹9</strong> */}
+                            <p>Engagement growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>5.8×</strong>
-                            <p>ROAS on Shopping</p>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Acquisition cost</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>214%</strong>
-                            <p>Organic impressions</p>
+                            {/* <strong>214%</strong> */}
+                            <p>Sales growth</p>
                         </div>
 
                     </div>
@@ -641,12 +577,7 @@ function OurWork() {
                             </span>
 
                             <p>
-                                A brand with a real product differentiator —
-                                <b> premium ingredients </b> — but almost no digital
-                                presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                The brand had a social-media presence but lacked a connected content and performance strategy. Content needed to do more than generate attention. It needed to support the customer journey and contribute to measurable business growth.
                             </p>
 
                         </div>
@@ -659,34 +590,18 @@ function OurWork() {
                             </span>
 
                             <ul>
-                                <li>
-                                    Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
-                                </li>
-
-                                <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
-                                </li>
-
-                                <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
-                                </li>
-
-                                <li>
-                                    Landing page built around local search intent
-                                </li>
-
-                                <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
-                                </li>
-
-                                <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
-                                </li>
+                                <li>Social media strategy</li>
+                                <li>Content planning</li>
+                                <li>Reels strategy</li>
+                                <li>Product-focused creatives</li>
+                                <li>Meta Ads campaigns</li>
+                                <li>Performance creatives </li>
+                                <li>Audience testing </li>
+                                <li>Retargeting </li>
+                                <li>Creative A/B testing </li>
+                                <li>Conversion campaigns</li>
+                                <li>Content performance analysis</li>
+                                <li>Campaign optimisation</li>
                             </ul>
 
                         </div>
@@ -707,20 +622,20 @@ function OurWork() {
                             <span className="case_label">CASE STUDY 06</span>
 
                             <h2>
-                                D2C Food Brand — Full Digital Stack
+                                Fitness Brand — Local Digital Growth
                             </h2>
 
                             <div className="case_tags">
                                 <span>Google Ads</span>
-                                <span>SEO</span>
+                                <span>Local SEO</span>
                                 <span>Social Media</span>
-                                <span>AI Reels</span>
-                                <span>Shopify</span>
+                                <span> Lead Generation</span>
+                                <span>Content</span>
                             </div>
                         </div>
 
                         <div className="case_category">
-                            FMCG · D2C
+                            FITNESS · LOCAL BUSINESS
                         </div>
 
                     </div>
@@ -729,26 +644,26 @@ function OurWork() {
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>3.2×</strong>
-                            <p>Website traffic in 90 days</p>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Local visibility growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↓</span>
-                            <strong>₹9</strong>
-                            <p>Avg. CPC on Shopping</p>
+                            {/* <strong>₹9</strong> */}
+                            <p>Qualified enquiries</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>5.8×</strong>
-                            <p>ROAS on Shopping</p>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Cost per lead</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>214%</strong>
-                            <p>Organic impressions</p>
+                            {/* <strong>214%</strong> */}
+                            <p>Organic search growth </p>
                         </div>
 
                     </div>
@@ -762,12 +677,7 @@ function OurWork() {
                             </span>
 
                             <p>
-                                A brand with a real product differentiator —
-                                <b> premium ingredients </b> — but almost no digital
-                                presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                The business depended heavily on local customers and needed to become more visible when potential customers searched for relevant fitness services. The strategy focused on connecting local search, paid acquisition and social content into one growth system.
                             </p>
 
                         </div>
@@ -780,34 +690,18 @@ function OurWork() {
                             </span>
 
                             <ul>
-                                <li>
-                                    Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
-                                </li>
-
-                                <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
-                                </li>
-
-                                <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
-                                </li>
-
-                                <li>
-                                    Landing page built around local search intent
-                                </li>
-
-                                <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
-                                </li>
-
-                                <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
-                                </li>
+                                <li>Local SEO </li>
+                                <li>Location-based keyword research</li>
+                                <li>Google Business Profile optimisation</li>
+                                <li>Google Search campaigns</li>
+                                <li>Local advertising</li>
+                                <li>Lead-generation campaigns</li>
+                                <li>Social media content</li>
+                                <li>Local landing pages </li>
+                                <li>Content strategy </li>
+                                <li>Review optimisation</li>
+                                <li>Conversion tracking</li>
+                                <li>Campaign optimisation </li>
                             </ul>
 
                         </div>
@@ -828,20 +722,20 @@ function OurWork() {
                             <span className="case_label">CASE STUDY 07</span>
 
                             <h2>
-                                D2C Food Brand — Full Digital Stack
+                                FMCG Brand — Creative & Content Growth
                             </h2>
 
                             <div className="case_tags">
-                                <span>Google Ads</span>
-                                <span>SEO</span>
                                 <span>Social Media</span>
                                 <span>AI Reels</span>
-                                <span>Shopify</span>
+                                <span>Creative Strategy</span>
+                                <span> Content</span>
+                                <span>Digital Marketing</span>
                             </div>
                         </div>
 
                         <div className="case_category">
-                            FMCG · D2C
+                            FMCG · CONSUMER BRAND
                         </div>
 
                     </div>
@@ -850,26 +744,26 @@ function OurWork() {
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>3.2×</strong>
-                            <p>Website traffic in 90 days</p>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Content reach </p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↓</span>
-                            <strong>₹9</strong>
-                            <p>Avg. CPC on Shopping</p>
+                            {/* <strong>₹9</strong> */}
+                            <p>Engagement growth</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>5.8×</strong>
-                            <p>ROAS on Shopping</p>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Audience growth </p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>214%</strong>
-                            <p>Organic impressions</p>
+                            {/* <strong>214%</strong> */}
+                            <p>Creative performance</p>
                         </div>
 
                     </div>
@@ -883,12 +777,7 @@ function OurWork() {
                             </span>
 
                             <p>
-                                A brand with a real product differentiator —
-                                <b> premium ingredients </b> — but almost no digital
-                                presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                The brand needed to stand out in a crowded consumer market. The challenge wasn't producing more content. It was creating memorable content that could stop the scroll, communicate the product quickly and strengthen brand recall.
                             </p>
 
                         </div>
@@ -901,34 +790,18 @@ function OurWork() {
                             </span>
 
                             <ul>
-                                <li>
-                                    Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
-                                </li>
-
-                                <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
-                                </li>
-
-                                <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
-                                </li>
-
-                                <li>
-                                    Landing page built around local search intent
-                                </li>
-
-                                <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
-                                </li>
-
-                                <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
-                                </li>
+                                <li>Social media strategy</li>
+                                <li>Creative direction</li>
+                                <li>Short-form video concepts</li>
+                                <li>AI-assisted creative</li>
+                                <li>Product storytelling</li>
+                                <li>Reel concepts</li>
+                                <li>Hinglish content</li>
+                                <li>Voiceover scripts</li>
+                                <li>Trend-led creative</li>
+                                <li>Product campaigns</li>
+                                <li>Creative testing</li>
+                                <li>Content optimisation</li>
                             </ul>
 
                         </div>
@@ -949,20 +822,20 @@ function OurWork() {
                             <span className="case_label">CASE STUDY 08</span>
 
                             <h2>
-                                D2C Food Brand — Full Digital Stack
+                                Local Business — Turning Search Into Enquiries
                             </h2>
 
                             <div className="case_tags">
                                 <span>Google Ads</span>
-                                <span>SEO</span>
-                                <span>Social Media</span>
-                                <span>AI Reels</span>
-                                <span>Shopify</span>
+                                <span>Local SEO</span>
+                                <span>Website</span>
+                                <span>Content</span>
+                                <span>Lead Generation</span>
                             </div>
                         </div>
 
                         <div className="case_category">
-                            FMCG · D2C
+                            LOCAL BUSINESS · SERVICES
                         </div>
 
                     </div>
@@ -971,26 +844,26 @@ function OurWork() {
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>3.2×</strong>
-                            <p>Website traffic in 90 days</p>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Search visibility</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↓</span>
-                            <strong>₹9</strong>
-                            <p>Avg. CPC on Shopping</p>
+                            {/* <strong>₹9</strong> */}
+                            <p>Qualified enquiries</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>5.8×</strong>
-                            <p>ROAS on Shopping</p>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Organic traffic</p>
                         </div>
 
                         <div className="case_stat">
                             <span className="stat_arrow">↑</span>
-                            <strong>214%</strong>
-                            <p>Organic impressions</p>
+                            {/* <strong>214%</strong> */}
+                            <p>Cost per lead</p>
                         </div>
 
                     </div>
@@ -1004,12 +877,7 @@ function OurWork() {
                             </span>
 
                             <p>
-                                A brand with a real product differentiator —
-                                <b> premium ingredients </b> — but almost no digital
-                                presence. Competing against commodity brands with
-                                far bigger budgets and near-zero organic visibility.
-                                They needed immediate sales and long-term
-                                discoverability at the same time.
+                                The business depended on local demand but wasn't capturing enough customers who were already searching online. The goal was to improve local visibility and create a smoother path from search discovery to enquiry.
                             </p>
 
                         </div>
@@ -1022,34 +890,18 @@ function OurWork() {
                             </span>
 
                             <ul>
-                                <li>
-                                    Two Google Search campaigns — city and
-                                    hyperlocal, five ad groups each
-                                </li>
-
-                                <li>
-                                    Standard Shopping campaign with optimised
-                                    titles, categories and custom labels
-                                </li>
-
-                                <li>
-                                    Full SEO audit plus three Shopify-ready
-                                    blog posts on high-intent keywords
-                                </li>
-
-                                <li>
-                                    Landing page built around local search intent
-                                </li>
-
-                                <li>
-                                    AI reel produced with Google Veo,
-                                    compositing real product footage
-                                </li>
-
-                                <li>
-                                    Comedy concept and Hinglish voiceover
-                                    scripts for the gifting campaign
-                                </li>
+                                <li>Local keyword research </li>
+                                <li>Google Business Profile optimisation </li>
+                                <li>Google Search campaigns </li>
+                                <li>Website optimisation </li>
+                                <li>Service-page optimisation  </li>
+                                <li>Local landing pages</li>
+                                <li>Conversion-focused CTAs </li>
+                                <li>Local content </li>
+                                <li>Review and reputation optimisation </li>
+                                <li>Search performance monitoring  </li>
+                                <li>Lead tracking  </li>
+                                <li>Campaign optimisation</li>
                             </ul>
 
                         </div>
@@ -1058,6 +910,107 @@ function OurWork() {
 
                 </div>
             </section>
+
+            {/* CASE STUDY 09 */}
+
+            <section className="case_parent parent">
+                <div className="case_cont cont">
+
+                    <div className="case_header">
+
+                        <div className="case_header_left">
+                            <span className="case_label">CASE STUDY 09</span>
+
+                            <h2>
+                                Multi-Channel Brand — One Strategy, Multiple Channels
+                            </h2>
+
+                            <div className="case_tags">
+                                <span>Google Ads</span>
+                                <span>SEO</span>
+                                <span>Social Media</span>
+                                <span> Website</span>
+                                <span>Content</span>
+                            </div>
+                        </div>
+
+                        <div className="case_category">
+                            D2C · DIGITAL GROWTH
+                        </div>
+
+                    </div>
+
+                    <div className="case_stats">
+
+                        <div className="case_stat">
+                            <span className="stat_arrow">↑</span>
+                            {/* <strong>3.2×</strong> */}
+                            <p>Traffic growth </p>
+                        </div>
+
+                        <div className="case_stat">
+                            <span className="stat_arrow">↓</span>
+                            {/* <strong>₹9</strong> */}
+                            <p>Sales / enquiry growth</p>
+                        </div>
+
+                        <div className="case_stat">
+                            <span className="stat_arrow">↑</span>
+                            {/* <strong>5.8×</strong> */}
+                            <p>Paid performance </p>
+                        </div>
+
+                        <div className="case_stat">
+                            <span className="stat_arrow">↑</span>
+                            {/* <strong>214%</strong> */}
+                            <p>Organic growth</p>
+                        </div>
+
+                    </div>
+
+                    <div className="case_content">
+
+                        <div className="case_challenge">
+
+                            <span className="content_label">
+                                THE CHALLENGE
+                            </span>
+
+                            <p>
+                                The brand was active across multiple digital channels, but the channels weren't working together. Paid advertising, SEO, social media, website content and creative needed to be brought together under one clear growth strategy.
+                            </p>
+
+                        </div>
+
+
+                        <div className="case_delivered">
+
+                            <span className="content_label">
+                                WHAT WE DELIVERED
+                            </span>
+
+                            <ul>
+                                <li>Digital growth strategy</li>
+                                <li>Google Ads</li>
+                                <li>SEO strategy</li>
+                                <li>Social media planning</li>
+                                <li>Website optimisation</li>
+                                <li>Landing pages</li>
+                                <li>Content strategy</li>
+                                <li>Paid creative development</li>
+                                <li>Retargeting</li>
+                                <li>Conversion optimisation</li>
+                                <li>Performance analytics</li>
+                                <li>Continuous optimisation</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
 
 
             <section className="clients_parent parent">
@@ -1079,6 +1032,9 @@ function OurWork() {
                     <div className="clients_grid">
 
                         <div className="client_card">
+                            <p>
+                                <b>“They understood our product.” </b>
+                            </p>
 
                             <p className="client_quote">
                                 “AdiAnsh didn’t just run our ads — they understood
@@ -1111,6 +1067,9 @@ function OurWork() {
 
 
                         <div className="client_card">
+                            <p>
+                                <b>“A website that made an impact.”</b>
+                            </p>
 
                             <p className="client_quote">
                                 “The website they built blew our client away.
@@ -1144,6 +1103,10 @@ function OurWork() {
 
                         <div className="client_card">
 
+                            <p>
+                                <b>“Six times our usual enquiry volume.” </b>
+                            </p>
+
                             <p className="client_quote">
                                 “Six times our usual enquiry volume in the first month.
                                 The form qualified leads properly, and the Marathi copy
@@ -1175,6 +1138,9 @@ function OurWork() {
 
 
                         <div className="client_card">
+                            <p>
+                                <b>“A real system, not scattered activity.”</b>
+                            </p>
 
                             <p className="client_quote">
                                 “From the SEO posts to the ad campaigns, everything
@@ -1223,14 +1189,13 @@ function OurWork() {
                     </div>
 
                     <h2>
-                        Your brand could
+                        Your Brand Could
                         <br />
-                        be the <em>next result.</em>
+                        Be the <em>Next Result.</em>
                     </h2>
 
                     <p className="study_desc">
-                        Book a free 30-minute call and we'll show you exactly
-                        what we'd do for your brand — with real numbers, not promises.
+                        Book a free 30-minute call and we'll show you exactly what we'd do for your brand—with real numbers, practical ideas and a strategy built around your business. 
                     </p>
 
                     <div className="study_buttons">

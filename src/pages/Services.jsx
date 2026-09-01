@@ -17,18 +17,17 @@ function Services() {
 
                     <div className="what_we_tag">
                         <span></span>
-                        WHAT WE RUN
+                        OUR SERVICES
                     </div>
 
                     <h2 className="what_we_heading">
                         Nine services.
-                        <span>One accountable team.</span>
+                        <span>One Growth Engine,</span>Built Around You.
                     </h2>
 
                     <p className="what_we_desc">
-                        Bring us one channel or all nine. Either way you get the same team,
-                        the same reporting and the same deadlines — with no handoff to a
-                        junior you never met.
+                        Bring us one channel or all nine — content, ads, SEO, web, and brand, run by the same team, on the same reporting, against
+                        the same deadlines. Explore what's actually included in each.
                     </p>
 
                     <div className="what_we_services">
@@ -100,15 +99,14 @@ function Services() {
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            We plan, script, and produce short-form video at a pace most in-house teams can't match — a mix of AI-assisted production
+                            and creator-style UGC designed for Instagram Reels, YouTube Shorts, and TikTok. Every piece is built around a hook, not
+                            just a pretty shot, because the first two seconds decide whether the rest gets watched.
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> D2C, FMCG, and lifestyle brands that need a steady volume of scroll-stopping video without building an in-house content
+                            team.
                         </div>
 
                         <div className="service_buttons">
@@ -133,27 +131,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Script writing and hook development for every video
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    AI-assisted video production, including voiceovers and avatars where useful
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    UGC-style creator content sourced and directed for authenticity
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Platform-specific edits and formatting for Reels, Shorts, and TikTok
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    Monthly content batching and shoot calendars
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Performance tracking on views, watch time, saves, and shares
                                 </li>
                             </ul>
 
@@ -177,19 +180,17 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            Performance Marketing
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            We run paid media the way it should be run — as a system tied to customer acquisition cost, not a vanity-metrics dashboard.
+                            Every campaign starts with your actual unit economics, then works backward into creative, targeting, and budget so the
+                            spend is justified by the return, not the other way around.
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> Businesses ready to spend on paid ads and want every rupee tied to a measurable return, not just impressions.
                         </div>
 
                         <div className="service_buttons">
@@ -214,27 +215,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Meta Ads strategy and management across Facebook and Instagram
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    Google Ads across Search, Shopping, and Performance Max
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    Ad creative testing and iterative optimization
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Landing page and funnel review to fix leaks before scaling spend
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    CAC and ROAS tracking tied to your real revenue numbers
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Budget scaling decisions based on data, reviewed monthly
                                 </li>
                             </ul>
 
@@ -258,19 +264,17 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            SEO & AI Search
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            Search has split in two: the classic Google results page, and the new layer of AI answer engines that summarize the web
+                            instead of just linking to it. We build for both — technical SEO and content that ranks classically, plus the structured data
+                            and clear, quotable answers that get a brand mentioned inside an AI-generated response.
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> Businesses that want compounding organic visibility instead of paying for every single visitor through ads.
                         </div>
 
                         <div className="service_buttons">
@@ -295,27 +299,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Technical SEO audit covering speed, indexing, and site structure
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    On-page SEO — content, headings, internal linking, schema markup
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    Keyword research and content strategy tied to real buyer intent
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Authority and backlink building
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    AI search optimization — structured data and FAQ content written to be quoted by AI engines
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Monthly ranking, traffic, and visibility reporting
                                 </li>
                             </ul>
 
@@ -339,19 +348,17 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            Social Media Management
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            Consistent social media takes more than posting on schedule — it takes a content plan tied to actual goals, someone
+                            answering comments and DMs like a human, and reporting that tells you what's working. We run all three, so your channels
+                            stay active without eating your week.
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> Brands that need a consistent, professional social presence without hiring and managing an in-house social team.
                         </div>
 
                         <div className="service_buttons">
@@ -376,27 +383,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Monthly content calendar planned across every active platform
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    Post design, copywriting, and scheduling
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    Community management — comments, DMs, and engagement handled daily
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Platform-specific growth strategy
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    Monthly performance reporting in plain language
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Ongoing trend and format monitoring so content doesn't go stale
                                 </li>
                             </ul>
 
@@ -420,19 +432,18 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            Web Design & Development
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            A website is only as good as what it gets someone to do next. We design and build custom, responsive sites — no drag-and
+                            drop templates — engineered around speed, clarity, and conversion from the first wireframe, with an SEO-ready structure
+                            built in rather than bolted on afterward.
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> Businesses that need a site that actually converts visitors into leads or customers — not just one that looks good in a
+                            portfolio.
                         </div>
 
                         <div className="service_buttons">
@@ -457,27 +468,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Custom UI/UX design, built around your brand and your users
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    Fully responsive development across mobile, tablet, and desktop
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    Speed and Core Web Vitals optimization
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    SEO-ready structure, semantic HTML, and schema markup
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    CMS setup (WordPress or custom) so your team can update content easily
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Post-launch support and maintenance plans
                                 </li>
                             </ul>
 
@@ -501,19 +517,17 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            Shopify Development
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            eCommerce lives or dies at the product page and the checkout. We build and customize Shopify stores around both — clean,
+                            fast themes, product pages that actually sell, and a checkout flow with as little friction as possible between "add to cart" and
+                            "order confirmed."
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> D2C and eCommerce brands selling directly to customers online, from first launch to established stores ready to scale.
                         </div>
 
                         <div className="service_buttons">
@@ -538,27 +552,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Custom Shopify theme design and development
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    Product and collection page design optimized for conversion
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    App integration — reviews, upsells, subscriptions, and more
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Checkout flow and cart optimization to reduce drop-off
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    Store speed optimization
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Ongoing store support, updates, and troubleshooting
                                 </li>
                             </ul>
 
@@ -582,19 +601,17 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            Branding
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            Your brand identity is the first impression, every time — on a product shelf, an Instagram grid, or a pitch deck. We build
+                            complete visual identity systems designed to be instantly recognizable and consistent everywhere your brand shows up.
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> New brands launching for the first time, and existing brands whose current identity no longer matches where the business is
+                            headed.
                         </div>
 
                         <div className="service_buttons">
@@ -619,27 +636,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Logo design and full visual identity system
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    Brand color palette and typography selection
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    Documented brand guidelines for consistent use across teams
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Packaging and merchandise design where relevant
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    Social media and marketing templates built on the new identity
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Brand voice and tone guide
                                 </li>
                             </ul>
 
@@ -663,19 +685,17 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            Brand Strategy
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            Before design, before ads, before a single reel gets shot — there has to be a clear answer to "why you, and not the ten other
+                            options." We build that answer: researched, specific, and written down, so every future campaign has something real to say.
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> Businesses entering a new market, launching a new product, or repositioning against competitors who've started to look
+                            identical.
                         </div>
 
                         <div className="service_buttons">
@@ -700,27 +720,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Market and competitor research
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    Brand positioning and differentiation strategy
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    Messaging framework, taglines, and core brand story
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Target audience and buyer persona development
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    Go-to-market strategy for launches or repositioning
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Full strategy documentation your whole team can work from
                                 </li>
                             </ul>
 
@@ -744,19 +769,19 @@ function Services() {
                         </span>
 
                         <h2>
-                            AI Reels & UGC
+                            Creative Solutions
                         </h2>
 
                         <p className="service_desc">
-                            The algorithm rewards volume and consistency. Traditional
-                            production gives you neither. We produce short-form video
-                            and creator-style content at the pace your feed actually needs
-                            — no studio, no crew, no six-week turnaround.
+                            Not every creative need fits neatly into a single service — a pitch deck due Friday, a packaging refresh, a one-off campaign
+                            concept. This is flexible, on-demand creative support for exactly that: fast turnarounds without a full new project scope every
+                            time.
+
                         </p>
 
                         <div className="service_best">
-                            <strong>Best for:</strong> D2C, lifestyle and personal brands
-                            that need consistent output without a production budget.
+                            <strong>Best for:</strong> Brands that need flexible, dependable creative support outside a fixed project scope — not a full retainer, just real help when
+                            it's needed.
                         </div>
 
                         <div className="service_buttons">
@@ -781,27 +806,32 @@ function Services() {
                             <ul>
                                 <li>
                                     <span>✓</span>
-                                    Monthly content plan tied to campaign goals, not vibes
+                                    Ad creative and campaign concept design
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    AI-generated and creator-style video production
+                                    Presentation and pitch deck design
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Hooks written and tested per platform
+                                    Packaging and print design
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Captions, subtitles and sound design
+                                    Email and marketing collateral design
                                 </li>
 
                                 <li>
                                     <span>✓</span>
-                                    Native cuts for Reels, Shorts and TikTok
+                                    Custom, one-off creative projects
+                                </li>
+
+                                <li>
+                                    <span>✓</span>
+                                    Fast-turnaround design support for time-sensitive requests
                                 </li>
                             </ul>
 
@@ -821,12 +851,12 @@ function Services() {
                     <div className="work_heading">
                         <span className="work_tag">
                             <i></i>
-                            HOW WE WORK TOGETHER
+                            HOW WE WORK 
                         </span>
 
                         <h2>
-                            Three ways to
-                            <em> work with us.</em>
+                            Whichever Service You Start With,
+                            <em>The Process Is The Same</em>
                         </h2>
 
                         <p>
@@ -969,14 +999,14 @@ function Services() {
                     </span>
 
                     <h2>
-                        We’d rather show
+                        Not Sure Where To Start?
                         <br />
-                        you than <em>tell you.</em>
+                        We'll Tell <em>You Honestly.</em>
                     </h2>
 
                     <p>
-                        Thirty minutes, no deck. We'll look at what you're running and tell
-                        you honestly whether we're the right team for it.
+                        Book a free 30-minute call. We'll look at what you're running today and tell you plainly whether we're the right team for it —
+                        no deck, no pressure.
                     </p>
 
                     <div className="work_us_buttons">

@@ -11,27 +11,27 @@ const faqData = [
   {
     question: "What services does Wave Solution provide?",
     answer:
-      "We provide web development, UI/UX design, software development, digital solutions and other technology services tailored to business requirements.",
+      " Wave Solution provides nine core services: AI Reels & UGC, Performance Marketing, SEO & AI Search, Social Media Management, Web Design & Development, Shopify Development, Branding, Brand Strategy, and Creative Solutions — delivered as one connected system or as individual channels.",
   },
   {
     question: "Can you build a website according to our requirements?",
     answer:
-      "Yes. We create custom websites based on your business goals, brand identity, content and functionality requirements.",
+      "Yes. Every website is custom-built around your business, brand, and goals — from a marketing site to a full Shopify storefront — with no fixed templates, so the design, structure, and features match what your requirements actually call for.",
   },
   {
     question: "Do you work with businesses of different industries?",
     answer:
-      "Yes. Our solutions can be customized for businesses across different industries and company sizes.",
+      "Yes. Wave Solution works with D2C brands, SaaS companies, and service businesses across industries, including Indian brands expanding internationally and international brands entering the Indian market.",
   },
   {
     question: "How long does a website project take?",
     answer:
-      "Project timelines depend on the size, features and requirements of the website. After understanding your requirements, we can provide a clear estimated timeline.",
+      " Most business websites are completed in 2–4 weeks from approved design to launch, while larger builds like Shopify stores or custom web applications typically take 4–8 weeks depending on scope — confirmed exactly during the discovery call.",
   },
   {
     question: "How can I get started with Wave Solution?",
     answer:
-      "Simply contact our team and share your requirements. We will discuss your project, suggest the right approach and guide you through the next steps.",
+      " Book a free 30-minute discovery call or send a brief through the contact form — Wave Solution will review your goals and respond with a custom strategy and quote, usually within one business day.",
   },
 ];
 
@@ -54,9 +54,9 @@ const Faq = () => {
           </div>
 
           <h2>
-            The things people
+            The Things People
             <br />
-            <em>actually ask.</em>
+            <em>Actually Ask.</em>
           </h2>
 
         </div>

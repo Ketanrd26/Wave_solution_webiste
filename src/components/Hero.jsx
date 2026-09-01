@@ -18,12 +18,12 @@ const Hero = () => {
             <br />
             <span>Digital</span>
             <br />
-            Future.
+            Growth Engine.
           </h1>
 
           <p className="hero_desc">
-            We build smart digital solutions, powerful websites and
-            technology that helps businesses grow faster.
+            We run performance marketing, SEO, web design, and content for Indian brands going global —
+            one team, one system, measurable growth every month.
           </p>
 
           <div className="hero_btns">

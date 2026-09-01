@@ -15,11 +15,11 @@ const Book = () => {
           </div>
 
           <h2>
-            Tell us what
+            Tell Us What
             <br />
-            you need.
+            You Need.
             <br />
-            <em>We’ll be straight with you.</em>
+            <em>We’ll Be Straight With You.</em>
           </h2>
 
           <p className="book_desc">

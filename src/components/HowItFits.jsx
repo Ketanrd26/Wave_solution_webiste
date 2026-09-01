@@ -93,7 +93,7 @@ const HowItFits = () => {
                 <div className="flow-box">
 
                     <div className="brand-box">
-                        AdiAnsh Media
+                        Wave Solution
                     </div>
 
                     <div className="flow-line"></div>

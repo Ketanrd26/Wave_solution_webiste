@@ -78,12 +78,11 @@ const Solutions = () => {
 
                     <h2>
                         Nine services.{" "}
-                        <span>One growth engine.</span>
+                        <span>One Growth Engine.</span>
                     </h2>
 
                     <p>
-                        Bring us one channel or all nine. Same team, same reporting,
-                        same deadlines either way.
+                        Bring us one channel or all nine. Same team, same reporting, same deadlines either way.
                     </p>
                 </div>
 

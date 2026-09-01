@@ -35,8 +35,8 @@ const Process = () => {
           </div>
 
           <h2>
-            From first call to
-            <em>compounding growth.</em>
+            From First Call To
+            <em>Compounding Growth.</em>
           </h2>
         </div>
 

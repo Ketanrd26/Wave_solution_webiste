@@ -12,9 +12,9 @@ const Clients = () => {
                     </span>
 
                     <h2>
-                        Trusted by brands.
+                        Trusted By Brands.
                         <br />
-                        <em>Built for growth.</em>
+                        <em>Built For Growth.</em>
                     </h2>
 
                     <p>

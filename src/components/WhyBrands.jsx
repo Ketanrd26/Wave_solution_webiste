@@ -36,11 +36,11 @@ const WhyBrands = () => {
                     </div>
 
                     <h2>
-                        The agency
+                        The Agency
                         <br />
-                        that
+                        That
                         <br />
-                        <em>actually delivers.</em>
+                        <em>Actually Delivers.</em>
                     </h2>
 
                     <p className="whybrands_desc">

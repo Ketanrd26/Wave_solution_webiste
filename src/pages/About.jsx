@@ -87,15 +87,15 @@ function About() {
                         </div>
 
                         <h2>
-                            We build digital solutions
+                            We Build Digital Solutions
                             <br />
-                            that help businesses <em>grow.</em>
+                            That Help Businesses <em>Grow.</em>
                         </h2>
 
                         <p>
-                            Wave Solution was founded with a simple belief — growing businesses
-                            deserve better digital solutions. No templates. No guesswork.
-                            Real strategy, real execution, real growth.
+                            We started Wave Solution because too many businesses were paying for websites and campaigns
+                            that looked good but didn't move the needle. Every project we take on is judged by one thing: whether it actually
+                            grows the business behind it.
                         </p>
 
                         <p>
@@ -272,13 +272,12 @@ function About() {
                         </span>
 
                         <h2>
-                            Built for every industry that
-                            <em>wants to grow.</em>
+                            Built For Every Industry That
+                            <em>Wants To Grow.</em>
                         </h2>
 
                         <p className="work-description">
-                            Seven-plus industries, same rigour in every one.
-                            The tactics change; the standard doesn't.
+                            Eight-plus industries, same rigour in every one. The tactics change; the standard doesn't
                         </p>
                     </div>
 

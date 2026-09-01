@@ -18,11 +18,7 @@ function Blog() {
                         </span>
 
                         <h1>
-                            Notes on
-                            <br />
-                            growth,
-                            <br />
-                            <span>search and brand.</span>
+                            Ideas on<br/><span> Digital Growth.</span>
                         </h1>
 
                         <p>
@@ -32,16 +28,15 @@ function Blog() {
                         </p>
 
                         <div className="tell_tags">
-                            <span>AI search</span>
-                            <span>SEO &amp; landing pages</span>
+                            <span>Digital Marketing</span>
+                            <span>SEO</span>
                             <span>AI marketing</span>
                             <span>Web &amp; e-commerce</span>
                             <span>Performance marketing</span>
-                            <span>SEO &amp; AI search</span>
-                            <span>Web &amp; e-commerce</span>
-                            <span>Social media &amp; AI</span>
+                            <span>CRO</span>
+                            <span>Social media</span>
                             <span>Shopify</span>
-                            <span>Marketing</span>
+                            <span>Technology</span>
                         </div>
 
                     </div>
@@ -64,19 +59,15 @@ function Blog() {
                         <div className="featured_content">
 
                             <span className="article_category">
-                                Web &amp; E-commerce
+                                DIGITAL GROWTH 
                             </span>
 
                             <h2>
-                                Checkout Optimization 2026:
-                                How to Cut Cart Abandonment
+                                Why Your Digital Marketing Isn't Working — And What to Fix First 
                             </h2>
 
                             <p>
-                                About 70% of carts are abandoned — the majority of your
-                                interested buyers leaving at the final step. Here's how
-                                to optimise checkout and get cart abandonment closer to
-                                20%.
+                                <strong>Digital Marketing</strong> A practical framework for identifying what's holding your digital growth back—from weak positioning and poor targeting to low-converting websites and disconnected campaigns. 
                             </p>
 
                             <a href="#">
@@ -92,135 +83,101 @@ function Blog() {
 
                         <article className="tell_card">
                             <div className="card_image">
-                                <span>SEO &amp; LANDING</span>
+                                <span>SEO</span>
                                 <h3>
-                                    A/B Testing for Landing
-                                    Pages: 7 Experiments
+                                    SEO in 2026: What Actually Matters for Business Growth? 
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                SEO &amp; Landing Pages
+                                SEO
                             </span>
 
                             <h3>
-                                A/B Testing for Landing Pages:
-                                7 Experiments That Actually Convert
+                                Search has changed. Learn which SEO activities still create meaningful business value and which outdated tactics businesses should stop wasting time on. 
                             </h3>
 
-                            <p>
+                            {/* <p>
                                 High-impact experiments you can test without rebuilding
                                 your entire website.
-                            </p>
+                            </p> */}
                         </article>
 
 
                         <article className="tell_card">
                             <div className="card_image">
-                                <span>SEO &amp; MARKETING</span>
+                                <span>AI & MARKETING</span>
                                 <h3>
-                                    10 CRO Marketing Killing
-                                    Your Conversions
+                                    AI Marketing in 2026: What Businesses Should Actually Automate 
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                CRO &amp; Marketing
+                                AI & Marketing 
                             </span>
 
                             <h3>
-                                10 CRO Mistakes Killing
-                                Your Conversion Rate
+                                AI can do far more than generate captions. Explore practical ways businesses can use AI across research, content, creative, customer journeys and marketing operations. 
                             </h3>
 
-                            <p>
+                            {/* <p>
                                 The common mistakes that quietly reduce conversions
                                 across your website.
-                            </p>
+                            </p> */}
                         </article>
 
 
                         <article className="tell_card">
                             <div className="card_image">
-                                <span>WORDPRESS</span>
+                                <span>WEB & E-COMMERCE </span>
                                 <h3>
-                                    WordPress Landing Page
-                                    Optimization
+                                    Your Website Gets Traffic. So Why Isn't It Generating Leads? 
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                Web &amp; E-commerce
+                                WEB & E-commerce
                             </span>
 
                             <h3>
-                                WordPress Landing Page
-                                Optimization Guide
+                                Traffic doesn't automatically create business. Discover the website problems that can turn interested visitors into lost opportunities. 
                             </h3>
 
-                            <p>
+                            {/* <p>
                                 Build faster landing pages that convert more visitors
                                 into customers.
-                            </p>
+                            </p> */}
                         </article>
 
 
                         <article className="tell_card">
                             <div className="card_image">
-                                <span>SHOPIFY</span>
+                                <span>PERFORMANCE MARKETING </span>
                                 <h3>
-                                    Shopify Speed Optimization
-                                    Guide
+                                    Google Ads vs Meta Ads: Where Should Your Business Spend? 
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                Shopify
+                                Performance Marketing 
                             </span>
 
                             <h3>
-                                Shopify Speed Optimization:
-                                Complete Guide
+                                Both platforms can generate results—but they work differently. Understand when Google Ads, Meta Ads or a combination of both makes more sense. 
                             </h3>
 
-                            <p>
+                            {/* <p>
                                 Improve your Shopify store performance without
                                 sacrificing design.
-                            </p>
+                            </p> */}
                         </article>
 
 
                         <article className="tell_card">
                             <div className="card_image">
-                                <span>WORDPRESS</span>
+                                <span>CRO</span>
                                 <h3>
-                                    WordPress vs Shopify:
-                                    Which One Converts Better?
-                                </h3>
-                            </div>
-
-                            <span className="card_category">
-                                Web &amp; E-commerce
-                            </span>
-
-                            <h3>
-                                Wix vs WordPress vs Shopify:
-                                Which One Converts Better?
-                            </h3>
-
-                            <p>
-                                A practical comparison for businesses choosing their
-                                next website platform.
-                            </p>
-                        </article>
-
-
-                        <article className="tell_card">
-                            <div className="card_image">
-                                <span>LANDING PAGE</span>
-                                <h3>
-                                    How to Increase Your
-                                    Landing Page Conversion
+                                    10 Website Mistakes That Quietly Kill Your Conversions 
                                 </h3>
                             </div>
 
@@ -229,39 +186,59 @@ function Blog() {
                             </span>
 
                             <h3>
-                                How to Increase Your
-                                Landing Page Conversion Rate
+                                Small website issues can have a big impact on enquiries and sales. Here are the conversion problems businesses often overlook. 
                             </h3>
 
-                            <p>
-                                Simple changes that can make a measurable difference
-                                to your conversion rate.
-                            </p>
+                            {/* <p>
+                                A practical comparison for businesses choosing their
+                                next website platform.
+                            </p> */}
                         </article>
 
 
                         <article className="tell_card">
                             <div className="card_image">
-                                <span>SEO</span>
+                                <span>SHOPIFY</span>
                                 <h3>
-                                    Average Landing Page
-                                    Conversion Rate
+                                    Shopify Store Optimization: 12 Changes That Can Improve Sales 
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                SEO &amp; Landing Pages
+                                Shopify 
                             </span>
 
                             <h3>
-                                Average Landing Page
-                                Conversion Rate
+                                From product pages and navigation to speed and checkout, discover the key areas to optimise when your Shopify store isn't converting as expected. 
                             </h3>
 
-                            <p>
+                            {/* <p>
+                                Simple changes that can make a measurable difference
+                                to your conversion rate.
+                            </p> */}
+                        </article>
+
+
+                        <article className="tell_card">
+                            <div className="card_image">
+                                <span>SOCIAL MEDIA </span>
+                                <h3>
+                                    Why Your Social Media Gets Views but Not Customers 
+                                </h3>
+                            </div>
+
+                            <span className="card_category">
+                                Social Media 
+                            </span>
+
+                            <h3>
+                                Views, likes and followers don't always translate into business. Learn how to build a social media strategy that connects attention with actual customer journeys.
+                            </h3>
+
+                            {/* <p>
                                 Understand the benchmarks and what you should actually
                                 aim for.
-                            </p>
+                            </p> */}
                         </article>
 
 
