@@ -29,16 +29,14 @@ function Contact() {
                         </span>
 
                         <h2>
-                            Tell us where
+                            Let’s build something
                             <br />
-                            you want to
-                            <em> grow.</em>
+                            that helps  
+                            <em> your business grow.</em>
                         </h2>
 
                         <p>
-                            We reply to everything within one working day.
-                            If we're not the right team for what you need,
-                            we'll say so and point you somewhere better.
+                            We respond to every enquiry within one working day. If we’re not the right team for your project, we’ll be honest about it and point you in the right direction. 
                         </p>
 
                     </div>
@@ -48,7 +46,7 @@ function Contact() {
                         <div className="contact_left">
 
                             <h3>
-                                Fastest ways
+                               The fastest ways
                                 <em> to reach us.</em>
                             </h3>
 
@@ -65,7 +63,7 @@ function Contact() {
                                     <strong>WhatsApp</strong>
 
                                     <span>
-                                        Fastest reply · usually within the hour
+                                        Fastest response · Usually within the hour 
                                     </span>
                                 </div>
 
@@ -85,7 +83,7 @@ function Contact() {
                                     <strong>+91 90969 15795</strong>
 
                                     <span>
-                                        Mon–Sat · 10am–7pm IST
+                                        Mon–Sat · 10:00 AM–7:00 PM IST 
                                     </span>
                                 </div>
 
@@ -106,7 +104,7 @@ function Contact() {
                                     </strong>
 
                                     <span>
-                                        For proposals and detailed briefs
+                                        Best for proposals & detailed project briefs 
                                     </span>
                                 </div>
 
@@ -127,7 +125,7 @@ function Contact() {
                                     </strong>
 
                                     <span>
-                                        Free · no pressure
+                                        Free · No pressure · No obligation 
                                     </span>
                                 </div>
 
@@ -165,7 +163,7 @@ function Contact() {
                                     <FaCheck />
 
                                     <p>
-                                        Digital solutions built for growth
+                                        Digital solutions built for businesses that want to grow. 
                                     </p>
 
                                 </div>
@@ -183,8 +181,7 @@ function Contact() {
                                 </h3>
 
                                 <p>
-                                    The more detail you give, the more useful
-                                    our first reply will be.
+                                    Tell us a little about your project. 
                                 </p>
 
                             </div>
@@ -287,6 +284,19 @@ function Contact() {
                                             Social Media
                                         </option>
 
+                                        <option>
+                                            UI / UX Design 
+                                        </option>
+
+                                        <option>
+                                            Software Development 
+                                        </option>
+
+                                        <option>
+                                            Other 
+                                        </option>
+
+
                                     </select>
 
                                 </div>
@@ -354,7 +364,7 @@ function Contact() {
 
                                 <p className="form_note">
                                     Prefer to talk?{" "}
-                                    <a href="https://wa.me/">
+                                    <a href="https://wa.me/919096915795">
                                         WhatsApp us
                                     </a>{" "}
                                     or book a call. We never share your details.

@@ -32,7 +32,7 @@ const Book = () => {
          
           <div className="book_contacts">
 
-            <a href="https://wa.me/918459188254" className="contact_card">
+            <a href="https://wa.me/919096915795" className="contact_card">
               <div className="contact_icon">
                 <FaWhatsapp />
               </div>
@@ -44,13 +44,13 @@ const Book = () => {
             </a>
 
 
-            <a href="tel:+918459188254" className="contact_card">
+            <a href="tel:+919096915795" className="contact_card">
               <div className="contact_icon">
                 <FaPhoneAlt />
               </div>
 
               <div className="contact_content">
-                <strong>+91 84591 88254</strong>
+                <strong>+91 90969 15795</strong>
                 <small>Mon–Sat · 10am–7pm IST</small>
               </div>
             </a>
@@ -228,7 +228,7 @@ const Book = () => {
 
               <p className="form_note">
                 Prefer to talk?{" "}
-                <a href="https://wa.me/918459188254">
+                <a href="https://wa.me/919096915795">
                   WhatsApp us
                 </a>{" "}
                 or book a call. We never share your details.

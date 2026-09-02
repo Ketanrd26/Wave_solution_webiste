@@ -362,14 +362,15 @@
 
 
                     .form_group {
+                        width: 100%;
                         margin-bottom: 13px;
 
 
                         label {
                             display: block;
-                            margin-bottom: 6px;
+                            margin-bottom: 8px;
                             color: var(--light-grey);
-                            font-size: 9px;
+                            font-size: 11px;
                             font-weight: 600;
 
 
@@ -383,16 +384,13 @@
                         select,
                         textarea {
                             width: 100%;
-                            border:
-                                1px solid rgba(255, 255, 255, 0.12);
+                            border: 1px solid rgba(255, 255, 255, 0.13);
                             outline: none;
-                            border-radius: 8px;
-                            background:
-                                rgba(255, 255, 255, 0.045);
-
+                            border-radius: 11px;
+                            background: rgba(255, 255, 255, 0.035);
                             color: var(--white);
                             font-family: inherit;
-                            font-size: 11px;
+                            font-size: 13px;
                             transition: var(--trans);
 
 
@@ -416,22 +414,50 @@
 
                         input,
                         select {
-                            height: 38px;
-                            padding: 0 12px;
+                            height: 51px;
+                            padding: 0 15px;
+                        }
+
+
+                        // select {
+                        //     cursor: pointer;
+                        //     appearance: auto;
+                        // }
+
+
+                        textarea {
+                            min-height: 120px;
+                            padding: 14px 15px;
+                            resize: vertical;
+                            line-height: 1.5;
+                        }
+
+                        input::placeholder,
+                        textarea::placeholder {
+                            color: rgba(183, 189, 193, 0.45);
                         }
 
 
                         select {
                             cursor: pointer;
                             appearance: auto;
+                            color: var(--light-grey);
                         }
 
 
-                        textarea {
-                            min-height: 80px;
-                            padding: 12px;
-                            resize: vertical;
-                            line-height: 1.5;
+                        option {
+                            background: #111111;
+                            color: var(--white);
+                        }
+
+
+                        input:focus,
+                        select:focus,
+                        textarea:focus {
+                            border-color: var(--accent2);
+                            background: rgba(0, 166, 231, 0.025);
+                            box-shadow:
+                                0 0 0 3px rgba(0, 166, 231, 0.07);
                         }
                     }
 

@@ -246,8 +246,7 @@ function Blog() {
                             <div className="card_image">
                                 <span>SEO &amp; AI</span>
                                 <h3>
-                                    The Landing Page Elements
-                                    That Convert in 2026
+                                    Search Is Changing: How AI Is Reshaping SEO 
                                 </h3>
                             </div>
 
@@ -256,28 +255,26 @@ function Blog() {
                             </span>
 
                             <h3>
-                                The Landing Page Elements
-                                That Convert in 2026
+                                AI-powered search is changing how people discover information, brands and businesses. Understand what this means for your SEO strategy. 
                             </h3>
 
-                            <p>
+                            {/* <p>
                                 The essential elements every high-performing landing
                                 page needs today.
-                            </p>
+                            </p> */}
                         </article>
 
 
                         <article className="tell_card">
                             <div className="card_image">
-                                <span>SEO</span>
+                                <span>WEB & E-COMMERCE </span>
                                 <h3>
-                                    Conversion Rate Optimization:
-                                    The 2026 Guide
+                                    Website Redesign: When Should You Rebuild Instead of Just Update? 
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                CRO
+                                WEB & E-COMMERCE 
                             </span>
 
                             <h3>
@@ -286,8 +283,7 @@ function Blog() {
                             </h3>
 
                             <p>
-                                A complete guide to improving conversions across your
-                                digital funnel.
+                                Not every website needs a complete redesign. Learn how to identify whether your business needs optimisation, restructuring or a completely new digital experience.
                             </p>
                         </article>
 
@@ -313,14 +309,13 @@ function Blog() {
                     </span>
 
                     <h2>
-                        We’d rather show
+                        We'd Rather Show
                         <br />
-                        you than <em>tell you.</em>
+                        You Than <em>Tell You.</em>
                     </h2>
 
                     <p>
-                        Thirty minutes, no deck. We'll look at what you're running and tell
-                        you honestly whether we're the right team for it.
+                        Thirty minutes. No sales presentation. No complicated pitch. We'll look at what you're currently doing, understand your goals and tell you honestly where we think the biggest opportunities are. If we're the right team for your business, we'll tell you how we can help. If we're not, we'll tell you that too. 
                     </p>
 
                     <div className="work_us_buttons">
