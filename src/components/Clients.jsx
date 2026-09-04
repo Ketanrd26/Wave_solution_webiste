@@ -27,26 +27,32 @@ const Clients = () => {
 
                     <div className="client_card">
                         <span className="client_number">01</span>
-                        <h3>Wave Solutions</h3>
-                        <p>Technology & Software</p>
+                        <h3>Denza Dental Center</h3>
+                        <p>Healthcare & Dentistry</p>
                     </div>
 
                     <div className="client_card">
                         <span className="client_number">02</span>
-                        <h3>Brand Partners</h3>
-                        <p>Branding & Marketing</p>
+                        <h3>Krutika Jewellers</h3>
+                        <p>Jewellery & Retail</p>
                     </div>
 
                     <div className="client_card">
                         <span className="client_number">03</span>
-                        <h3>Growth Brands</h3>
-                        <p>Digital Growth</p>
+                        <h3>Maid Urban</h3>
+                        <p>Finance & Cooperative Services</p>
                     </div>
 
                     <div className="client_card">
                         <span className="client_number">04</span>
-                        <h3>Global Clients</h3>
-                        <p>International Markets</p>
+                        <h3>Maid Jewellers </h3>
+                        <p>Jewellery & Retail</p>
+                    </div>
+
+                    <div className="client_card">
+                        <span className="client_number">05</span>
+                        <h3>Dhantirth Chits Pvt.Ltd.</h3>
+                        <p>Financial Services</p>
                     </div>
 
                 </div>

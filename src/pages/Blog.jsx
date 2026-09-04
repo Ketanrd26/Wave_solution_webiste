@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
+import featuredImg from "../assets/blog.jpeg";
 
 import "../style/Blog.scss";
 
@@ -18,7 +19,7 @@ function Blog() {
                         </span>
 
                         <h1>
-                            Ideas on<br/><span> Digital Growth.</span>
+                            Ideas on<br /><span> Digital Growth.</span>
                         </h1>
 
                         <p>
@@ -45,7 +46,11 @@ function Blog() {
                     <div className="tell_featured">
 
                         <div className="featured_image">
-                            <div className="fake_browser">
+                            <img
+                                src={featuredImg}
+                                alt="Digital Marketing"
+                            />
+                            {/* <div className="fake_browser">
                                 <span>AI &amp; COMMERCE</span>
 
                                 <h3>
@@ -53,21 +58,21 @@ function Blog() {
                                     <br />
                                     Cut Cart Abandonment
                                 </h3>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="featured_content">
 
                             <span className="article_category">
-                                DIGITAL GROWTH 
+                                DIGITAL GROWTH
                             </span>
 
                             <h2>
-                                Why Your Digital Marketing Isn't Working — And What to Fix First 
+                                Why Your Digital Marketing Isn't Working And <span>What to Fix First</span>
                             </h2>
 
                             <p>
-                                <strong>Digital Marketing</strong> A practical framework for identifying what's holding your digital growth back—from weak positioning and poor targeting to low-converting websites and disconnected campaigns. 
+                                <strong>Digital Marketing</strong> A practical framework for identifying what's holding your digital growth back—from weak positioning and poor targeting to low-converting websites and disconnected campaigns.
                             </p>
 
                             <a href="#">
@@ -85,7 +90,7 @@ function Blog() {
                             <div className="card_image">
                                 <span>SEO</span>
                                 <h3>
-                                    SEO in 2026: What Actually Matters for Business Growth? 
+                                    SEO in 2026: What Actually Matters for Business Growth?
                                 </h3>
                             </div>
 
@@ -94,7 +99,7 @@ function Blog() {
                             </span>
 
                             <h3>
-                                Search has changed. Learn which SEO activities still create meaningful business value and which outdated tactics businesses should stop wasting time on. 
+                                Search has changed. Learn which SEO activities still create meaningful business value and which outdated tactics businesses should stop wasting time on.
                             </h3>
 
                             {/* <p>
@@ -108,16 +113,16 @@ function Blog() {
                             <div className="card_image">
                                 <span>AI & MARKETING</span>
                                 <h3>
-                                    AI Marketing in 2026: What Businesses Should Actually Automate 
+                                    AI Marketing in 2026: What Businesses Should Actually Automate
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                AI & Marketing 
+                                AI & Marketing
                             </span>
 
                             <h3>
-                                AI can do far more than generate captions. Explore practical ways businesses can use AI across research, content, creative, customer journeys and marketing operations. 
+                                AI can do far more than generate captions. Explore practical ways businesses can use AI across research, content, creative, customer journeys and marketing operations.
                             </h3>
 
                             {/* <p>
@@ -131,7 +136,7 @@ function Blog() {
                             <div className="card_image">
                                 <span>WEB & E-COMMERCE </span>
                                 <h3>
-                                    Your Website Gets Traffic. So Why Isn't It Generating Leads? 
+                                    Your Website Gets Traffic. So Why Isn't It Generating Leads?
                                 </h3>
                             </div>
 
@@ -140,7 +145,7 @@ function Blog() {
                             </span>
 
                             <h3>
-                                Traffic doesn't automatically create business. Discover the website problems that can turn interested visitors into lost opportunities. 
+                                Traffic doesn't automatically create business. Discover the website problems that can turn interested visitors into lost opportunities.
                             </h3>
 
                             {/* <p>
@@ -154,16 +159,16 @@ function Blog() {
                             <div className="card_image">
                                 <span>PERFORMANCE MARKETING </span>
                                 <h3>
-                                    Google Ads vs Meta Ads: Where Should Your Business Spend? 
+                                    Google Ads vs Meta Ads: Where Should Your Business Spend?
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                Performance Marketing 
+                                Performance Marketing
                             </span>
 
                             <h3>
-                                Both platforms can generate results—but they work differently. Understand when Google Ads, Meta Ads or a combination of both makes more sense. 
+                                Both platforms can generate results—but they work differently. Understand when Google Ads, Meta Ads or a combination of both makes more sense.
                             </h3>
 
                             {/* <p>
@@ -177,7 +182,7 @@ function Blog() {
                             <div className="card_image">
                                 <span>CRO</span>
                                 <h3>
-                                    10 Website Mistakes That Quietly Kill Your Conversions 
+                                    10 Website Mistakes That Quietly Kill Your Conversions
                                 </h3>
                             </div>
 
@@ -186,7 +191,7 @@ function Blog() {
                             </span>
 
                             <h3>
-                                Small website issues can have a big impact on enquiries and sales. Here are the conversion problems businesses often overlook. 
+                                Small website issues can have a big impact on enquiries and sales. Here are the conversion problems businesses often overlook.
                             </h3>
 
                             {/* <p>
@@ -200,16 +205,16 @@ function Blog() {
                             <div className="card_image">
                                 <span>SHOPIFY</span>
                                 <h3>
-                                    Shopify Store Optimization: 12 Changes That Can Improve Sales 
+                                    Shopify Store Optimization: 12 Changes That Can Improve Sales
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                Shopify 
+                                Shopify
                             </span>
 
                             <h3>
-                                From product pages and navigation to speed and checkout, discover the key areas to optimise when your Shopify store isn't converting as expected. 
+                                From product pages and navigation to speed and checkout, discover the key areas to optimise when your Shopify store isn't converting as expected.
                             </h3>
 
                             {/* <p>
@@ -223,12 +228,12 @@ function Blog() {
                             <div className="card_image">
                                 <span>SOCIAL MEDIA </span>
                                 <h3>
-                                    Why Your Social Media Gets Views but Not Customers 
+                                    Why Your Social Media Gets Views but Not Customers
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                Social Media 
+                                Social Media
                             </span>
 
                             <h3>
@@ -246,7 +251,7 @@ function Blog() {
                             <div className="card_image">
                                 <span>SEO &amp; AI</span>
                                 <h3>
-                                    Search Is Changing: How AI Is Reshaping SEO 
+                                    Search Is Changing: How AI Is Reshaping SEO
                                 </h3>
                             </div>
 
@@ -255,7 +260,7 @@ function Blog() {
                             </span>
 
                             <h3>
-                                AI-powered search is changing how people discover information, brands and businesses. Understand what this means for your SEO strategy. 
+                                AI-powered search is changing how people discover information, brands and businesses. Understand what this means for your SEO strategy.
                             </h3>
 
                             {/* <p>
@@ -269,12 +274,12 @@ function Blog() {
                             <div className="card_image">
                                 <span>WEB & E-COMMERCE </span>
                                 <h3>
-                                    Website Redesign: When Should You Rebuild Instead of Just Update? 
+                                    Website Redesign: When Should You Rebuild Instead of Just Update?
                                 </h3>
                             </div>
 
                             <span className="card_category">
-                                WEB & E-COMMERCE 
+                                WEB & E-COMMERCE
                             </span>
 
                             <h3>
@@ -315,7 +320,7 @@ function Blog() {
                     </h2>
 
                     <p>
-                        Thirty minutes. No sales presentation. No complicated pitch. We'll look at what you're currently doing, understand your goals and tell you honestly where we think the biggest opportunities are. If we're the right team for your business, we'll tell you how we can help. If we're not, we'll tell you that too. 
+                        Thirty minutes. No sales presentation. No complicated pitch. We'll look at what you're currently doing, understand your goals and tell you honestly where we think the biggest opportunities are. If we're the right team for your business, we'll tell you how we can help. If we're not, we'll tell you that too.
                     </p>
 
                     <div className="work_us_buttons">

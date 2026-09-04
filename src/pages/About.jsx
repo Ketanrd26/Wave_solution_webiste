@@ -39,7 +39,7 @@ function About() {
 
                         <div className="story_item">
                             <span>FOUNDED</span>
-                            <strong>2022</strong>
+                            <strong>2025</strong>
                         </div>
 
                         <div className="story_item">
@@ -148,14 +148,14 @@ function About() {
                             <div className="founder_top">
 
                                 <div className="founder_avatar founder_avatar_orange">
-                                    A
+                                    K
                                 </div>
 
                                 <div className="founder_name">
-                                    <h3>Anshuman</h3>
+                                    <h3>Ketan Dudka</h3>
 
                                     <p>
-                                        Co-Founder · Strategy &amp; Creative
+                                        Founder · Vision & Strategy
                                     </p>
                                 </div>
 
@@ -165,20 +165,18 @@ function About() {
                             <div className="founder_body">
 
                                 <p>
-                                    The strategy brain of Wave Solution.
-                                    Anshuman leads <strong>brand positioning,
-                                        content direction, AI reels production and
-                                        campaign architecture</strong> — bringing a
-                                    creative-first lens to every brief.
+                                    The visionary behind Wave Solutions, Ketan leads the company’s overall direction,
+                                     <strong> business strategy and long-term growth </strong>— building strong foundations
+                                      and turning ambitious ideas into scalable opportunities.
                                 </p>
 
 
                                 <div className="founder_tags">
 
                                     <span>Brand Strategy</span>
-                                    <span>AI Content</span>
-                                    <span>Performance Marketing</span>
-                                    <span>Web Strategy</span>
+                                    <span>Leadership</span>
+                                    <span>Brand Vision</span>
+                                    <span>Growth</span>
 
                                 </div>
 
@@ -205,14 +203,14 @@ function About() {
                             <div className="founder_top">
 
                                 <div className="founder_avatar founder_avatar_gold">
-                                    A
+                                    R
                                 </div>
 
                                 <div className="founder_name">
-                                    <h3>Aditya</h3>
+                                    <h3>Rishabh Khade</h3>
 
                                     <p>
-                                        Co-Founder · Operations &amp; Growth
+                                        Co-Founder · Technology & Digital Growth
                                     </p>
                                 </div>
 
@@ -222,27 +220,26 @@ function About() {
                             <div className="founder_body">
 
                                 <p>
-                                    The execution engine of Wave Solution.
-                                    Aditya drives <strong>client relationships,
-                                        business development, project delivery and
-                                        operations</strong> — making sure every promise
-                                    the team makes is kept.
+                                   The digital and technology-driven force behind Wave Solutions, Rishabh leads
+                                    <strong> web development, digital marketing, brand growth and digital strategy </strong>
+                                     — connecting creativity with technology to build impactful digital experiences.
+
                                 </p>
 
 
                                 <div className="founder_tags">
 
-                                    <span>Client Growth</span>
-                                    <span>Operations</span>
+                                    <span>Web Development</span>
+                                    <span>Digital Marketing</span>
                                     <span>SEO</span>
-                                    <span>Business Development</span>
+                                    <span>Digital Strategy</span>
 
                                 </div>
 
 
                                 <div className="founder_social">
 
-                                    <a href="#" aria-label="LinkedIn">
+                                    <a href="https://www.linkedin.com/in/rishabh-khade-8a71a632a/" aria-label="LinkedIn">
                                         in
                                     </a>
 

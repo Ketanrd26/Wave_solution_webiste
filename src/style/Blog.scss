@@ -132,14 +132,26 @@
             }
 
             .featured_image {
-                min-height: 170px;
-                padding: 8px;
+                // min-height: 170px;
+                // padding: 8px;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                border-radius: 4px;
 
-                background:
-                    radial-gradient(circle at 100% 0%,
-                        rgba(0, 191, 255, 0.15),
-                        transparent 35%),
-                    #f5f4ef;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+                background: radial-gradient(circle at 100% 0%,
+                    rgba(0, 191, 255, 0.15),
+                    transparent 35%),
+                #f5f4ef;
 
                 .fake_browser {
                     height: 100%;
@@ -178,6 +190,12 @@
                     color: var(--white);
                     font-size: 21px;
                     line-height: 1.05;
+
+                    span {
+                        color: #00bfff;
+                        font-style: italic;
+                        text-shadow: 0 0 25px rgba(0, 191, 255, 0.2);
+                    }
                 }
 
                 p {
