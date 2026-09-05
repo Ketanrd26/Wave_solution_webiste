@@ -11,12 +11,16 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
 import { FaPaperPlane } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 
 
 function Contact() {
     return (
         <>
+        <Helmet>
+             <title>        Contact Wave Solution | Digital Growth Agency in Pune, India      </title>      <meta        name="description"        content="We respond to every enquiry within one working day. Reach Wave Solution in Pune, India via WhatsApp, phone, email or by booking a free 30-minute call."      />      <meta        name="keywords"        content="Contact Wave Solution, Wave Solution phone number, Wave Solution email, Wave Solution Pune address, digital marketing agency contact Pune, book a call digital agency Pune, WhatsApp digital agency Pune"      />      <meta        name="robots"        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"      />      <meta name="author" content="Wave Solution" />      <meta name="language" content="English" />      <link rel="canonical" href="https://wavesolution.com/contact" />      {/* =========================          LOCAL / GEO SEO      ========================== */}      <meta name="geo.region" content="IN-MH" />      <meta name="geo.placename" content="Pune, Maharashtra, India" />      <meta name="geo.position" content="18.5204;73.8567" />      <meta name="ICBM" content="18.5204, 73.8567" />      {/* =========================          OPEN GRAPH      ========================== */}      <meta property="og:type" content="website" />      <meta property="og:site_name" content="Wave Solution" />      <meta        property="og:title"        content="Contact Wave Solution | Digital Growth Agency in Pune, India"      />      <meta        property="og:description"        content="We respond to every enquiry within one working day. Reach Wave Solution via WhatsApp, phone, email or a free 30-minute call."      />      <meta property="og:url" content="https://wavesolution.com/contact" />      <meta property="og:image" content="https://wavesolution.com/og-image.jpg" />      <meta property="og:image:alt" content="Contact Wave Solution — Pune, India" />      <meta property="og:locale" content="en_IN" />      {/* =========================          TWITTER / X      ========================== */}      <meta name="twitter:card" content="summary_large_image" />      <meta        name="twitter:title"        content="Contact Wave Solution | Digital Growth Agency in Pune, India"      />      <meta        name="twitter:description"        content="Reach Wave Solution via WhatsApp, phone, email or book a free 30-minute call. We respond within one working day."      />      <meta name="twitter:image" content="https://wavesolution.com/og-image.jpg" />      <meta name="twitter:image:alt" content="Wave Solution — Pune, India" />      <meta name="twitter:site" content="@WaveSolution" />      {/* =========================          STRUCTURED DATA      ========================== */}      <script type="application/ld+json">     </script>
+        </Helmet>
             <section className="contact_parent parent">
                 <div className="contact_cont cont">
 

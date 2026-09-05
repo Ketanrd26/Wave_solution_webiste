@@ -2,12 +2,17 @@ import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import "../style/About.scss";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 
 
 function About() {
     return (
         <>
+            <Helmet>
+                <title>        About Wave Solution | Digital Growth Agency Founded in Pune, 2025      </title>      <meta name="description" content="Wave Solution was founded in Pune in 2025 on the belief that businesses deserve real strategy, real execution and real growth — not templates or guesswork. Meet the founders." />      <meta name="keywords" content="About Wave Solution, Wave Solution founders, Wave Solution Pune, Wave Solution digital agency, Ketan Dudka Wave Solution, Rishabh Khade Wave Solution, digital growth agency Pune, performance marketing agency Pune founders, digital agency founded 2025 Pune, digital marketing agency India about us" />      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />      <meta name="author" content="Wave Solution" />      <meta name="language" content="English" />      <link rel="canonical" href="https://wavesolution.com/about" />      {/* =========================          LOCAL / GEO SEO      ========================== */}      <meta name="geo.region" content="IN-MH" />      <meta name="geo.placename" content="Pune, Maharashtra, India" />      <meta name="geo.position" content="18.5204;73.8567" />      <meta name="ICBM" content="18.5204, 73.8567" />      {/* =========================          OPEN GRAPH      ========================== */}      <meta property="og:type" content="website" />      <meta property="og:site_name" content="Wave Solution" />      <meta property="og:title" content="About Wave Solution | Digital Growth Agency Founded in Pune, 2025" />      <meta property="og:description" content="Founded in Pune in 2025 by Ketan Dudka and Rishabh Khade, Wave Solution has grown 30+ brands across India and worldwide through real strategy and execution." />      <meta property="og:url" content="https://wavesolution.com/about" />      <meta property="og:image" content="https://wavesolution.com/og-image.jpg" />      <meta property="og:image:alt" content="Wave Solution — About the Pune-based digital growth agency" />      <meta property="og:locale" content="en_IN" />      {/* =========================          TWITTER / X      ========================== */}      <meta name="twitter:card" content="summary_large_image" />      <meta name="twitter:title" content="About Wave Solution | Digital Growth Agency Founded in Pune, 2025" />      <meta name="twitter:description" content="Meet Ketan Dudka and Rishabh Khade, the founders of Wave Solution, a Pune-based digital growth agency serving 30+ brands across India and worldwide." />      <meta name="twitter:image" content="https://wavesolution.com/og-image.jpg" />      <meta name="twitter:image:alt" content="Wave Solution — Pune, India" />      <meta name="twitter:site" content="@WaveSolution" />      {/* =========================          STRUCTURED DATA      ========================== */}      <script type="application/ld+json">              </script>
+            </Helmet>
+
             <section className="story_parent parent">
                 <div className="story_cont cont">
 
@@ -166,8 +171,8 @@ function About() {
 
                                 <p>
                                     The visionary behind Wave Solutions, Ketan leads the company’s overall direction,
-                                     <strong> business strategy and long-term growth </strong>— building strong foundations
-                                      and turning ambitious ideas into scalable opportunities.
+                                    <strong> business strategy and long-term growth </strong>— building strong foundations
+                                    and turning ambitious ideas into scalable opportunities.
                                 </p>
 
 
@@ -220,9 +225,9 @@ function About() {
                             <div className="founder_body">
 
                                 <p>
-                                   The digital and technology-driven force behind Wave Solutions, Rishabh leads
+                                    The digital and technology-driven force behind Wave Solutions, Rishabh leads
                                     <strong> web development, digital marketing, brand growth and digital strategy </strong>
-                                     — connecting creativity with technology to build impactful digital experiences.
+                                    — connecting creativity with technology to build impactful digital experiences.
 
                                 </p>
 

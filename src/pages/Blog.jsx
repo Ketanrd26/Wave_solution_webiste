@@ -4,11 +4,15 @@ import Footer from "../components/Footer.jsx";
 import featuredImg from "../assets/blog.jpeg";
 
 import "../style/Blog.scss";
+import { Helmet } from "react-helmet";
 
 
 function Blog() {
     return (
         <>
+        <Helmet>
+             <title>        Ideas on Digital Growth | Wave Solution Journal      </title>      <meta        name="description"        content="Practical writing on performance marketing, SEO, AI search, web and e-commerce, CRO, social media and Shopify — written for modern brands, with real numbers rather than theory."      />      <meta        name="keywords"        content="Wave Solution blog, digital marketing blog India, SEO blog Pune, AI marketing blog India, performance marketing blog India, CRO blog India, Shopify blog India, social media marketing blog Pune, digital growth blog India"      />      <meta        name="robots"        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"      />      <meta name="author" content="Wave Solution" />      <link rel="canonical" href="https://wavesolution.com/blog" />      {/* =========================          LOCAL SEO      ========================== */}      <meta name="geo.region" content="IN-MH" />      <meta name="geo.placename" content="Pune, Maharashtra, India" />      {/* =========================          OPEN GRAPH      ========================== */}      <meta property="og:type" content="website" />      <meta property="og:site_name" content="Wave Solution" />      <meta property="og:title" content="Ideas on Digital Growth | Wave Solution Journal" />      <meta        property="og:description"        content="Practical writing on digital marketing, SEO, AI search, web and e-commerce, CRO, social media and Shopify, written for modern brands."      />      <meta property="og:url" content="https://wavesolution.com/blog" />      <meta property="og:image" content="https://wavesolution.com/og-image.jpg" />      <meta property="og:image:alt" content="Wave Solution Journal — Ideas on digital growth" />      <meta property="og:locale" content="en_IN" />      {/* =========================          TWITTER / X      ========================== */}      <meta name="twitter:card" content="summary_large_image" />      <meta name="twitter:title" content="Ideas on Digital Growth | Wave Solution Journal" />      <meta        name="twitter:description"        content="Practical writing on digital marketing, SEO, AI search, web, CRO, social media and Shopify — with real numbers, not theory."      />      <meta name="twitter:image" content="https://wavesolution.com/og-image.jpg" />      <meta name="twitter:image:alt" content="Wave Solution — Pune, India" />      <meta name="twitter:site" content="@WaveSolution" />      {/* =========================          STRUCTURED DATA      ========================== */}      <script type="application/ld+json">      </script>
+        </Helmet>
             <section className="tell_parent parent">
                 <div className="tell_cont cont">
 
