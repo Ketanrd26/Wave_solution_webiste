@@ -1187,10 +1187,10 @@ function OurWork() {
                     <div className="study_glow study_glow_one"></div>
                     <div className="study_glow study_glow_two"></div>
 
-                    <div className="study_badge">
+                    {/* <div className="study_badge">
                         <span></span>
                         START YOUR CASE STUDY
-                    </div>
+                    </div> */}
 
                     <h2>
                         Your Brand Could

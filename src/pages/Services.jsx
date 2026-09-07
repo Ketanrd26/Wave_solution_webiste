@@ -1092,10 +1092,10 @@ function Services() {
             <section className="work_us_parent parent">
                 <div className="work_us_cont cont">
 
-                    <span className="work_us_tag">
+                    {/* <span className="work_us_tag">
                         <span className="work_us_dot"></span>
                         WORK WITH US
-                    </span>
+                    </span> */}
 
                     <h2>
                         Not Sure Where To Start?
