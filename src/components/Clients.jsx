@@ -47,8 +47,7 @@ const Clients = () => {
             <section className="clients_parent parent">
                 <div className="clients_cont cont">
 
-                    {/* ================= HEADING ================= */}
-
+                   
                     <div className="clients_heading">
 
                         <div className="clients_badge">
@@ -71,7 +70,7 @@ const Clients = () => {
                     </div>
 
 
-                    {/* ================= LOGO SWIPER ================= */}
+                 
 
                     <div className="clients_slider">
 

@@ -1,34 +1,22 @@
 .clients_parent {
     background: var(--black);
     padding: 90px 0;
-
     position: relative;
     overflow: hidden;
 
 
-    // =========================
-    // BACKGROUND GLOW
-    // =========================
-
+    
     &::before {
         content: "";
-
         position: absolute;
-
         width: 500px;
         height: 500px;
-
         left: -300px;
         top: 50px;
-
         background: var(--accent2);
-
         opacity: 0.035;
-
         border-radius: 50%;
-
         filter: blur(100px);
-
         pointer-events: none;
     }
 
@@ -39,49 +27,31 @@
         z-index: 1;
 
 
-        // =========================
-        // HEADING
-        // =========================
-
         .clients_heading {
             max-width: 800px;
-
             margin: 0 auto 50px;
-
             text-align: center;
 
 
             .clients_badge {
                 display: inline-flex;
-
                 align-items: center;
                 justify-content: center;
-
                 gap: 9px;
-
                 padding: 9px 17px;
-
                 border: 1px solid rgba(0, 166, 231, 0.35);
-
                 border-radius: 30px;
-
                 color: var(--light-grey);
-
                 font-size: 12px;
-
                 font-weight: 600;
-
                 letter-spacing: 1.5px;
-
                 margin-bottom: 20px;
 
 
                 span {
                     width: 7px;
                     height: 7px;
-
                     border-radius: 50%;
-
                     background: var(--accent2);
 
                     box-shadow:
@@ -92,17 +62,13 @@
 
             h2 {
                 color: var(--white);
-
                 margin-bottom: 20px;
-
                 font-size: clamp(42px, 5vw, 68px) !important;
-
                 line-height: 1.05 !important;
 
 
                 em {
                     color: var(--accent2);
-
                     font-style: italic;
                 }
             }
@@ -110,21 +76,12 @@
 
             p {
                 max-width: 680px;
-
                 margin: auto;
-
                 color: var(--grey);
-
                 font-size: 15px;
-
                 line-height: 1.7;
             }
         }
-
-
-        // =========================
-        // SWIPER
-        // =========================
 
         .clients_slider {
 
@@ -133,7 +90,6 @@
 
             .swiper {
                 width: 100%;
-
                 padding: 12px 0 20px;
             }
 
@@ -143,87 +99,46 @@
             }
 
 
-            // =========================
-            // LOGO CARD
-            // =========================
-
             .client_logo_card {
 
                 width: 100%;
-
                 height: 165px;
-
                 display: flex;
-
                 align-items: center;
-
                 justify-content: center;
-
                 padding: 25px;
-
-
                 background: rgba(11, 16, 19, 0.75);
-
                 border: 1px solid rgba(255, 255, 255, 0.09);
-
                 border-radius: 18px;
-
                 position: relative;
-
                 overflow: hidden;
-
-
                 transition: var(--trans);
 
 
-                // Blue light inside card
-
                 &::before {
                     content: "";
-
                     position: absolute;
-
                     width: 180px;
                     height: 180px;
-
                     top: -130px;
                     left: -80px;
-
                     background: var(--accent2);
-
                     opacity: 0.04;
-
                     border-radius: 50%;
-
                     filter: blur(60px);
-
                     transition: var(--trans);
                 }
 
 
                 img {
-
                     position: relative;
-
                     z-index: 2;
-
                     display: block;
-
                     width: auto;
-
                     height: auto;
-
                     max-width: 75%;
-
                     max-height: 80px;
-
                     object-fit: contain;
-
-
-                    // CHANGED:
-                    // Grayscale remove kiya hai
-                    // taaki actual logo colors visible rahe
-
                     opacity: 0.9;
 
 
@@ -260,10 +175,6 @@
 }
 
 
-// ========================================
-// TABLET
-// ========================================
-
 @media (max-width: 900px) {
 
     .clients_parent {
@@ -298,10 +209,6 @@
     }
 }
 
-
-// ========================================
-// MOBILE
-// ========================================
 
 @media (max-width: 600px) {
 
