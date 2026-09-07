@@ -7,10 +7,109 @@ import { FaCompass } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
 import { FaLayerGroup } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 function Services() {
     return (
         <>
+            <Helmet>
+                <title>
+                    Digital Marketing Services | Wave Solution, Pune
+                </title>
+
+                <meta
+                    name="description"
+                    content="Explore Wave Solution's digital growth services including performance marketing, SEO, AI search, social media, web development, Shopify, branding, AI content and creative solutions."
+                />
+
+                <meta
+                    name="keywords"
+                    content="digital marketing services Pune, digital marketing agency India, digital growth services Pune, performance marketing services Pune, SEO services India, AI search optimization India, social media management Pune, web design and development India, Shopify development Pune, branding agency Pune, brand strategy India, AI reels and UGC services, creative solutions India"
+                />
+
+                <meta
+                    name="robots"
+                    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+                />
+
+                <meta name="author" content="Wave Solution" />
+
+                <link
+                    rel="canonical"
+                    href="https://wavesolution.com/services"
+                />
+
+                {/* LOCAL SEO */}
+                <meta name="geo.region" content="IN-MH" />
+                <meta
+                    name="geo.placename"
+                    content="Pune, Maharashtra, India"
+                />
+
+                {/* OPEN GRAPH */}
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content="Wave Solution" />
+
+                <meta
+                    property="og:title"
+                    content="Digital Marketing Services | Wave Solution, Pune"
+                />
+
+                <meta
+                    property="og:description"
+                    content="Performance marketing, SEO, AI search, social media, web development, Shopify, branding and creative services built for measurable digital growth."
+                />
+
+                <meta
+                    property="og:url"
+                    content="https://wavesolution.com/services"
+                />
+
+                <meta
+                    property="og:image"
+                    content="https://wavesolution.com/og-image.jpg"
+                />
+
+                <meta
+                    property="og:image:alt"
+                    content="Wave Solution Digital Marketing Services"
+                />
+
+                <meta property="og:locale" content="en_IN" />
+
+                {/* TWITTER / X */}
+                <meta name="twitter:card" content="summary_large_image" />
+
+                <meta
+                    name="twitter:title"
+                    content="Digital Marketing Services | Wave Solution, Pune"
+                />
+
+                <meta
+                    name="twitter:description"
+                    content="Explore Wave Solution's integrated digital growth services for performance marketing, SEO, AI search, social media, web, Shopify, branding and creative."
+                />
+
+                <meta
+                    name="twitter:image"
+                    content="https://wavesolution.com/og-image.jpg"
+                />
+
+                <meta
+                    name="twitter:image:alt"
+                    content="Wave Solution — Digital Growth Services"
+                />
+
+                <meta
+                    name="twitter:site"
+                    content="@WaveSolution"
+                />
+
+                {/* STRUCTURED DATA */}
+                <script type="application/ld+json">
+                    
+                </script>
+            </Helmet>
 
             <div className="what_we_parent parent">
                 <div className="what_we_cont cont">
@@ -851,7 +950,7 @@ function Services() {
                     <div className="work_heading">
                         <span className="work_tag">
                             <i></i>
-                            HOW WE WORK 
+                            HOW WE WORK
                         </span>
 
                         <h2>

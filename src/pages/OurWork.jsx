@@ -38,7 +38,7 @@ function OurWork() {
             </section>
 
 
-            <section className="across_parent parent">
+            {/* <section className="across_parent parent">
                 <div className="across_cont cont">
 
                     <div className="across_heading">
@@ -92,7 +92,7 @@ function OurWork() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
 
             {/* CASE STUDY 01 */}
