@@ -9,6 +9,7 @@ import OurWork from "./pages/OurWork.jsx";
 import Contact from "./pages/Contact.jsx";
 import Blog from "./pages/Blog.jsx";
 import Footer from './components/Footer.jsx';
+import OurClients from './pages/OurClients.jsx';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/ourwork' element={<OurWork/>} />
+          <Route path='/ourclients' element={<OurClients/>} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>

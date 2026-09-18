@@ -1,86 +1,16 @@
 import { useState } from "react";
-import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
+import "../style/OurClients.scss";
 
-import "../style/OurWork.scss";
-
-import { FiArrowRight } from "react-icons/fi";
-import { FiMessageCircle } from "react-icons/fi";
-import { Helmet } from "react-helmet";
-
-function OurWork() {
-  
+const OurClients = () => {
+  const [activeTab, setActiveTab] = useState("social-media");
 
   return (
-    <>
-      <Helmet>
-        <title>
-          {" "}
-          Case Studies | The Work, and the Numbers Behind It — Wave
-          Solution{" "}
-        </title>{" "}
-        <meta
-          name="description"
-          content="Eight-plus engagements across FMCG, real estate, education, B2B, fitness and D2C. Real campaigns, real deliverables, real results from Wave Solution."
-        />{" "}
-        <meta
-          name="keywords"
-          content="Wave Solution case studies, Wave Solution results, digital marketing case studies India, performance marketing results Pune, SEO case study India, D2C marketing case study India, real estate lead generation case study Pune, Wave Solution client work"
-        />{" "}
-        <meta
-          name="robots"
-          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-        />{" "}
-        <meta name="author" content="Wave Solution" />{" "}
-        <link rel="canonical" href="https://wavesolution.com/ourwork" />{" "}
-        {/* =========================          LOCAL SEO      ========================== */}{" "}
-        <meta name="geo.region" content="IN-MH" />{" "}
-        <meta name="geo.placename" content="Pune, Maharashtra, India" />{" "}
-        {/* =========================          OPEN GRAPH      ========================== */}{" "}
-        <meta property="og:type" content="website" />{" "}
-        <meta property="og:site_name" content="Wave Solution" />{" "}
-        <meta
-          property="og:title"
-          content="Case Studies | The Work, and the Numbers Behind It — Wave Solution"
-        />{" "}
-        <meta
-          property="og:description"
-          content="3.2x average traffic increase, 5.8x average ROAS, 214% average organic growth — 30+ brands grown since 2025."
-        />{" "}
-        <meta property="og:url" content="https://wavesolution.com/ourwork" />{" "}
-        <meta
-          property="og:image"
-          content="https://wavesolution.com/og-image.jpg"
-        />{" "}
-        <meta
-          property="og:image:alt"
-          content="Wave Solution — Case studies and results"
-        />{" "}
-        <meta property="og:locale" content="en_IN" />{" "}
-        {/* =========================          TWITTER / X      ========================== */}{" "}
-        <meta name="twitter:card" content="summary_large_image" />{" "}
-        <meta
-          name="twitter:title"
-          content="Case Studies | The Work, and the Numbers Behind It — Wave Solution"
-        />{" "}
-        <meta
-          name="twitter:description"
-          content="Real campaigns, real deliverables, real results across FMCG, real estate, education, B2B, fitness and D2C."
-        />{" "}
-        <meta
-          name="twitter:image"
-          content="https://wavesolution.com/og-image.jpg"
-        />{" "}
-        <meta name="twitter:image:alt" content="Wave Solution — Pune, India" />{" "}
-        <meta name="twitter:site" content="@WaveSolution" />{" "}
-        {/* =========================          STRUCTURED DATA      ========================== */}{" "}
-        <script type="application/ld+json"> </script>
-      </Helmet>
+    <div>
       <section className="studies_parent parent">
         <div className="studies_cont cont">
           <span className="studies_tag">
             <span className="studies_dot"></span>
-            CASE STUDIES
+            OUR CLIENTS
           </span>
 
           <h2 className="studies_title">
@@ -96,9 +26,34 @@ function OurWork() {
         </div>
       </section>
 
-      
+      <section className="work_tabs_parent parent">
+        <div className="work_tabs_cont cont">
+          <div
+            className="work_tabs"
+            role="tablist"
+            aria-label="Our work categories"
+          >
+            {[
+              ["social-media", "Digital Marketing"],
+              ["web-app", "Technology Solutions"],
+              ["websites", "Web & Design"],
+            ].map(([tabId, label]) => (
+              <button
+                key={tabId}
+                className={activeTab === tabId ? "active" : ""}
+                type="button"
+                role="tab"
+                aria-selected={activeTab === tabId}
+                onClick={() => setActiveTab(tabId)}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
 
-    
+      {activeTab === "social-media" && (
         <>
           {/* CASE STUDY 01 */}
 
@@ -723,9 +678,9 @@ function OurWork() {
             </div>
           </section>
         </>
-      
+      )}
 
-     
+      {activeTab === "web-app" && (
         <section className="client_category_parent parent">
           <div className="client_category_cont cont">
             <span className="client_category_label">WEB APP CLIENTS</span>
@@ -750,8 +705,9 @@ function OurWork() {
             </div>
           </div>
         </section>
-      
-   
+      )}
+
+      {activeTab === "websites" && (
         <section className="client_category_parent parent">
           <div className="client_category_cont cont">
             <span className="client_category_label">WEBSITE CLIENTS</span>
@@ -776,162 +732,9 @@ function OurWork() {
             </div>
           </div>
         </section>
-    
-
-      <section className="clients_parent parent">
-        <div className="clients_cont cont">
-          <div className="clients_heading">
-            <span className="clients_tag">
-              <span></span>
-              IN THEIR WORDS
-            </span>
-
-            <h2>
-              What clients <em>actually say.</em>
-            </h2>
-          </div>
-
-          <div className="clients_grid">
-            <div className="client_card">
-              <p>
-                <b>“They understood our product.” </b>
-              </p>
-
-              <p className="client_quote">
-                “AdiAnsh didn’t just run our ads — they understood our product
-                better than agencies twice their size. The campaign was built
-                around our customer, not just clicks.”
-              </p>
-
-              <div className="client_bottom">
-                <div className="client_info">
-                  <div className="client_avatar">K</div>
-
-                  <div>
-                    <h3>Kunal C.</h3>
-                    <span>D2C Food Brand</span>
-                  </div>
-                </div>
-
-                <div className="client_rating">★★★★★</div>
-              </div>
-            </div>
-
-            <div className="client_card">
-              <p>
-                <b>“A website that made an impact.”</b>
-              </p>
-
-              <p className="client_quote">
-                “The website they built blew our client away. It looked like
-                something a top-tier international agency would produce, and the
-                turnaround was genuinely fast.”
-              </p>
-
-              <div className="client_bottom">
-                <div className="client_info">
-                  <div className="client_avatar">A</div>
-
-                  <div>
-                    <h3>Aniket K.</h3>
-                    <span>B2B Company, Pune</span>
-                  </div>
-                </div>
-
-                <div className="client_rating">★★★★★</div>
-              </div>
-            </div>
-
-            <div className="client_card">
-              <p>
-                <b>“Six times our usual enquiry volume.” </b>
-              </p>
-
-              <p className="client_quote">
-                “Six times our usual enquiry volume in the first month. The form
-                qualified leads properly, and the Marathi copy actually
-                converted better than the English.”
-              </p>
-
-              <div className="client_bottom">
-                <div className="client_info">
-                  <div className="client_avatar">A</div>
-
-                  <div>
-                    <h3>Ajit T.</h3>
-                    <span>Luxury Real Estate, Pune</span>
-                  </div>
-                </div>
-
-                <div className="client_rating">★★★★★</div>
-              </div>
-            </div>
-
-            <div className="client_card">
-              <p>
-                <b>“A real system, not scattered activity.”</b>
-              </p>
-
-              <p className="client_quote">
-                “From the SEO posts to the ad campaigns, everything tied
-                together. We could see organic growth happening alongside paid —
-                a real system, not scattered activity.”
-              </p>
-
-              <div className="client_bottom">
-                <div className="client_info">
-                  <div className="client_avatar">A</div>
-
-                  <div>
-                    <h3>Avanti D.</h3>
-                    <span>D2C eCommerce Brand</span>
-                  </div>
-                </div>
-
-                <div className="client_rating">★★★★★</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="study_parent parent">
-        <div className="study_cont cont">
-          <div className="study_glow study_glow_one"></div>
-          <div className="study_glow study_glow_two"></div>
-
-          {/* <div className="study_badge">
-                        <span></span>
-                        START YOUR CASE STUDY
-                    </div> */}
-
-          <h2>
-            Your Brand Could
-            <br />
-            Be the <em>Next Result.</em>
-          </h2>
-
-          <p className="study_desc">
-            Book a free 30-minute call and we'll show you exactly what we'd do
-            for your brand—with real numbers, practical ideas and a strategy
-            built around your business.
-          </p>
-
-          <div className="study_buttons">
-            {/* <button className="study_primary_btn">
-                            Book a free 30-min call
-                            <FiArrowRight />
-                        </button> */}
-
-            <button className="study_whatsapp_btn">
-              <FiMessageCircle />
-              WhatsApp us instead
-            </button>
-          </div>
-        </div>
-      </section>
-    </>
+      )}
+    </div>
   );
-}
+};
 
-export default OurWork;
+export default OurClients;

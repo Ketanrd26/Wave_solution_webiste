@@ -1898,3 +1898,123 @@
         }
     }
 }
+
+.work_tabs_parent {
+    background: var(--black);
+    position: relative;
+    z-index: 3;
+}
+
+.work_tabs_cont {
+    padding: 0 0 30px;
+}
+
+.work_tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+
+    button {
+        flex: 1;
+        padding: 15px 22px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        color: rgba(255, 255, 255, 0.58);
+        background: transparent;
+        font: inherit;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: var(--trans);
+
+        &:hover,
+        &:focus-visible {
+            color: var(--white);
+            border-color: rgba(0, 191, 255, 0.35);
+        }
+
+        &.active {
+            color: #061016;
+            background: var(--accent2);
+            box-shadow: 0 0 24px rgba(0, 191, 255, 0.2);
+        }
+    }
+}
+
+.client_category_parent {
+    min-height: 470px;
+    padding: 70px 0 110px;
+    background: var(--black);
+    color: var(--white);
+}
+
+.client_category_cont {
+    text-align: center;
+}
+
+.client_category_label {
+    color: var(--accent2);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.client_category_cont h2 {
+    margin: 18px auto 45px;
+    font-size: clamp(34px, 5vw, 60px);
+    line-height: 1.05;
+
+    em {
+        color: var(--accent2);
+        font-style: italic;
+    }
+}
+
+.client_category_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    text-align: left;
+}
+
+.client_category_card {
+    padding: 30px;
+    border: 1px solid rgba(0, 191, 255, 0.22);
+    border-radius: 18px;
+    background: rgba(10, 14, 18, 0.75);
+
+    span {
+        color: var(--accent2);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    h3 {
+        margin: 22px 0 10px;
+        font-size: 25px;
+    }
+
+    p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 600px) {
+    .work_tabs {
+        button {
+            padding: 13px 8px;
+            font-size: 12px;
+        }
+    }
+
+    .client_category_grid {
+        grid-template-columns: 1fr;
+    }
+}
