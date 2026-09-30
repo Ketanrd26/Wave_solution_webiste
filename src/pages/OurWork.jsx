@@ -923,10 +923,10 @@ function OurWork() {
                             <FiArrowRight />
                         </button> */}
 
-            <button className="study_whatsapp_btn">
+            <a href="https://wa.me/919096915795" target="_blank" className="study_whatsapp_btn">
               <FiMessageCircle />
               WhatsApp us instead
-            </button>
+            </a>
           </div>
         </div>
       </section>

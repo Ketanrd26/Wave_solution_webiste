@@ -1114,7 +1114,7 @@ function Services() {
                             <span>→</span>
                         </a> */}
 
-                        <a href="#work" className="work_us_btn_secondary">
+                        <a href="/casestudy" className="work_us_btn_secondary">
                             See our work
                         </a>
                     </div>
