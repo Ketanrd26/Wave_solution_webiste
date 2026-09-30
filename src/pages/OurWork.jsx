@@ -726,7 +726,7 @@ function OurWork() {
       
 
      
-        <section className="client_category_parent parent">
+        {/* <section className="client_category_parent parent">
           <div className="client_category_cont cont">
             <span className="client_category_label">WEB APP CLIENTS</span>
             <h2>
@@ -749,10 +749,10 @@ function OurWork() {
               </article>
             </div>
           </div>
-        </section>
+        </section> */}
       
    
-        <section className="client_category_parent parent">
+        {/* <section className="client_category_parent parent">
           <div className="client_category_cont cont">
             <span className="client_category_label">WEBSITE CLIENTS</span>
             <h2>
@@ -775,10 +775,10 @@ function OurWork() {
               </article>
             </div>
           </div>
-        </section>
+        </section> */}
     
 
-      <section className="clients_parent parent">
+      {/* <section className="clients_parent parent">
         <div className="clients_cont cont">
           <div className="clients_heading">
             <span className="clients_tag">
@@ -893,7 +893,7 @@ function OurWork() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="study_parent parent">
         <div className="study_cont cont">

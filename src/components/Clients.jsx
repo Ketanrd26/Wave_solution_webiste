@@ -11,7 +11,10 @@ import "swiper/css";
 import denzaLogo from "../../src/assets/denza-logo.jpeg";
 import krutikaLogo from "../../src/assets/krutika-logo.png";
 import maidUrbanLogo from "../../src/assets/maid-urban-logo.png";
-import waveLogo from "../../src//assets/wave2.png";
+import medivergeLogo from "../../src/assets/mediverge_logo.WEBP";
+import gandhiLogo from "../../src/assets/ganditravels.PNG";
+import mouleeLogo from "../../src/assets/moulee.PNG";
+import inkLogo from "../../src/assets/inkflyy.jpeg";
 
 
 const clients = [
@@ -32,8 +35,23 @@ const clients = [
     },
     {
         id: 4,
-        logo: waveLogo,
-        name: "Wave Solutions",
+        logo: medivergeLogo,
+        name: "Mediverge",
+    },
+    {
+        id: 5,
+        logo: gandhiLogo,
+        name: "Gandhi Travels",
+    },
+    {
+        id: 6,
+        logo: mouleeLogo,
+        name: "Moulee Tattoo",
+    },
+    {
+        id: 7,
+        logo: inkLogo,
+        name: "InkFly Tattoo",
     },
 ];
 

@@ -4,6 +4,84 @@ import "../style/OurClients.scss";
 const OurClients = () => {
   const [activeTab, setActiveTab] = useState("social-media");
 
+  const webapp = [
+    {
+      number: "01",
+      name: "1991 tattoo",
+      software_name: "CRM",
+    },
+    {
+      number: "02",
+      name: "GP Kirmiti Bharkas",
+      software_name: "Data Collection Software",
+    },
+    {
+      number: "03",
+      name: "SR Pandit Jewellers",
+      software_name: "Money Lending & Bhisi CRM",
+    },
+    {
+      number: "04",
+      name: "SR Pandit Jewellers",
+      software_name: "Jewellery Catlog",
+    },
+    {
+      number: "04",
+      name: "Nita Om Wellness",
+      software_name: "Eccomerce",
+    },
+    {
+      number: "05",
+      name: "Shree Developers",
+      software_name: "CRM Software",
+    },
+  ];
+
+  const website = [
+    {
+      number: "01",
+      name: "Denza Dental",
+      website_name: "Dental Website",
+      link: "https://www.denzadental.com/",
+    },
+    {
+      number: "02",
+      name: "Mediverge",
+      website_name: "Healtcare",
+      link: "https://medivergehealthcare.com/",
+    },
+    {
+      number: "03",
+      name: "Tara Interior",
+      website_name: "Interior Design",
+      link: "https://tarainterior.com/",
+    },
+    {
+      number: "04",
+      name: "Gandhi Travels",
+      website_name: "Travells Website",
+      link: "https://gandhitravels.co.in/",
+    },
+    {
+      number: "05",
+      name: "1991 tattoo",
+      website_name: "Tattoo",
+      link: "https://1991tattoo.com/",
+    },
+    {
+      number: "06",
+      name: "Moulees Tattoo Art",
+      website_name: "Tattoo",
+      link: "https://www.mouleestattooart.com/",
+    },
+    {
+      number: "07",
+      name: "Ink Fly Tattoo",
+      website_name: "Tattoo",
+      link: "https://www.inkflytattoo.com/",
+    },
+  ];
+
   return (
     <div>
       <section className="studies_parent parent">
@@ -688,20 +766,13 @@ const OurClients = () => {
               Digital products built to <em>work harder.</em>
             </h2>
             <div className="client_category_grid">
-              <article className="client_category_card">
-                <span>01</span>
-                <h3>Denza Dental Center</h3>
-                <p>
-                  Patient-focused digital experience and online enquiry flow.
-                </p>
-              </article>
-              <article className="client_category_card">
-                <span>02</span>
-                <h3>Maid Urban</h3>
-                <p>
-                  A clear, conversion-ready digital system for a growing brand.
-                </p>
-              </article>
+              {webapp.map((item) => (
+                <article className="client_category_card">
+                  <span>{item.number}</span>
+                  <h3>{item.name}</h3>
+                  <p>{item.software_name}</p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
@@ -715,20 +786,19 @@ const OurClients = () => {
               Websites that make brands <em>stand out.</em>
             </h2>
             <div className="client_category_grid">
-              <article className="client_category_card">
-                <span>01</span>
-                <h3>Krutika Jewellers</h3>
-                <p>
-                  A premium brand presence designed to showcase every detail.
-                </p>
-              </article>
-              <article className="client_category_card">
-                <span>02</span>
-                <h3>Wave Solutions</h3>
-                <p>
-                  A modern website experience built around clarity and growth.
-                </p>
-              </article>
+              {website.map((item) => (
+                <article className="client_category_card">
+                  <span>{item.number}</span>
+                  <a
+                    style={{ color: "white" }}
+                    href={item.link}
+                    target="_blank"
+                  >
+                    <h3>{item.name}</h3>
+                  </a>
+                  <p>{item.website_name}</p>
+                </article>
+              ))}
             </div>
           </div>
         </section>

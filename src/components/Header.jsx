@@ -32,7 +32,7 @@ const Header = () => {
             <Link to="/services" onClick={closeMenu}>
               Services
             </Link>
-            <Link to="/ourwork" onClick={closeMenu}>
+            <Link to="/casestudy" onClick={closeMenu}>
               Case Study
             </Link>
             <Link to="/ourclients" onClick={closeMenu}>
