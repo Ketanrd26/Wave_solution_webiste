@@ -226,11 +226,13 @@
             margin: 0 auto;
 
             .tell_card {
+                display: block;
                 min-width: 0;
                 padding: 7px;
                 border: 1px solid rgba(255, 255, 255, 0.12);
                 border-radius: 7px;
                 background: rgba(255, 255, 255, 0.025);
+                color: inherit;
                 transition: var(--trans);
 
                 &:hover {
@@ -241,6 +243,11 @@
                     box-shadow:
                         0 12px 35px rgba(0, 0, 0, 0.3),
                         0 0 25px rgba(0, 191, 255, 0.05);
+                }
+
+                &:focus-visible {
+                    outline: 2px solid #00bfff;
+                    outline-offset: 3px;
                 }
 
                 .card_image {
@@ -288,6 +295,13 @@
                     color: #707579;
                     font-size: 8px;
                     line-height: 1.45;
+                }
+
+                .card_read_more {
+                    display: inline-block;
+                    margin-top: 8px;
+                    color: #00bfff;
+                    font-size: 9px;
                 }
             }
         }

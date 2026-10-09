@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wavesolutions.in/sitemap.xml

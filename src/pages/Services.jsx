@@ -10,6 +10,110 @@ import { FaWhatsapp } from "react-icons/fa";
 import { Helmet } from "react-helmet";
 
 function Services() {
+
+
+const servicesPageSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://wavesolutions.in/services#webpage",
+      "url": "https://wavesolutions.in/services",
+      "name": "Our Services | Nine Services, One Growth Engine — Wave Solution",
+      "description":
+        "Explore Wave Solution's nine services — AI Reels & UGC, Performance Marketing, SEO & AI Search, Social Media Management, Web Design & Development, Shopify Development, Branding, Brand Strategy and Creative Solutions.",
+      "isPartOf": {
+        "@id": "https://wavesolutions.in/#website"
+      },
+      "about": {
+        "@id": "https://wavesolutions.in/#organization"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://wavesolutions.in/services#itemlist",
+      "name": "Wave Solution Services",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AI Reels & UGC",
+          "url": "https://wavesolutions.in/services#ai-reels-ugc"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Performance Marketing",
+          "url": "https://wavesolutions.in/services#performance-marketing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO & AI Search",
+          "url": "https://wavesolutions.in/services#seo-ai-search"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Social Media Management",
+          "url": "https://wavesolutions.in/services#social-media-management"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Web Design & Development",
+          "url": "https://wavesolutions.in/services#web-design-development"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Shopify Development",
+          "url": "https://wavesolutions.in/services#shopify-development"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Branding",
+          "url": "https://wavesolutions.in/services#branding"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Brand Strategy",
+          "url": "https://wavesolutions.in/services#brand-strategy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Creative Solutions",
+          "url": "https://wavesolutions.in/services#creative-solutions"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wavesolutions.in/services#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://wavesolutions.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://wavesolutions.in/services"
+        }
+      ]
+    }
+  ]
+};
+
+
+
+    
     return (
         <>
             <Helmet>
@@ -36,7 +140,7 @@ function Services() {
 
                 <link
                     rel="canonical"
-                    href="https://wavesolution.com/services"
+                    href="https://wavesolutions.in/services"
                 />
 
                 {/* LOCAL SEO */}
@@ -62,12 +166,12 @@ function Services() {
 
                 <meta
                     property="og:url"
-                    content="https://wavesolution.com/services"
+                    content="https://wavesolutions.in/services"
                 />
 
                 <meta
                     property="og:image"
-                    content="https://wavesolution.com/og-image.jpg"
+                    content="https://wavesolutions.in/og-image.jpg"
                 />
 
                 <meta
@@ -92,7 +196,7 @@ function Services() {
 
                 <meta
                     name="twitter:image"
-                    content="https://wavesolution.com/og-image.jpg"
+                    content="https://wavesolutions.in/og-image.jpg"
                 />
 
                 <meta
@@ -107,7 +211,8 @@ function Services() {
 
                 {/* STRUCTURED DATA */}
                 <script type="application/ld+json">
-                    
+                              {JSON.stringify(servicesPageSchema)}
+
                 </script>
             </Helmet>
 

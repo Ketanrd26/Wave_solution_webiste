@@ -3,9 +3,127 @@ import Footer from "../components/Footer.jsx";
 import "../style/About.scss";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import aboutimg from "../assets/why-exist.png"
+import aboutimg from "../assets/why-exist.png";
 
 function About() {
+  const aboutPageSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "@id": "https://wavesolutions.in/about#aboutpage",
+        url: "https://wavesolutions.in/about",
+        name: "About Wave Solution | Digital Growth Agency Founded in Pune, 2025",
+        description:
+          "Learn about Wave Solution, a Pune-based digital growth agency founded in 2025 by Ketan Dudka and Rishabh Khade, serving 30+ brands across India and worldwide.",
+        isPartOf: {
+          "@id": "https://wavesolutions.in/#website",
+        },
+        about: {
+          "@id": "https://wavesolutions.in/#organization",
+        },
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://wavesolutions.in/#organization",
+        name: "Wave Solution",
+        alternateName: "Wave Solutions",
+        url: "https://wavesolutions.in/",
+        telephone: "+91-90969-15795",
+        email: "contact@wavesolutions.in",
+        image: "https://wavesolutions.in/og-image.jpg",
+        description:
+          "Wave Solution is a digital growth agency in Pune, India offering performance marketing, SEO and AI search, web design and development, Shopify development, social media management, branding, brand strategy, AI reels, UGC and creative solutions.",
+        foundingDate: "2025",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Pune",
+          addressRegion: "Maharashtra",
+          addressCountry: "IN",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 18.5204,
+          longitude: 73.8567,
+        },
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            opens: "10:00",
+            closes: "19:00",
+          },
+        ],
+        areaServed: [
+          {
+            "@type": "Country",
+            name: "India",
+          },
+          {
+            "@type": "Country",
+            name: "Australia",
+          },
+          {
+            "@type": "Country",
+            name: "United States",
+          },
+          {
+            "@type": "Country",
+            name: "United Kingdom",
+          },
+        ],
+        knowsAbout: [
+          "Performance Marketing",
+          "SEO and AI Search",
+          "Web Design and Development",
+          "Shopify Development",
+          "Social Media Management",
+          "Branding",
+          "Brand Strategy",
+          "AI Reels and UGC",
+          "Creative Solutions",
+        ],
+        founder: [
+          {
+            "@id": "https://wavesolutions.in/#ketan-dudka",
+          },
+          {
+            "@id": "https://wavesolutions.in/#rishabh-khade",
+          },
+        ],
+      },
+      {
+        "@type": "Person",
+        "@id": "https://wavesolutions.in/#ketan-dudka",
+        name: "Ketan Dudka",
+        jobTitle: "Founder",
+        worksFor: {
+          "@id": "https://wavesolutions.in/#organization",
+        },
+        description:
+          "Ketan Dudka is the founder of Wave Solution, a digital growth agency based in Pune, India.",
+      },
+      {
+        "@type": "Person",
+        "@id": "https://wavesolutions.in/#rishabh-khade",
+        name: "Rishabh Khade",
+        jobTitle: "Co-Founder",
+        worksFor: {
+          "@id": "https://wavesolutions.in/#organization",
+        },
+        description:
+          "Rishabh Khade is the co-founder of Wave Solution, a digital growth agency based in Pune, India.",
+      },
+    ],
+  };
+
   return (
     <>
       <Helmet>
@@ -27,7 +145,7 @@ function About() {
         />{" "}
         <meta name="author" content="Wave Solution" />{" "}
         <meta name="language" content="English" />{" "}
-        <link rel="canonical" href="https://wavesolution.com/about" />{" "}
+        <link rel="canonical" href="https://wavesolutions.in/about" />{" "}
         {/* =========================          LOCAL / GEO SEO      ========================== */}{" "}
         <meta name="geo.region" content="IN-MH" />{" "}
         <meta name="geo.placename" content="Pune, Maharashtra, India" />{" "}
@@ -44,10 +162,10 @@ function About() {
           property="og:description"
           content="Founded in Pune in 2025 by Ketan Dudka and Rishabh Khade, Wave Solution has grown 30+ brands across India and worldwide through real strategy and execution."
         />{" "}
-        <meta property="og:url" content="https://wavesolution.com/about" />{" "}
+        <meta property="og:url" content="https://wavesolutions.in/about" />{" "}
         <meta
           property="og:image"
-          content="https://wavesolution.com/og-image.jpg"
+          content="https://wavesolutions.in/og-image.jpg"
         />{" "}
         <meta
           property="og:image:alt"
@@ -66,12 +184,15 @@ function About() {
         />{" "}
         <meta
           name="twitter:image"
-          content="https://wavesolution.com/og-image.jpg"
+          content="https://wavesolutions.in/og-image.jpg"
         />{" "}
         <meta name="twitter:image:alt" content="Wave Solution — Pune, India" />{" "}
         <meta name="twitter:site" content="@WaveSolution" />{" "}
         {/* =========================          STRUCTURED DATA      ========================== */}{" "}
-        <script type="application/ld+json"> </script>
+        <script type="application/ld+json">
+          {JSON.stringify(aboutPageSchema)}
+        
+         </script>
       </Helmet>
 
       <section className="story_parent parent">
@@ -129,10 +250,7 @@ function About() {
         <div className="why_exist_cont cont">
           {/* CHANGE: Left image column */}
           <div className="why_exist_image">
-            <img
-              src={aboutimg}
-              alt="Why Wave Solution exists"
-            />
+            <img src={aboutimg} alt="Why Wave Solution exists" />
           </div>
 
           <div className="why_exist_content">

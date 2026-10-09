@@ -8,8 +8,98 @@ import { FiArrowRight } from "react-icons/fi";
 import { FiMessageCircle } from "react-icons/fi";
 import { Helmet } from "react-helmet";
 
+const CASE_STUDY_URL = "https://wavesolutions.in/casestudy";
+
 function OurWork() {
-  
+  const caseStudySchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${CASE_STUDY_URL}#webpage`,
+        url: CASE_STUDY_URL,
+        name: "Case Studies | The Work, and the Numbers Behind It — Wave Solution",
+        description:
+          "Nine engagements across FMCG, real estate, education, B2B, fitness and D2C — real campaigns, real deliverables and real results from Wave Solution.",
+        isPartOf: {
+          "@id": "https://wavesolutions.in/#website",
+        },
+        about: {
+          "@id": "https://wavesolutions.in/#organization",
+        },
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${CASE_STUDY_URL}#itemlist`,
+        name: "Wave Solution Case Studies",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "D2C Food Brand — Full Digital Stack",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Luxury Real Estate — Lead Generation",
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "B2B Company — Digital Presence That Converts",
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: "Education Brand — Search Visibility & Lead Growth",
+          },
+          {
+            "@type": "ListItem",
+            position: 5,
+            name: "D2C eCommerce Brand — Social Media to Sales",
+          },
+          {
+            "@type": "ListItem",
+            position: 6,
+            name: "Fitness Brand — Local Digital Growth",
+          },
+          {
+            "@type": "ListItem",
+            position: 7,
+            name: "FMCG Brand — Creative & Content Growth",
+          },
+          {
+            "@type": "ListItem",
+            position: 8,
+            name: "Local Business — Turning Search Into Enquiries",
+          },
+          {
+            "@type": "ListItem",
+            position: 9,
+            name: "Multi-Channel Brand — One Strategy, Multiple Channels",
+          },
+        ],
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${CASE_STUDY_URL}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://wavesolutions.in/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Case Study",
+            item: CASE_STUDY_URL,
+          },
+        ],
+      },
+    ],
+  };
 
   return (
     <>
@@ -32,7 +122,7 @@ function OurWork() {
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />{" "}
         <meta name="author" content="Wave Solution" />{" "}
-        <link rel="canonical" href="https://wavesolution.com/ourwork" />{" "}
+        <link rel="canonical" href={CASE_STUDY_URL} />{" "}
         {/* =========================          LOCAL SEO      ========================== */}{" "}
         <meta name="geo.region" content="IN-MH" />{" "}
         <meta name="geo.placename" content="Pune, Maharashtra, India" />{" "}
@@ -47,10 +137,10 @@ function OurWork() {
           property="og:description"
           content="3.2x average traffic increase, 5.8x average ROAS, 214% average organic growth — 30+ brands grown since 2025."
         />{" "}
-        <meta property="og:url" content="https://wavesolution.com/ourwork" />{" "}
+        <meta property="og:url" content={CASE_STUDY_URL} />{" "}
         <meta
           property="og:image"
-          content="https://wavesolution.com/og-image.jpg"
+          content="https://wavesolutions.in/og-image.jpg"
         />{" "}
         <meta
           property="og:image:alt"
@@ -69,12 +159,14 @@ function OurWork() {
         />{" "}
         <meta
           name="twitter:image"
-          content="https://wavesolution.com/og-image.jpg"
+          content="https://wavesolutions.in/og-image.jpg"
         />{" "}
         <meta name="twitter:image:alt" content="Wave Solution — Pune, India" />{" "}
         <meta name="twitter:site" content="@WaveSolution" />{" "}
         {/* =========================          STRUCTURED DATA      ========================== */}{" "}
-        <script type="application/ld+json"> </script>
+        <script type="application/ld+json">
+          {JSON.stringify(caseStudySchema)}
+        </script>
       </Helmet>
       <section className="studies_parent parent">
         <div className="studies_cont cont">
@@ -96,637 +188,627 @@ function OurWork() {
         </div>
       </section>
 
-      
+      <>
+        {/* CASE STUDY 01 */}
 
-    
-        <>
-          {/* CASE STUDY 01 */}
+        <section className="case_parent parent">
+          <div className="case_cont cont">
+            <div className="case_header">
+              <div className="case_header_left">
+                <span className="case_label">CASE STUDY 01</span>
 
-          <section className="case_parent parent">
-            <div className="case_cont cont">
-              <div className="case_header">
-                <div className="case_header_left">
-                  <span className="case_label">CASE STUDY 01</span>
+                <h2>S. R. Pandit Jewellers — Full Digital Growth</h2>
 
-                  <h2>S. R. Pandit Jewellers — Full Digital Growth</h2>
-
-                  <div className="case_tags">
-                    <span>Content Strategy</span>
-                    <span>GMB Management</span>
-                    <span>Social Media</span>
-                    <span>AI Reels</span>
-                    <span>Product Photography</span>
-                  </div>
-                </div>
-
-                <div className="case_category">JEWELLERY · RETAIL</div>
-              </div>
-
-              <div className="case_stats">
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>3.9k</strong>
-                  <p>Followers</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>52.1K</strong>
-                  <p>Peak Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>148K+</strong>
-                  <p>Content Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>13.5K</strong>
-                  <p>Average Views</p>
+                <div className="case_tags">
+                  <span>Content Strategy</span>
+                  <span>GMB Management</span>
+                  <span>Social Media</span>
+                  <span>AI Reels</span>
+                  <span>Product Photography</span>
                 </div>
               </div>
 
-              <div className="case_content">
-                <div className="case_challenge">
-                  <span className="content_label">THE CHALLENGE</span>
+              <div className="case_category">JEWELLERY · RETAIL</div>
+            </div>
 
-                  <p>
-                    <b>
-                      A trusted jewellery brand with a strong local presence —
-                      but limited digital visibility
-                    </b>
-                    . With social media, Google Business Profile, and organic
-                    customer discovery needing consistent attention, the brand
-                    needed a stronger digital presence to reach more local
-                    customers, showcase its jewellery collections, and build
-                    ongoing engagement.
-                  </p>
-                </div>
+            <div className="case_stats">
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>3.9k</strong>
+                <p>Followers</p>
+              </div>
 
-                <div className="case_delivered">
-                  <span className="content_label">WHAT WE DELIVERED</span>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>52.1K</strong>
+                <p>Peak Views</p>
+              </div>
 
-                  <ul>
-                    <li>End-to-end social media management</li>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>148K+</strong>
+                <p>Content Views</p>
+              </div>
 
-                    <li>Premium jewellery creatives & content</li>
-
-                    <li>Instagram & Facebook content strategy</li>
-
-                    <li>Google Business Profile management</li>
-
-                    <li>Local SEO & visibility optimisation</li>
-
-                    <li>Audience and engagement building</li>
-                    <li>Festival & occasion-led campaigns</li>
-                    <li>Jewellery product & collection promotion </li>
-                    <li>Google profile updates and optimisation</li>
-                    <li>Customer enquiry and engagement tracking </li>
-                    <li>Monthly performance monitoring</li>
-                  </ul>
-                </div>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>13.5K</strong>
+                <p>Average Views</p>
               </div>
             </div>
-          </section>
 
-          {/* CASE STUDY 02 */}
+            <div className="case_content">
+              <div className="case_challenge">
+                <span className="content_label">THE CHALLENGE</span>
 
-          <section className="case_parent parent">
-            <div className="case_cont cont">
-              <div className="case_header">
-                <div className="case_header_left">
-                  <span className="case_label">CASE STUDY 02</span>
-
-                  <h2>Maid Jewellers - Full Digital Growth</h2>
-
-                  <div className="case_tags">
-                    <span>Content Strategy</span>
-                    <span>GMB Management</span>
-                    <span>Social Media</span>
-                    <span>AI Reels</span>
-                    <span>Product Photography</span>
-                  </div>
-                </div>
-
-                <div className="case_category">JEWELLERY · RETAIL</div>
+                <p>
+                  <b>
+                    A trusted jewellery brand with a strong local presence — but
+                    limited digital visibility
+                  </b>
+                  . With social media, Google Business Profile, and organic
+                  customer discovery needing consistent attention, the brand
+                  needed a stronger digital presence to reach more local
+                  customers, showcase its jewellery collections, and build
+                  ongoing engagement.
+                </p>
               </div>
 
-              <div className="case_stats">
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>7.6k</strong>
-                  <p>Followers </p>
-                </div>
+              <div className="case_delivered">
+                <span className="content_label">WHAT WE DELIVERED</span>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>71.6k</strong>
-                  <p>Peak Views</p>
-                </div>
+                <ul>
+                  <li>End-to-end social media management</li>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>91.6k</strong>
-                  <p>Content Views</p>
-                </div>
+                  <li>Premium jewellery creatives & content</li>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>7.0k</strong>
-                  <p>Average Views</p>
-                </div>
-              </div>
+                  <li>Instagram & Facebook content strategy</li>
 
-              <div className="case_content">
-                <div className="case_challenge">
-                  <span className="content_label">THE CHALLENGE</span>
+                  <li>Google Business Profile management</li>
 
-                  <p>
-                    <b>
-                      A trusted jewellery brand with a strong local presence —
-                      but limited digital visibility
-                    </b>
-                    . With social media, Google Business Profile, and organic
-                    customer discovery needing consistent attention, the brand
-                    needed a stronger digital presence to reach more local
-                    customers, showcase its jewellery collections, and build
-                    ongoing engagement.
-                  </p>
-                </div>
+                  <li>Local SEO & visibility optimisation</li>
 
-                <div className="case_delivered">
-                  <span className="content_label">WHAT WE DELIVERED</span>
-
-                  <ul>
-                    <li>End-to-end social media management</li>
-
-                    <li>Premium jewellery creatives & content</li>
-
-                    <li>Instagram & Facebook content strategy</li>
-
-                    <li>Google Business Profile management</li>
-
-                    <li>Local SEO & visibility optimisation</li>
-
-                    <li>Audience and engagement building</li>
-                    <li>Festival & occasion-led campaigns</li>
-                    <li>Jewellery product & collection promotion </li>
-                    <li>Google profile updates and optimisation</li>
-                    <li>Customer enquiry and engagement tracking </li>
-                    <li>Monthly performance monitoring</li>
-                  </ul>
-                </div>
+                  <li>Audience and engagement building</li>
+                  <li>Festival & occasion-led campaigns</li>
+                  <li>Jewellery product & collection promotion </li>
+                  <li>Google profile updates and optimisation</li>
+                  <li>Customer enquiry and engagement tracking </li>
+                  <li>Monthly performance monitoring</li>
+                </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CASE STUDY 03 */}
+        {/* CASE STUDY 02 */}
 
-          <section className="case_parent parent">
-            <div className="case_cont cont">
-              <div className="case_header">
-                <div className="case_header_left">
-                  <span className="case_label">CASE STUDY 03</span>
+        <section className="case_parent parent">
+          <div className="case_cont cont">
+            <div className="case_header">
+              <div className="case_header_left">
+                <span className="case_label">CASE STUDY 02</span>
 
-                  <h2>Krutika Jewellers — Full Digital Growth</h2>
+                <h2>Maid Jewellers - Full Digital Growth</h2>
 
-                  <div className="case_tags">
-                    <span>Content Strategy</span>
-                    <span>GMB Management</span>
-                    <span>Social Media</span>
-                    <span>AI Reels</span>
-                    <span>Product Photography</span>
-                  </div>
-                </div>
-
-                <div className="case_category">JEWELLERY · RETAIL</div>
-              </div>
-
-              <div className="case_stats">
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>2.1k</strong>
-                  <p>Followers</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>302K</strong>
-                  <p>Peak Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>323k+</strong>
-                  <p>Content Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>32.3k</strong>
-                  <p>Average Views</p>
+                <div className="case_tags">
+                  <span>Content Strategy</span>
+                  <span>GMB Management</span>
+                  <span>Social Media</span>
+                  <span>AI Reels</span>
+                  <span>Product Photography</span>
                 </div>
               </div>
 
-              <div className="case_content">
-                <div className="case_challenge">
-                  <span className="content_label">THE CHALLENGE</span>
+              <div className="case_category">JEWELLERY · RETAIL</div>
+            </div>
 
-                  <p>
-                    <b>
-                      A trusted jewellery brand with a strong local presence —
-                      but limited digital visibility
-                    </b>
-                    . With social media, Google Business Profile, and organic
-                    customer discovery needing consistent attention, the brand
-                    needed a stronger digital presence to reach more local
-                    customers, showcase its jewellery collections, and build
-                    ongoing engagement.
-                  </p>
-                </div>
+            <div className="case_stats">
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>7.6k</strong>
+                <p>Followers </p>
+              </div>
 
-                <div className="case_delivered">
-                  <span className="content_label">WHAT WE DELIVERED</span>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>71.6k</strong>
+                <p>Peak Views</p>
+              </div>
 
-                  <ul>
-                    <li>End-to-end social media management</li>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>91.6k</strong>
+                <p>Content Views</p>
+              </div>
 
-                    <li>Premium jewellery creatives & content</li>
-
-                    <li>Instagram & Facebook content strategy</li>
-
-                    <li>Google Business Profile management</li>
-
-                    <li>Local SEO & visibility optimisation</li>
-
-                    <li>Audience and engagement building</li>
-                    <li>Festival & occasion-led campaigns</li>
-                    <li>Jewellery product & collection promotion </li>
-                    <li>Google profile updates and optimisation</li>
-                    <li>Customer enquiry and engagement tracking </li>
-                    <li>Monthly performance monitoring</li>
-                  </ul>
-                </div>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>7.0k</strong>
+                <p>Average Views</p>
               </div>
             </div>
-          </section>
 
-          {/* CASE STUDY 04 */}
+            <div className="case_content">
+              <div className="case_challenge">
+                <span className="content_label">THE CHALLENGE</span>
 
-          <section className="case_parent parent">
-            <div className="case_cont cont">
-              <div className="case_header">
-                <div className="case_header_left">
-                  <span className="case_label">CASE STUDY 04</span>
-
-                  <h2>Vardhaman Jewellers — Full Digital Growth</h2>
-
-                  <div className="case_tags">
-                    <span>Content Strategy</span>
-                    <span>GMB Management</span>
-                    <span>Social Media</span>
-                    <span>AI Reels</span>
-                    <span>Product Photography</span>
-                  </div>
-                </div>
-
-                <div className="case_category">JEWELLERY · RETAIL</div>
+                <p>
+                  <b>
+                    A trusted jewellery brand with a strong local presence — but
+                    limited digital visibility
+                  </b>
+                  . With social media, Google Business Profile, and organic
+                  customer discovery needing consistent attention, the brand
+                  needed a stronger digital presence to reach more local
+                  customers, showcase its jewellery collections, and build
+                  ongoing engagement.
+                </p>
               </div>
 
-              <div className="case_stats">
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>1061</strong>
-                  <p>Followers</p>
-                </div>
+              <div className="case_delivered">
+                <span className="content_label">WHAT WE DELIVERED</span>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>12.8K</strong>
-                  <p>Peak Views</p>
-                </div>
+                <ul>
+                  <li>End-to-end social media management</li>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>34.4K+</strong>
-                  <p>Content Views</p>
-                </div>
+                  <li>Premium jewellery creatives & content</li>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>2.9k</strong>
-                  <p>Average Views</p>
-                </div>
-              </div>
+                  <li>Instagram & Facebook content strategy</li>
 
-              <div className="case_content">
-                <div className="case_challenge">
-                  <span className="content_label">THE CHALLENGE</span>
+                  <li>Google Business Profile management</li>
 
-                  <p>
-                    <b>
-                      A trusted jewellery brand with a strong local presence —
-                      but limited digital visibility
-                    </b>
-                    . With social media, Google Business Profile, and organic
-                    customer discovery needing consistent attention, the brand
-                    needed a stronger digital presence to reach more local
-                    customers, showcase its jewellery collections, and build
-                    ongoing engagement.
-                  </p>
-                </div>
+                  <li>Local SEO & visibility optimisation</li>
 
-                <div className="case_delivered">
-                  <span className="content_label">WHAT WE DELIVERED</span>
-
-                  <ul>
-                    <li>End-to-end social media management</li>
-
-                    <li>Premium jewellery creatives & content</li>
-
-                    <li>Instagram & Facebook content strategy</li>
-
-                    <li>Google Business Profile management</li>
-
-                    <li>Local SEO & visibility optimisation</li>
-
-                    <li>Audience and engagement building</li>
-                    <li>Festival & occasion-led campaigns</li>
-                    <li>Jewellery product & collection promotion </li>
-                    <li>Google profile updates and optimisation</li>
-                    <li>Customer enquiry and engagement tracking </li>
-                    <li>Monthly performance monitoring</li>
-                  </ul>
-                </div>
+                  <li>Audience and engagement building</li>
+                  <li>Festival & occasion-led campaigns</li>
+                  <li>Jewellery product & collection promotion </li>
+                  <li>Google profile updates and optimisation</li>
+                  <li>Customer enquiry and engagement tracking </li>
+                  <li>Monthly performance monitoring</li>
+                </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CASE STUDY 05 */}
+        {/* CASE STUDY 03 */}
 
-          <section className="case_parent parent">
-            <div className="case_cont cont">
-              <div className="case_header">
-                <div className="case_header_left">
-                  <span className="case_label">CASE STUDY 05</span>
+        <section className="case_parent parent">
+          <div className="case_cont cont">
+            <div className="case_header">
+              <div className="case_header_left">
+                <span className="case_label">CASE STUDY 03</span>
 
-                  <h2>Maid Urban Co-operative Bank — Full Digital Growth</h2>
+                <h2>Krutika Jewellers — Full Digital Growth</h2>
 
-                  <div className="case_tags">
-                    <span>Social Media</span>
-                    <span>Meta Ads</span>
-                    <span>AI Reels</span>
-                    <span>Organic Growth</span>
-                  </div>
-                </div>
-
-                <div className="case_category">
-                  BANKING · FINANCIAL SERVICES
+                <div className="case_tags">
+                  <span>Content Strategy</span>
+                  <span>GMB Management</span>
+                  <span>Social Media</span>
+                  <span>AI Reels</span>
+                  <span>Product Photography</span>
                 </div>
               </div>
 
-              <div className="case_stats">
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>102</strong>
-                  <p>Followers</p>
-                </div>
+              <div className="case_category">JEWELLERY · RETAIL</div>
+            </div>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>550</strong>
-                  <p>Peak Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>1.1k</strong>
-                  <p>Content Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>107</strong>
-                  <p>Average Views</p>
-                </div>
+            <div className="case_stats">
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>2.1k</strong>
+                <p>Followers</p>
               </div>
 
-              <div className="case_content">
-                <div className="case_challenge">
-                  <span className="content_label">THE CHALLENGE</span>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>302K</strong>
+                <p>Peak Views</p>
+              </div>
 
-                  <p>
-                    A trusted local banking institution with an opportunity to
-                    strengthen its digital presence. The challenge was to
-                    communicate banking services, updates, and customer-focused
-                    information consistently while building stronger local
-                    visibility and engagement across digital channels.
-                  </p>
-                </div>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>323k+</strong>
+                <p>Content Views</p>
+              </div>
 
-                <div className="case_delivered">
-                  <span className="content_label">WHAT WE DELIVERED</span>
-
-                  <ul>
-                    <li>Social media strategy</li>
-                    <li>Content planning</li>
-                    <li>Reels strategy</li>
-                    <li>Banking-focused creative content</li>
-                    <li>Reels & short-form content</li>
-                    <li>Financial awareness content </li>
-                    <li>Product & service communication</li>
-                    <li>Google Business Profile management</li>
-                    <li>Local visibility optimisation</li>
-                    <li>Organic audience building</li>
-                    <li>Customer engagement</li>
-                    <li>Digital presence optimisation</li>
-                  </ul>
-                </div>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>32.3k</strong>
+                <p>Average Views</p>
               </div>
             </div>
-          </section>
 
-          {/* CASE STUDY 06 */}
+            <div className="case_content">
+              <div className="case_challenge">
+                <span className="content_label">THE CHALLENGE</span>
 
-          <section className="case_parent parent">
-            <div className="case_cont cont">
-              <div className="case_header">
-                <div className="case_header_left">
-                  <span className="case_label">CASE STUDY 06</span>
-
-                  <h2>
-                    Dhantirth Chits Private Limited — Building Digital Financial
-                    Trust
-                  </h2>
-
-                  <div className="case_tags">
-                    <span>Google Ads</span>
-                    <span>GMB Management</span>
-                    <span>Social Media</span>
-                    <span> Lead Generation</span>
-                    <span>Reels & Content</span>
-                    <span>Creative Strategy</span>
-                  </div>
-                </div>
-
-                <div className="case_category">
-                  CHIT FUNDS · FINANCIAL SERVICES
-                </div>
+                <p>
+                  <b>
+                    A trusted jewellery brand with a strong local presence — but
+                    limited digital visibility
+                  </b>
+                  . With social media, Google Business Profile, and organic
+                  customer discovery needing consistent attention, the brand
+                  needed a stronger digital presence to reach more local
+                  customers, showcase its jewellery collections, and build
+                  ongoing engagement.
+                </p>
               </div>
 
-              <div className="case_stats">
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>494</strong>
-                  <p>Followers</p>
-                </div>
+              <div className="case_delivered">
+                <span className="content_label">WHAT WE DELIVERED</span>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>102K</strong>
-                  <p>Peak Views</p>
-                </div>
+                <ul>
+                  <li>End-to-end social media management</li>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>134K+</strong>
-                  <p>Content Views</p>
-                </div>
+                  <li>Premium jewellery creatives & content</li>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>19.2K</strong>
-                  <p>Average Views</p>
-                </div>
-              </div>
+                  <li>Instagram & Facebook content strategy</li>
 
-              <div className="case_content">
-                <div className="case_challenge">
-                  <span className="content_label">THE CHALLENGE</span>
+                  <li>Google Business Profile management</li>
 
-                  <p>
-                    A growing financial services brand operating in the
-                    chit-fund space needed a stronger and more consistent
-                    digital presence. The goal was to communicate its schemes
-                    and services clearly, build customer awareness, improve
-                    local discoverability, and create greater trust through
-                    consistent digital communication.
-                  </p>
-                </div>
+                  <li>Local SEO & visibility optimisation</li>
 
-                <div className="case_delivered">
-                  <span className="content_label">WHAT WE DELIVERED</span>
-
-                  <ul>
-                    <li>Social media strategy</li>
-                    <li>Financial content planning</li>
-                    <li>Chit-fund scheme creatives</li>
-                    <li>Reels & short-form content</li>
-                    <li>Educational financial content</li>
-                    <li>Scheme & service communication</li>
-                    <li>Google Business Profile management</li>
-                    <li>Local visibility optimisation</li>
-                    <li>Organic audience building </li>
-                    <li>Customer-focused content</li>
-                    <li>Trust & brand communication</li>
-                    <li>Content performance analysis</li>
-                  </ul>
-                </div>
+                  <li>Audience and engagement building</li>
+                  <li>Festival & occasion-led campaigns</li>
+                  <li>Jewellery product & collection promotion </li>
+                  <li>Google profile updates and optimisation</li>
+                  <li>Customer enquiry and engagement tracking </li>
+                  <li>Monthly performance monitoring</li>
+                </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* CASE STUDY 07 */}
+        {/* CASE STUDY 04 */}
 
-          <section className="case_parent parent">
-            <div className="case_cont cont">
-              <div className="case_header">
-                <div className="case_header_left">
-                  <span className="case_label">CASE STUDY 07</span>
+        <section className="case_parent parent">
+          <div className="case_cont cont">
+            <div className="case_header">
+              <div className="case_header_left">
+                <span className="case_label">CASE STUDY 04</span>
 
-                  <h2>Hotel Kasturi — Creative & Content Growth</h2>
+                <h2>Vardhaman Jewellers — Full Digital Growth</h2>
 
-                  <div className="case_tags">
-                    <span>Social Media</span>
-                    <span> Reels</span>
-                    <span>Creative Strategy</span>
-                    <span> Food Content</span>
-                    <span>Digital Marketing</span>
-                  </div>
-                </div>
-
-                <div className="case_category">
-                  FOOD & BEVERAGE . RESTAURANT
+                <div className="case_tags">
+                  <span>Content Strategy</span>
+                  <span>GMB Management</span>
+                  <span>Social Media</span>
+                  <span>AI Reels</span>
+                  <span>Product Photography</span>
                 </div>
               </div>
 
-              <div className="case_stats">
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>1.3k</strong>
-                  <p>Followers</p>
-                </div>
+              <div className="case_category">JEWELLERY · RETAIL</div>
+            </div>
 
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>13.2K</strong>
-                  <p>Peak Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>40.1K+</strong>
-                  <p>Content Views</p>
-                </div>
-
-                <div className="case_stat">
-                  <span className="stat_arrow">↑</span>
-                  <strong>4.5K</strong>
-                  <p>Average Views</p>
-                </div>
+            <div className="case_stats">
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>1061</strong>
+                <p>Followers</p>
               </div>
 
-              <div className="case_content">
-                <div className="case_challenge">
-                  <span className="content_label">THE CHALLENGE</span>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>12.8K</strong>
+                <p>Peak Views</p>
+              </div>
 
-                  <p>
-                    A local restaurant with a diverse food offering needed a
-                    stronger digital presence to showcase its menu, ambience,
-                    and dining experience. The goal was to create consistent
-                    food-focused content, increase local visibility, and turn
-                    social media into a stronger channel for customer discovery
-                    and engagement.
-                  </p>
-                </div>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>34.4K+</strong>
+                <p>Content Views</p>
+              </div>
 
-                <div className="case_delivered">
-                  <span className="content_label">WHAT WE DELIVERED</span>
-
-                  <ul>
-                    <li>Social media strategy</li>
-                    <li>Content planning</li>
-                    <li>Food-focused creative content</li>
-                    <li>Reels & short-form videos</li>
-                    <li>Menu & dish promotion</li>
-                    <li>Restaurant ambience content</li>
-                    <li>Festival & occasion-based content</li>
-                    <li>Creative campaigns</li>
-                    <li>Local audience targeting</li>
-                    <li>Customer engagement strategy</li>
-                    <li>Content optimisation</li>
-                  </ul>
-                </div>
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>2.9k</strong>
+                <p>Average Views</p>
               </div>
             </div>
-          </section>
-        </>
-      
 
-     
-        {/* <section className="client_category_parent parent">
+            <div className="case_content">
+              <div className="case_challenge">
+                <span className="content_label">THE CHALLENGE</span>
+
+                <p>
+                  <b>
+                    A trusted jewellery brand with a strong local presence — but
+                    limited digital visibility
+                  </b>
+                  . With social media, Google Business Profile, and organic
+                  customer discovery needing consistent attention, the brand
+                  needed a stronger digital presence to reach more local
+                  customers, showcase its jewellery collections, and build
+                  ongoing engagement.
+                </p>
+              </div>
+
+              <div className="case_delivered">
+                <span className="content_label">WHAT WE DELIVERED</span>
+
+                <ul>
+                  <li>End-to-end social media management</li>
+
+                  <li>Premium jewellery creatives & content</li>
+
+                  <li>Instagram & Facebook content strategy</li>
+
+                  <li>Google Business Profile management</li>
+
+                  <li>Local SEO & visibility optimisation</li>
+
+                  <li>Audience and engagement building</li>
+                  <li>Festival & occasion-led campaigns</li>
+                  <li>Jewellery product & collection promotion </li>
+                  <li>Google profile updates and optimisation</li>
+                  <li>Customer enquiry and engagement tracking </li>
+                  <li>Monthly performance monitoring</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CASE STUDY 05 */}
+
+        <section className="case_parent parent">
+          <div className="case_cont cont">
+            <div className="case_header">
+              <div className="case_header_left">
+                <span className="case_label">CASE STUDY 05</span>
+
+                <h2>Maid Urban Co-operative Bank — Full Digital Growth</h2>
+
+                <div className="case_tags">
+                  <span>Social Media</span>
+                  <span>Meta Ads</span>
+                  <span>AI Reels</span>
+                  <span>Organic Growth</span>
+                </div>
+              </div>
+
+              <div className="case_category">BANKING · FINANCIAL SERVICES</div>
+            </div>
+
+            <div className="case_stats">
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>102</strong>
+                <p>Followers</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>550</strong>
+                <p>Peak Views</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>1.1k</strong>
+                <p>Content Views</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>107</strong>
+                <p>Average Views</p>
+              </div>
+            </div>
+
+            <div className="case_content">
+              <div className="case_challenge">
+                <span className="content_label">THE CHALLENGE</span>
+
+                <p>
+                  A trusted local banking institution with an opportunity to
+                  strengthen its digital presence. The challenge was to
+                  communicate banking services, updates, and customer-focused
+                  information consistently while building stronger local
+                  visibility and engagement across digital channels.
+                </p>
+              </div>
+
+              <div className="case_delivered">
+                <span className="content_label">WHAT WE DELIVERED</span>
+
+                <ul>
+                  <li>Social media strategy</li>
+                  <li>Content planning</li>
+                  <li>Reels strategy</li>
+                  <li>Banking-focused creative content</li>
+                  <li>Reels & short-form content</li>
+                  <li>Financial awareness content </li>
+                  <li>Product & service communication</li>
+                  <li>Google Business Profile management</li>
+                  <li>Local visibility optimisation</li>
+                  <li>Organic audience building</li>
+                  <li>Customer engagement</li>
+                  <li>Digital presence optimisation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CASE STUDY 06 */}
+
+        <section className="case_parent parent">
+          <div className="case_cont cont">
+            <div className="case_header">
+              <div className="case_header_left">
+                <span className="case_label">CASE STUDY 06</span>
+
+                <h2>
+                  Dhantirth Chits Private Limited — Building Digital Financial
+                  Trust
+                </h2>
+
+                <div className="case_tags">
+                  <span>Google Ads</span>
+                  <span>GMB Management</span>
+                  <span>Social Media</span>
+                  <span> Lead Generation</span>
+                  <span>Reels & Content</span>
+                  <span>Creative Strategy</span>
+                </div>
+              </div>
+
+              <div className="case_category">
+                CHIT FUNDS · FINANCIAL SERVICES
+              </div>
+            </div>
+
+            <div className="case_stats">
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>494</strong>
+                <p>Followers</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>102K</strong>
+                <p>Peak Views</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>134K+</strong>
+                <p>Content Views</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>19.2K</strong>
+                <p>Average Views</p>
+              </div>
+            </div>
+
+            <div className="case_content">
+              <div className="case_challenge">
+                <span className="content_label">THE CHALLENGE</span>
+
+                <p>
+                  A growing financial services brand operating in the chit-fund
+                  space needed a stronger and more consistent digital presence.
+                  The goal was to communicate its schemes and services clearly,
+                  build customer awareness, improve local discoverability, and
+                  create greater trust through consistent digital communication.
+                </p>
+              </div>
+
+              <div className="case_delivered">
+                <span className="content_label">WHAT WE DELIVERED</span>
+
+                <ul>
+                  <li>Social media strategy</li>
+                  <li>Financial content planning</li>
+                  <li>Chit-fund scheme creatives</li>
+                  <li>Reels & short-form content</li>
+                  <li>Educational financial content</li>
+                  <li>Scheme & service communication</li>
+                  <li>Google Business Profile management</li>
+                  <li>Local visibility optimisation</li>
+                  <li>Organic audience building </li>
+                  <li>Customer-focused content</li>
+                  <li>Trust & brand communication</li>
+                  <li>Content performance analysis</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CASE STUDY 07 */}
+
+        <section className="case_parent parent">
+          <div className="case_cont cont">
+            <div className="case_header">
+              <div className="case_header_left">
+                <span className="case_label">CASE STUDY 07</span>
+
+                <h2>Hotel Kasturi — Creative & Content Growth</h2>
+
+                <div className="case_tags">
+                  <span>Social Media</span>
+                  <span> Reels</span>
+                  <span>Creative Strategy</span>
+                  <span> Food Content</span>
+                  <span>Digital Marketing</span>
+                </div>
+              </div>
+
+              <div className="case_category">FOOD & BEVERAGE . RESTAURANT</div>
+            </div>
+
+            <div className="case_stats">
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>1.3k</strong>
+                <p>Followers</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>13.2K</strong>
+                <p>Peak Views</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>40.1K+</strong>
+                <p>Content Views</p>
+              </div>
+
+              <div className="case_stat">
+                <span className="stat_arrow">↑</span>
+                <strong>4.5K</strong>
+                <p>Average Views</p>
+              </div>
+            </div>
+
+            <div className="case_content">
+              <div className="case_challenge">
+                <span className="content_label">THE CHALLENGE</span>
+
+                <p>
+                  A local restaurant with a diverse food offering needed a
+                  stronger digital presence to showcase its menu, ambience, and
+                  dining experience. The goal was to create consistent
+                  food-focused content, increase local visibility, and turn
+                  social media into a stronger channel for customer discovery
+                  and engagement.
+                </p>
+              </div>
+
+              <div className="case_delivered">
+                <span className="content_label">WHAT WE DELIVERED</span>
+
+                <ul>
+                  <li>Social media strategy</li>
+                  <li>Content planning</li>
+                  <li>Food-focused creative content</li>
+                  <li>Reels & short-form videos</li>
+                  <li>Menu & dish promotion</li>
+                  <li>Restaurant ambience content</li>
+                  <li>Festival & occasion-based content</li>
+                  <li>Creative campaigns</li>
+                  <li>Local audience targeting</li>
+                  <li>Customer engagement strategy</li>
+                  <li>Content optimisation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
+
+      {/* <section className="client_category_parent parent">
           <div className="client_category_cont cont">
             <span className="client_category_label">WEB APP CLIENTS</span>
             <h2>
@@ -750,9 +832,8 @@ function OurWork() {
             </div>
           </div>
         </section> */}
-      
-   
-        {/* <section className="client_category_parent parent">
+
+      {/* <section className="client_category_parent parent">
           <div className="client_category_cont cont">
             <span className="client_category_label">WEBSITE CLIENTS</span>
             <h2>
@@ -776,7 +857,6 @@ function OurWork() {
             </div>
           </div>
         </section> */}
-    
 
       {/* <section className="clients_parent parent">
         <div className="clients_cont cont">
@@ -923,7 +1003,11 @@ function OurWork() {
                             <FiArrowRight />
                         </button> */}
 
-            <a href="https://wa.me/919096915795" target="_blank" className="study_whatsapp_btn">
+            <a
+              href="https://wa.me/919096915795"
+              target="_blank"
+              className="study_whatsapp_btn"
+            >
               <FiMessageCircle />
               WhatsApp us instead
             </a>
