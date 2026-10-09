@@ -1,9 +1,107 @@
 import "../style/Blog.scss";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { blogPosts } from "../data/blogPosts.js";
+import { useEffect, useState } from "react";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import axios from "axios";
 
 function Blog() {
+  const navigate = useNavigate();
+  const [blogData, setBlogData] = useState([]);
+  const [search, setSearch] = useState("");
+  const [currentPage, setCurrentPage] = useState(0);
+  const itemsPerPage = 6;
+  const [loader, setLoader] = useState(false);
+  const blogViewPage = (id) => {
+    navigate(`/blog/${id}`);
+  };
+
+  // In your BlogView component
+  const [searchParams] = useSearchParams();
+  const blogid = searchParams.get("id");
+
+  useEffect(() => {
+    if (blogid) {
+      console.log("Setting blogview state with id:", blogid);
+      setBlogView(blogid);
+    }
+  }, [blogid]);
+
+  const blogsData = async () => {
+    try {
+      setLoader(true);
+const response = await axios.get(
+  `${import.meta.env.VITE_APP_URL}posts`,
+  {
+    params: {
+      _embed: true,
+      per_page: 100,
+    },
+  },
+);
+
+      const data = response.data;
+
+      console.log(data)
+
+      const blogPosts = data
+        .filter((post) => {
+          // Check if the post belongs to the 'Blog' category
+          return (
+            post._embedded &&
+            post._embedded["wp:term"] &&
+            post._embedded["wp:term"][0].some(
+              (category) => category.name === "Blog",
+            )
+          );
+        })
+        .map((post) => {
+          const featuredMedia = post._embedded["wp:featuredmedia"]?.[0] || {};
+          return {
+            id: post.id,
+            slug: post.slug,
+            title: post.title.rendered,
+            description: post.excerpt.rendered,
+            uploadDate: post.date,
+            imageUrl: featuredMedia.source_url || "",
+            imageId: featuredMedia.id || null,
+            category: "Blog",
+          };
+        });
+
+        console.log(blogPosts,"blogPosts")
+
+      setBlogData(blogPosts);
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setLoader(false);
+    }
+  };
+
+  useEffect(() => {
+    blogsData();
+  }, []);
+
+  const startOffset = currentPage * itemsPerPage;
+  const paginatedBlogs = blogData.slice(
+    startOffset,
+    startOffset + itemsPerPage,
+  );
+
+  const handleNextPage = () => {
+    if (startOffset + itemsPerPage < blogData.length) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const handlePreviousPage = () => {
+    if (currentPage > 0) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
   const blogPageSchema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -116,6 +214,7 @@ function Blog() {
           {JSON.stringify(blogPageSchema)}
         </script>
       </Helmet>
+
       <section className="tell_parent parent">
         <div className="tell_cont cont">
           <div className="tell_intro">
@@ -146,35 +245,49 @@ function Blog() {
           </div>
 
           <div className="tell_grid">
-            {blogPosts.map((post) => (
+            {paginatedBlogs.map((post) => (
               <Link
                 className="tell_card"
                 key={post.slug}
                 to={`/blog/${post.slug}`}
                 aria-label={`Read ${post.title}`}
               >
-                <div className="card_image">
-                  <span>{post.category.toUpperCase()}</span>
-                  <h3>{post.title}</h3>
+                <div className="card_image bg-img-cover" style={{backgroundImage: `url(${post.imageUrl})`}}>
+                  
                 </div>
 
                 <span className="card_category">{post.category}</span>
-                <h3>{post.excerpt}</h3>
+                <h3>{post.title}</h3>
+                <p>
+                    {post.description.replace(/<[^>]+>/g, "").substring(0, 100) + "..."}
+                </p>
                 <span className="card_read_more">Read article &rarr;</span>
               </Link>
             ))}
           </div>
 
           <div className="tell_pagination">
-            <button className="active">1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>→</button>
+            <div
+              className={`left-arrow arrow ${
+                currentPage === 0 ? "disabled" : "left-arrow arrow"
+              }`}
+              onClick={handlePreviousPage}
+            >
+              <IoIosArrowBack />
+            </div>
+            <div
+              className={`right-arrow arrow ${
+                startOffset + itemsPerPage >= blogData.length
+                  ? "disabled"
+                  : "right-arrow arrow"
+              }`}
+              onClick={handleNextPage}
+            >
+              <IoIosArrowForward />
+            </div>
           </div>
         </div>
       </section>
-
-     
     </>
   );
 }

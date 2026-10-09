@@ -2,13 +2,43 @@ import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 import { blogPosts } from "../data/blogPosts.js";
 import "../style/BlogDetail.scss";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function BlogDetail() {
   const { slug } = useParams();
   const post = blogPosts.find((blogPost) => blogPost.slug === slug);
   const canonicalUrl = `https://wavesolutions.in/blog/${slug}`;
 
-  if (!post) {
+  const [blogviewdata, setBlogviewData] = useState(null);
+  // const [searchParams] = useSearchParams();
+  // const blogId = searchParams.get("title");
+
+  const fetchBlogDataById = async (id) => {
+    try {
+      const response = await axios.get(`${import.meta.env.VITE_APP_URL}posts`, {
+        params: {
+          slug: slug,
+          _embed: true,
+        },
+      });
+
+      setBlogviewData(response.data[0] || null); // Set the blog data based on the single post
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    if (slug) {
+      fetchBlogDataById(slug); // Fetch the blog post data based on the id from URL
+    }
+  }, [slug]);
+
+  console.log(blogviewdata, "blogviewdata");
+
+  if (!blogviewdata) {
     return (
       <>
         <Helmet>
@@ -32,8 +62,8 @@ function BlogDetail() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline: post.title,
-    description: post.excerpt,
+    headline: blogviewdata?.title?.rendered,
+    description: blogviewdata?.excerpt?.rendered,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": canonicalUrl,
@@ -49,25 +79,25 @@ function BlogDetail() {
     },
   };
 
-  const relatedPosts = blogPosts
-    .filter((blogPost) => blogPost.slug !== post.slug)
-    .slice(0, 3);
+  // const relatedPosts = blogPosts
+  //   .filter((blogPost) => blogPost.slug !== post.slug)
+  //   .slice(0, 3);
 
   return (
     <>
       <Helmet>
-        <title>{`${post.title} | Wave Solution Journal`}</title>
-        <meta name="description" content={post.excerpt} />
+        <title>{`${blogviewdata?.title?.rendered} | Wave Solution Journal`}</title>
+        <meta name="description" content={blogviewdata?.excerpt?.rendered} />
         <meta name="author" content="Wave Solution" />
-        <meta
-          name="robots"
-          content="index, follow, max-image-preview:large"
-        />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="Wave Solution" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.excerpt} />
+        <meta property="og:title" content={blogviewdata?.title?.rendered} />
+        <meta
+          property="og:description"
+          content={blogviewdata?.excerpt?.rendered}
+        />
         <meta property="og:url" content={canonicalUrl} />
         <meta
           property="og:image"
@@ -75,8 +105,11 @@ function BlogDetail() {
         />
         <meta property="og:locale" content="en_IN" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:title" content={blogviewdata?.title?.rendered} />
+        <meta
+          name="twitter:description"
+          content={blogviewdata?.excerpt?.rendered}
+        />
         <meta
           name="twitter:image"
           content="https://wavesolutions.in/og-image.jpg"
@@ -91,40 +124,42 @@ function BlogDetail() {
           <nav className="blog_detail_breadcrumb" aria-label="Breadcrumb">
             <Link to="/">Home</Link>
             <span aria-hidden="true">/</span>
-            <Link to="/blog">Journal</Link>
-            <span aria-hidden="true">/</span>
-            <span>{post.category}</span>
+            <Link to="/blog">{blogviewdata?.title?.rendered}</Link>
+            {/* <span aria-hidden="true">/</span> */}
+            <span>{blogviewdata?.category}</span>
           </nav>
 
-          <header className="blog_detail_header">
-            <span className="blog_detail_category">{post.category}</span>
-            <h1>{post.title}</h1>
-            <p>{post.excerpt}</p>
-          </header>
+          {/* <header className="blog_detail_header">
+            <span className="blog_detail_category">{blogviewdata?.category}</span>
+            <h1>{blogviewdata?.title?.rendered}</h1>
+            <p>{blogviewdata?.excerpt?.rendered?.replace(/<[^>]*>/g, '')}</p>
+          </header> */}
 
           <div className="blog_detail_content">
-            {post.sections.map((section) => (
-              <section className="blog_detail_section" key={section.heading}>
-                <h2>{section.heading}</h2>
-                {section.paragraphs.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-                {section.points && (
-                  <ul>
-                    {section.points.map((point) => (
-                      <li key={point}>{point}</li>
-                    ))}
-                  </ul>
-                )}
-              </section>
-            ))}
+         <div
+  className="blog_image"
+  style={{
+    backgroundImage: `url(${blogviewdata?._embedded?.["wp:featuredmedia"]?.[0]?.source_url || ""})`,
+  }}
+></div>
+            <section
+              className="blog_detail_section"
+              key={blogviewdata?.title?.rendered}
+            >
+              <h2>{blogviewdata?.title?.rendered}</h2>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: blogviewdata?.content?.rendered,
+                }}
+              />
+            </section>
           </div>
 
           <Link to="/blog" className="blog_detail_back">
             &larr; Back to all articles
           </Link>
         </article>
-
+        {/* 
         <aside className="blog_detail_related" aria-labelledby="related-title">
           <h2 id="related-title">More from the journal</h2>
           <div className="blog_detail_related_grid">
@@ -140,7 +175,7 @@ function BlogDetail() {
               </Link>
             ))}
           </div>
-        </aside>
+        </aside> */}
       </main>
     </>
   );

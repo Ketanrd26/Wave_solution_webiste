@@ -61,6 +61,15 @@
   .blog_detail_content {
     padding: 10px 0 30px;
 
+    .blog_image {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 30px;
+      border-radius: 7px;
+      background-size: cover;
+      background-position: center;
+    }
+
     .blog_detail_section {
       padding-top: 26px;
 

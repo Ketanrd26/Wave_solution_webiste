@@ -87,7 +87,6 @@ const Clients = () => {
 
                     </div>
 
-
                  
 
                     <div className="clients_slider">
