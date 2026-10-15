@@ -136,12 +136,12 @@ function BlogDetail() {
           </header> */}
 
           <div className="blog_detail_content">
-         <div
-  className="blog_image"
-  style={{
-    backgroundImage: `url(${blogviewdata?._embedded?.["wp:featuredmedia"]?.[0]?.source_url || ""})`,
-  }}
-></div>
+            <div
+              className="blog_image"
+              style={{
+                backgroundImage: `url(${blogviewdata?._embedded?.["wp:featuredmedia"]?.[0]?.source_url || ""})`,
+              }}
+            ></div>
             <section
               className="blog_detail_section"
               key={blogviewdata?.title?.rendered}

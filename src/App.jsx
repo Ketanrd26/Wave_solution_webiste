@@ -13,6 +13,7 @@ import Footer from "./components/Footer.jsx";
 import OurClients from "./pages/OurClients.jsx";
 import Privacy from "./pages/Privacy.jsx";
 import Terms from "./pages/Terms.jsx";
+import Academy from "./pages/Academy.jsx";
 import ReactGA from "react-ga4";
 
 
@@ -58,6 +59,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/academy" element={<Academy />} />
           <Route path="/casestudy" element={<OurWork />} />
           <Route path="/ourclients" element={<OurClients />} />
           <Route path="/blog" element={<Blog />} />

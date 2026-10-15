@@ -38,6 +38,9 @@ const Header = () => {
             <Link to="/ourclients" onClick={closeMenu}>
               Our Clients
             </Link>
+            <Link to="/academy" onClick={closeMenu}>
+              Academy
+            </Link>
             <Link to="/blog" onClick={closeMenu}>
               Blog
             </Link>
